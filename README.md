@@ -1,6 +1,11 @@
 # Карта тимлида
 
-![Карта Тимлида](roadmap.pdf)
+![Карта Тимлида](roadmap.png)
+
+## Скачать карту
+- [PNG](roadmap.png)
+- [PDF](roadmap.pdf)
+- [MindMap](roadmap.mm)
 
 ## Resource Manager
 
