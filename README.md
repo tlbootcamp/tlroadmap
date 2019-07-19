@@ -1,5 +1,6 @@
 # Карта тимлида
 
+![Карта Тимлида](roadmap.png)
 
 ## Resource Manager
 
