@@ -71,7 +71,7 @@
     - [Развитие](development.md)
     - Промо
         - [Ассессмент](assessment.md)
-        - Карьерная линейка
+        - [Карьерная линейка](career.md)
     - [Обратная связь](feedback.md)
     - [One-to-one](one-to-one.md)
     - [Административная работа](admin.md)
