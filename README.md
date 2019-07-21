@@ -70,7 +70,7 @@
     - [Мотивация](motivation.md)
     - [Развитие](development.md)
     - Промо
-        - Ассессмент
+        - [Ассессмент](assessment.md)
         - Карьерная линейка
     - [Обратная связь](feedback.md)
     - [One-to-one](one-to-one.md)
