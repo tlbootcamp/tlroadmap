@@ -69,32 +69,32 @@
 
 Если вы не согласны с каким-то из существующих описаний, или считаете, что можете его улучшить – присылайте свои pull request. Если есть вопросы по самой структуре – точно так же, добро пожаловать [в наш чат](https://tlinks.run/tlbootcamp) или сразу в pull request.
 
-## Обязанности и роли тимлида 
+## Обязанности и роли тимлида
 ### Resource Manager
 
 - Управление людьми
     - Найм
-        - [Профиль кандидата](profile.md)
-        - [Собеседования](interview.md)
-        - [Онбординг](onboarding.md)
-        - [Тестовый период](test-period.md)
-    - [Увольнение](firing.md)
-    - [Мотивация](motivation.md)
-    - [Развитие](development.md)
+        - [Профиль кандидата](skills/resource-manager/profile.md)
+        - [Собеседования](skills/resource-manager/interview.md)
+        - [Онбординг](skills/resource-manager/onboarding.md)
+        - [Тестовый период](skills/resource-manager/test-period.md)
+    - [Увольнение](skills/resource-manager/firing.md)
+    - [Мотивация](skills/resource-manager/motivation.md)
+    - [Развитие](skills/resource-manager/development.md)
     - Промо
-        - [Ассессмент](assessment.md)
-        - [Карьерная линейка](career.md)
-    - [Обратная связь](feedback.md)
-    - [One-to-one](one-to-one.md)
-    - [Административная работа](admin.md)
+        - [Ассессмент](skills/resource-manager/assessment.md)
+        - [Карьерная линейка](skills/resource-manager/career.md)
+    - [Обратная связь](skills/resource-manager/feedback.md)
+    - [One-to-one](skills/resource-manager/one-to-one.md)
+    - [Административная работа](skills/resource-manager/admin.md)
 - Управление командой
-    - [Управление компетенциями](competency-management.md)
-    - [Дизайн команды](team-design.md)
-    - [Организация рабочего пространства](workspace.md)
-    - [Климат в команде](team-climate.md)
-    - [Зрелость команды](team-maturity.md)
-    - [Обеспечение прозрачности](transparency.md)
-- [Развитие технического бренда](techpr.md)
+    - [Управление компетенциями](skills/resource-manager/competency-management.md)
+    - [Дизайн команды](skills/resource-manager/team-design.md)
+    - [Организация рабочего пространства](skills/resource-manager/workspace.md)
+    - [Климат в команде](skills/resource-manager/team-climate.md)
+    - [Зрелость команды](skills/resource-manager/team-maturity.md)
+    - [Обеспечение прозрачности](skills/resource-manager/transparency.md)
+- [Развитие технического бренда](skills/resource-manager/techpr.md)
 
 ### Product Owner
 
