@@ -49,7 +49,7 @@
 Мы подготовили несколько часто встречающихся моделей тимлида. С их помощью можно посмотреть, как работать с роадмапом, либо просто забрать их в свою компанию как примеры:
 - Играющий тренер в scrum-команде: [pdf](examples/playing-coach.pdf), [mindmap](examples/playing-coach.mm)
 - Технический лид: [pdf](examples/techlead.pdf), [mindmap](examples/techlead.mm)
-- Тимлид стартапа: [pdf](examples/startup-teamlead.pdf), [mindmap]((examples/startup-teamlead.mmg))
+- Тимлид стартапа: [pdf](examples/startup-teamlead.pdf), [mindmap](examples/startup-teamlead.mm)
 
 # Work in progress
 Текущий роадмап – альфа-версия, в которой есть общая структура компетенций тимлида и частично описана первая крупная роль, Resource Manager. Мы будем рады следующим контрибьюшнам в наш проект:
