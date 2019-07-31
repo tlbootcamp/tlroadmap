@@ -66,13 +66,11 @@
 
 ## Теория
 ### Статьи
-Раскрывают тему:
-- Описание одним предложением: ссылка
-- Описание одним предложением: ссылка
+- [Что такое бизнес-модель](https://hbr.org/2015/01/what-is-a-business-model)
+- [Виды бизнес-моделей на примере разных компаний](https://habr.com/ru/company/friifond/blog/286680/)
+- [10 популярных бизнес-моделей с их плюсами и минусами](https://medium.com/@founding/the-10-most-popular-startup-revenue-models-9ee29bcb8a89)
+- [Анализ стратегии 1С-Битрикс](https://vc.ru/ontico/76561-pochemu-vas-vse-dolzhny-hotet-ili-nuzhna-li-razrabotchiku-strategiya)
+- [Ключевые метрики бизнеса](https://vc.ru/flood/40170-kak-nahodit-klyuchevye-metriki-biznesa-i-pravilno-reagirovat-na-problemy-opyt-facebook-airbnb-i-drugih-kompaniy)
 
-### Дополнительные материалы:
-- Описание одним предложением: ссылка
-- Описание одним предложением: ссылка
-
-### Видео
 ### Книги
+- [Business Model Generation – Alexander Osterwalder, Yves Pigneur](https://www.goodreads.com/book/show/7723797-business-model-generation)
