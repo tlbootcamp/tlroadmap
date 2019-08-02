@@ -10,7 +10,7 @@
 
 ### Описание веток роадмапа
 Если вы готовы взять в работу описание одной из веток, пройдитесь по нашему чек-листу:
-1. Проверьте, что на [доске проекта](https://github.com/tlbootcamp/tlroadmap/projects/1) в колонке "In progress" эта задача отсутствует, иначе вы риcкуете проделать двойную работу.
+1. Проверьте, что на [доске проекта](https://github.com/tlbootcamp/tlroadmap/projects/1) в колонке "In progress" эта задача отсутствует, иначе вы рискуете проделать двойную работу.
 2. Найдите соответствующий тикет [с лейблом `knowledge-base`](https://github.com/tlbootcamp/tlroadmap/issues?q=is%3Aissue+is%3Aopen+label%3Aknowledge-base) в Issues и заассайньте его на себя. На доске проекта передвиньте в статус "In progress".
 3. Создайте новый файл описания в `/skills/role` с использованием [шаблона описания](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/template.md).
 4. Заполните столько секций, сколько вы готовы.
