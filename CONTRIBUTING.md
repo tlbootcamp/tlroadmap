@@ -30,3 +30,11 @@
 1. Внесите изменение в `roadmap.mm` с помощью [Freemind](https://sourceforge.net/projects/freemind/) и сохраните файл.
 2. Экспортируйте `roadmap.mm` в `png` со 100% масштабом через Freemind.
 3. Запустите скрипт `python3 tools/gen_roadmap_contents.py` для автоматического обновления базы знаний.
+
+## Проверка орфографии
+
+Для проверки орфографии в проекте нужен установленный [yaspeller](https://github.com/hcodes/yaspeller)
+
+1. Запустите `yaspeller --config .yaspellerrc.json .` и он покажет предполагаемые ошибки
+2. Если слово корректно, но yaspeller думает что это ошибка – добавьте в файл `.yaspellerrc.json` в массив `dictionary`
+3. Если это паттерн – например, имена в названиях книг – имеет смысл добавить regexp в поле `ignoreText`
