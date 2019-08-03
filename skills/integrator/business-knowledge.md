@@ -75,3 +75,6 @@
 
 ### Книги
 - [Business Model Generation – Alexander Osterwalder, Yves Pigneur](https://www.goodreads.com/book/show/7723797-business-model-generation)
+
+### Видео
+- [Краткое и простое введение в теорию бизнес-моделей и инструменты для выявления потребностей пользователя (модули 2,3)](https://www.business-class.pro/module/2)
