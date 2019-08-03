@@ -37,8 +37,8 @@
 
 ### Теория
 #### Книги
-- [Иванова С. Мотивация на 100%] (https://www.alpinabook.ru/catalog/hr/5641/)
+- [Иванова С. Мотивация на 100%](https://www.alpinabook.ru/catalog/hr/5641/)
 - [Бланшар К. Киты. Выше и лучше, или уроки мотивации, вдохновения и определения целей](https://www.labirint.ru/books/38628/)
-- [Пинк Д. Драйв. Что на самом деле нас мотивирует] (https://www.alpinabook.ru/catalog/hr/66437/)
+- [Пинк Д. Драйв. Что на самом деле нас мотивирует](https://www.alpinabook.ru/catalog/hr/66437/)
 #### Видео
-- [Обзор и объяснение терминов: симул, мотив, потребность. Обзор теорий мотивации Неделя 1, 2] (https://www.coursera.org/learn/psikhotekhnologii-raboty/home/welcome)
+- [Обзор и объяснение терминов: симул, мотив, потребность. Обзор теорий мотивации Неделя 1, 2](https://www.coursera.org/learn/psikhotekhnologii-raboty/home/welcome)
