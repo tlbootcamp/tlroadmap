@@ -28,5 +28,9 @@
 - C&B: Compensations and Bonuses
 
 ## Способы прокачки
+### Практика
+- Способы определения мотивационных факторов: 
+    - [Тест 10К] (http://labs.stratoplan.ru/10k-03-01/10k_V3.pdf)
+    
 ### Консультации
 - [Чат TeamLead Bootcamp](https://t.me/teamlead_bootcamp)
