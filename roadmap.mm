@@ -179,7 +179,7 @@
 <edge COLOR="#25bad1" WIDTH="1"/>
 <font NAME="Helvetica Neue" SIZE="18"/>
 </node>
-<node COLOR="#435b66" CREATED="1564322984027" ID="32E0925C-1630-4BC4-B37F-8409C9008451" MODIFIED="1564323588234" STYLE="fork" TEXT="&#x41f;&#x440;&#x438;&#x43e;&#x440;&#x438;&#x442;&#x435;&#x437;&#x430;&#x446;&#x438;&#x44f; &#x431;&#x44d;&#x43a;&#x43b;&#x43e;&#x433;&#x430;">
+<node COLOR="#435b66" CREATED="1564322984027" ID="32E0925C-1630-4BC4-B37F-8409C9008451" MODIFIED="1564940704314" STYLE="fork" TEXT="&#x41f;&#x440;&#x438;&#x43e;&#x440;&#x438;&#x442;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44f; &#x431;&#x44d;&#x43a;&#x43b;&#x43e;&#x433;&#x430;">
 <edge COLOR="#25bad1" WIDTH="1"/>
 <font NAME="Helvetica Neue" SIZE="18"/>
 </node>
