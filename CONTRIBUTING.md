@@ -10,7 +10,7 @@
 
 ### Описание веток роадмапа
 Если вы готовы взять в работу описание одной из веток, пройдитесь по нашему чек-листу:
-1. Проверьте, что на [доске проекта](https://github.com/tlbootcamp/tlroadmap/projects/1) в колонке "In progress" эта задача отсутствует, иначе вы риcкуете проделать двойную работу.
+1. Проверьте, что на [доске проекта](https://github.com/tlbootcamp/tlroadmap/projects/1) в колонке "In progress" эта задача отсутствует, иначе вы рискуете проделать двойную работу.
 2. Найдите соответствующий тикет [с лейблом `knowledge-base`](https://github.com/tlbootcamp/tlroadmap/issues?q=is%3Aissue+is%3Aopen+label%3Aknowledge-base) в Issues и заассайньте его на себя. На доске проекта передвиньте в статус "In progress".
 3. Создайте новый файл описания в `/skills/role` с использованием [шаблона описания](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/template.md).
 4. Заполните столько секций, сколько вы готовы.
@@ -30,3 +30,11 @@
 1. Внесите изменение в `roadmap.mm` с помощью [Freemind](https://sourceforge.net/projects/freemind/) и сохраните файл.
 2. Экспортируйте `roadmap.mm` в `png` со 100% масштабом через Freemind.
 3. Запустите скрипт `python3 tools/gen_roadmap_contents.py` для автоматического обновления базы знаний.
+
+## Проверка орфографии
+
+Для проверки орфографии в проекте нужен установленный [yaspeller](https://github.com/hcodes/yaspeller)
+
+1. Запустите `yaspeller --config .yaspellerrc.json .` и он покажет предполагаемые ошибки
+2. Если слово корректно, но yaspeller думает что это ошибка – добавьте в файл `.yaspellerrc.json` в массив `dictionary`
+3. Если это паттерн – например, имена в названиях книг – имеет смысл добавить regexp в поле `ignoreText`
