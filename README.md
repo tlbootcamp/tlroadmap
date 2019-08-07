@@ -86,6 +86,7 @@
     - [One-to-one](skills/resource-manager/one-to-one.md)
     - [Административная работа](skills/resource-manager/admin.md)
 - Управление командой
+    - [Запуск команды](skills/resource-manager/team-launch.md)
     - [Управление компетенциями](skills/resource-manager/competency-management.md)
     - [Дизайн команды](skills/resource-manager/team-design.md)
     - [Организация рабочего пространства](skills/resource-manager/workspace.md)
