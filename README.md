@@ -119,7 +119,7 @@
 
 ### Integrator
 - [Знание бизнеса](skills/integrator/business-knowledge.md)
-- Ценности
+- [Корпоративная культура](skills/integrator/corporate-culture.md)
 - Структура компании
 
 ### Technical Lead
@@ -199,7 +199,7 @@
 ### Стили управления
 
 ### Коммуникации
-- [Фасилитация (Управление групповой дискуссией)](skills/communications/facilitation.md)
+- [Фасилитация](skills/communications/facilitation.md)
 - Сотрудничество
 - Управление конфликтами
 - Дача и получение обратной связи
