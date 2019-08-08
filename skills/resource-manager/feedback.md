@@ -37,5 +37,10 @@
 - [Правила дачи обратной связи](https://habr.com/ru/company/epam_systems/blog/442672/)
 - [Еще несколько правил дачи и приема](https://habr.com/ru/company/yamoney/blog/441036/)
 
+#### Книги
+- [Пять пороков команды, Патрик Ленсиони](https://www.ozon.ru/context/detail/id/138829608/)
+- [Фидбэк. Получите обратную связь!, Елена Золина и Игорь Манн](https://www.ozon.ru/context/detail/id/31247395/)
+
+
 #### Видео
 - [Инструменты регулярного сбора обратной связи в маленькой команде](https://teamleadconf.ru/moscow/2019/abstracts/4485)
