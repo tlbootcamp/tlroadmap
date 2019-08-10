@@ -142,11 +142,3 @@ Code review выглядит просто. Проверяете merge request н
 - [Code review по-человечески (часть 2)](https://habr.com/ru/post/342244/)
 - [Pull Requests and Code Review](https://medium.com/@pstepchenko/pull-requests-and-code-review-30abde0c98d3)
 
-**Дополнительные материалы:**
-- ...
-
-### Видео
-- ...
-
-### Книги
-- ...
