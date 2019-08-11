@@ -75,3 +75,6 @@
 
 ### Книги
 - [Business Model Generation – Alexander Osterwalder, Yves Pigneur](https://www.goodreads.com/book/show/7723797-business-model-generation)
+- [От хорошего к великому. Почему одни компании совершают прорыв, а другие нет..., Джим Коллинз](https://www.ozon.ru/context/detail/id/19544092/)
+- [Созидательное разрушение. Почему компании, "построенные навечно", показывают не лучшие результаты и что надо сделать, чтобы поднять их эффективность, Ричард Фостер, Сара Каплан](https://www.ozon.ru/context/detail/id/32165868/)
+- [И ботаники делают бизнес, Максим Котин](https://www.ozon.ru/context/detail/id/6109556/)
