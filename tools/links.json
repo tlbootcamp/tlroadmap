@@ -12,6 +12,7 @@
   "One-to-one": "skills/resource-manager/one-to-one.md",
   "Административная работа": "skills/resource-manager/admin.md",
   "Управление компетенциями": "skills/resource-manager/competency-management.md",
+  "Запуск команды": "skills/resource-manager/team-launch.md",
   "Дизайн команды": "skills/resource-manager/team-design.md",
   "Организация рабочего пространства": "skills/resource-manager/workspace.md",
   "Климат в команде": "skills/resource-manager/team-climate.md",
@@ -19,5 +20,8 @@
   "Обеспечение прозрачности": "skills/resource-manager/transparency.md",
   "Развитие технического бренда": "skills/resource-manager/techpr.md",
   "Получение задач": "skills/administrator/task_inbox.md",
-  "Знание бизнеса": "skills/integrator/business-knowledge.md"
+  "Знание бизнеса": "skills/integrator/business-knowledge.md",
+  "Корпоративная культура": "skills/integrator/corporate-culture.md",
+  "Управление временем": "skills/self-improvement/time-management.md",
+  "Фасилитация": "skills/self-improvement/facilitation.md"
 }
