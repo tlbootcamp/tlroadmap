@@ -86,6 +86,7 @@
     - [One-to-one](skills/resource-manager/one-to-one.md)
     - [Административная работа](skills/resource-manager/admin.md)
 - Управление командой
+    - [Запуск команды](skills/resource-manager/team-launch.md)
     - [Управление компетенциями](skills/resource-manager/competency-management.md)
     - [Дизайн команды](skills/resource-manager/team-design.md)
     - [Организация рабочего пространства](skills/resource-manager/workspace.md)
@@ -118,12 +119,12 @@
 
 ### Integrator
 - [Знание бизнеса](skills/integrator/business-knowledge.md)
-- Ценности
+- [Корпоративная культура](skills/integrator/corporate-culture.md)
 - Структура компании
 
 ### Technical Lead
 - Обеспечение качества продукта
-    - Code Review
+    - [Code Review](skills/resource-manager/code-review.md)
     - Тестирование
         - Тестовая модель
         - Тест-планы
@@ -198,7 +199,7 @@
 ### Стили управления
 
 ### Коммуникации
-- [Фасилитация (Управление групповой дискуссией)](skills/communications/facilitation.md)
+- [Фасилитация](skills/communications/facilitation.md)
 - Сотрудничество
 - Управление конфликтами
 - Дача и получение обратной связи
