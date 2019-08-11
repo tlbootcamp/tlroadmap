@@ -124,7 +124,7 @@
 
 ### Technical Lead
 - Обеспечение качества продукта
-    - Code Review
+    - [Code Review](skills/resource-manager/code-review.md)
     - Тестирование
         - Тестовая модель
         - Тест-планы
