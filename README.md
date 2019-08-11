@@ -159,7 +159,7 @@
 
 ### Administrator
 - Построение цикла разработки
-    - [Получение задач](skills/administrator/task_inbox.md)
+    - [Получение задач](skills/administrator/task-inbox.md)
     - Разработка
         - Конструирование методологии
             - Описание
@@ -199,7 +199,7 @@
 ### Стили управления
 
 ### Коммуникации
-- [Фасилитация (Управление групповой дискуссией)](skills/self-improvement/facilitation.md)
+- [Фасилитация](skills/self-improvement/facilitation.md)
 - Сотрудничество
 - Управление конфликтами
 - Дача и получение обратной связи
