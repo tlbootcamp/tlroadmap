@@ -209,7 +209,7 @@
 
 ### Тайм-менеджмент
 - Постановка личных целей
-- Управление временем
+- [Управление временем](skills/self-improvement/time-management.md)
 - Управление приоритетами
 <!--roadmap.mm table of contents end-->
 
