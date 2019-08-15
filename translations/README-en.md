@@ -13,7 +13,7 @@ We interviewed several dozen large and small companies, found out what they expe
 
 This model can be used in any way you like - to come up with your development plan, to create job descriptions in companies, to write a job description or to conduct interviews. Keep in mind it is likely you don't need all the branches of potential development - and this is fine.
 
-> 🚨 **Important:** Depending on the company, the Team Lead needs to work on different branches and responsibilities. We don't think that the goal should be to develop all of the areas in the roadmap. It's important to focus on the problems and needs of your workplace, first of all.
+> 🚨 **Important:** Depending on a company, the Team Lead needs to work on different branches and responsibilities. We don't think that the goal should be to develop all the areas of the roadmap. It's important to focus on the problems and needs of your workplace, first of all.
 
 The work is still in progress, so feel free to publish an Issue, drop your pull request and join the discussion [in Telegram chat, RU](https://tlinks.run/tlbootcamp).
 
