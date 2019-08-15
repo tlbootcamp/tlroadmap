@@ -36,7 +36,7 @@ The work is still in progress, so feel free to publish an Issue, drop your pull 
 ![Team Lead Map](../roadmap.png)
 
 The roadmap consists of two sections:
-- **Роли и обязанности.** A list of high-level work roles and more specific responsibilities.
+- **Roles and responsibilities.** A list of high-level work roles and more specific responsibilities.
 - **Personal Skills.** Personal skills and qualities that are necessary for certain roles and responsibilities.
 
 Each of the map's leaves will eventually become a large entry in the knowledge base, containing a description, examples of behavior, and ways to develop the skill.
