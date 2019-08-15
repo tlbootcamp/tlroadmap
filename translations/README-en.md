@@ -59,7 +59,7 @@ The current roadmap is an alpha version that has a common teamwork structure and
 # The knowledge base
 The base is gradually filled with Stas Tsyganov, Egor Tolstoy and the community. Our final goal is to describe each of the directions according to the following template:
 - Description (what we are talking about)
-- Why is a branch important
+- Why this branch is important
 - What happens if you don't work on it
 - To whom it can be delegated
 - Examples of good and bad behavior
