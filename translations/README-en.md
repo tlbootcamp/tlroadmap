@@ -45,7 +45,7 @@ Each of the map's leaves will eventually become a large entry in the knowledge b
 - [PNG](../roadmap.png)
 - [MindMap](../roadmap.mm)
 
-The easiest way to open a `mm` file is to visit [Freemind](https://sourceforge.net/projects/freemind/) (free and simple), [MindNode](https://mindnode.com/) (expensive and premium) or [MindMeister](https://mindmeister.com) (freemium and online). Other MindMap editors are also likely to work, but we haven't tested them.
+The easiest way to open a `mm` file is to use [Freemind](https://sourceforge.net/projects/freemind/) (free and simple), [MindNode](https://mindnode.com/) (expensive and premium) or [MindMeister](https://mindmeister.com) (freemium and online). Other MindMap editors are also likely to work, but we haven't tested them.
 
 ## Examples of use
 We've prepared a few common Team Lead models. With their help, you can see how to work with the roadmap, or you can just bring them to your company as examples:
