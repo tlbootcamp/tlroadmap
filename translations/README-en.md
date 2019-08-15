@@ -185,7 +185,7 @@ If you don't agree with any of the existing descriptions or think you can improv
 #### Self development
 - Ability to learn
 - Reflexion
-- Making habits.
+- Making habits
 
 #### Relationships
 - Empathy
