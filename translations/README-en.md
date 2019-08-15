@@ -61,7 +61,7 @@ The base is gradually filled with Stas Tsyganov, Egor Tolstoy and the community.
 - Description (what we are talking about)
 - Why is a branch important
 - What happens if you don't work on it
-- Who can be delegated
+- To whom it can be delegated
 - Examples of good and bad behavior
 - Development techniques: skills, practices, consulting, theory
 
