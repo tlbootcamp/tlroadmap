@@ -7,7 +7,7 @@
 
 # What is it about?
 
-The concepts of "Team Lead", "Tech Lead", "Tech Manager" and others are very stretchy. Companies solve different tasks, these roles have different responsibilities. Besides, different leadership styles, differences in personal skills, and much more are put on the picture. But isn't that what happens to the developers? Different companies, different tasks, again, different nature of tasks and responsibilities.
+The concepts of "Team Lead", "Tech Lead", "Tech Manager" and others are very stretchy. Companies solve different tasks, these roles have different responsibilities. Besides, various leadership styles, differences in personal skills, and much more are put in the picture. But isn't that what happens to the developers? Different companies, different tasks, again, different nature of tasks and responsibilities.
 
 We interviewed several dozen large and small companies, found out what they expect from Team Leads and how they interact with them. As a result, we were able to form a single model of basic teamwork competencies that covers all the cases studied.
 
