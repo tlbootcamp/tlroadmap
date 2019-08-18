@@ -120,11 +120,11 @@
 ### Integrator
 - [Знание бизнеса](skills/integrator/business-knowledge.md)
 - [Корпоративная культура](skills/integrator/corporate-culture.md)
-- Структура компании
+- [Структура компании](skills/integrator/company-structure.md)
 
 ### Technical Lead
 - Обеспечение качества продукта
-    - [Code Review](skills/technical-lead/code-review.md)
+    - [Code Review](skills/technical-lead/code-review/md)
     - Тестирование
         - Тестовая модель
         - Тест-планы
