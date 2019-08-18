@@ -120,11 +120,11 @@
 ### Integrator
 - [Знание бизнеса](skills/integrator/business-knowledge.md)
 - [Корпоративная культура](skills/integrator/corporate-culture.md)
-- Структура компании
+- [Структура компании](skills/integrator/company-structure.md)
 
 ### Technical Lead
 - Обеспечение качества продукта
-    - Code Review
+    - [Code Review](skills/technical-lead/code-review/md)
     - Тестирование
         - Тестовая модель
         - Тест-планы
@@ -209,7 +209,7 @@
 
 ### Тайм-менеджмент
 - Постановка личных целей
-- Управление временем
+- [Управление временем](skills/self-improvement/time-management.md)
 - Управление приоритетами
 <!--roadmap.mm table of contents end-->
 

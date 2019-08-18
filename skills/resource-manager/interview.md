@@ -100,6 +100,10 @@
 - [Чат TeamLead Bootcamp](https://t.me/teamlead_bootcamp)
 
 ### Теория
+#### Книги
+- [Брать или не брать? или Как собеседовать разработчика, Константин Борисов](https://www.ozon.ru/context/detail/id/153098478/)
+- [Кто. Решите вашу проблему номер один, Джефф Смарт и Рэнди Стрит](https://www.ozon.ru/context/detail/id/141261611/)
+
 #### Статьи
 - [Опыт проведения собеседований разных компаний](https://habr.com/ru/post/322758/)
 - [Про процесс подбора в целом](https://www.smartrecruiters.com/resources/glossary/hiring-process-steps/)
