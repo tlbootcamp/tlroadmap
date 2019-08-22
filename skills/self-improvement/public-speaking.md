@@ -133,9 +133,18 @@
 
 ### Видео
 - [Публичная речь с Р.Гандапас ч.1: На раз, два, три](https://youtu.be/b06ChAVz8Fo)
+- [Выступайте – Егор Толстой](https://youtu.be/ryJj3wo1CF8)
 
 ### Подкасты
 - [Podlodka #64: Публичные выступления](https://podlodka.io/64)
 
 ### Статьи
+- [Выступать на конференции](https://medium.com/@a71082/%D0%B2%D1%8B%D1%81%D1%82%D1%83%D0%BF%D0%B0%D1%82%D1%8C-%D0%BD%D0%B0-%D0%BA%D0%BE%D0%BD%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B8-7331d6f9757a)
+- [Как выступать](https://medium.com/@etolstoy/%D0%BA%D0%B0%D0%BA-%D0%B2%D1%8B%D1%81%D1%82%D1%83%D0%BF%D0%B0%D1%82%D1%8C-203d912b0e37)
+- [Выступить лучше всех: 63 совета начинающему IT-cпикеру](https://designpub.ru/%D0%B2%D1%8B%D1%81%D1%82%D1%83%D0%BF%D0%B8%D1%82%D1%8C-%D0%BB%D1%83%D1%87%D1%88%D0%B5-%D0%B2%D1%81%D0%B5%D1%85-63-%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D0%B0-%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%D1%8E%D1%89%D0%B5%D0%BC%D1%83-it-c%D0%BF%D0%B8%D0%BA%D0%B5%D1%80%D1%83-bf05d677643c#.w1qv1nv87)
+- [Легко ли выступать на конференции в первый раз?](https://habr.com/en/company/oleg-bunin/blog/350776/)
 - [Искусство презентации, или Ни слова о PowerPoint. Ольга Скрипка](https://centr-yk.jimdo.com/app/download/10748394994/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8+%D0%B8+%D0%B2%D1%8B%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F.pdf?t=1503674620&mobile=1)
+- [Tips for public speaking](https://speaking.io/)
+- [Tech Talks — You Do Have Something To Say!](https://medium.com/upday-devs/tech-talks-you-do-have-something-to-say-a1a0ae23fa0#.5te5buwmd)
+- [From Proposal to Applause: How I do Public Speaking](https://ashfurrow.com/blog/from-proposal-to-applause-how-i-public-speaking/)
+
