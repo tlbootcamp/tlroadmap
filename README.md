@@ -114,17 +114,17 @@
         - Процесс целеполагания
         - Готовые подходы
     - Управление продуктовым бэклогом
-        - Генерация элементов бэклога
+        - [Генерация элементов бэклога](skills/product-owner/backlog-generation)
         - Приоритизация бэклога
 
 ### Integrator
 - [Знание бизнеса](skills/integrator/business-knowledge.md)
 - [Корпоративная культура](skills/integrator/corporate-culture.md)
-- Структура компании
+- [Структура компании](skills/integrator/company-structure.md)
 
 ### Technical Lead
 - Обеспечение качества продукта
-    - Code Review
+    - [Code Review](skills/technical-lead/code-review.md)
     - Тестирование
         - Тестовая модель
         - Тест-планы
@@ -205,7 +205,7 @@
 - Дача и получение обратной связи
 - Нетворкинг
 - Публичные выступления
-- Работа с текстом
+- [Работа с текстом](skills/self-improvement/text.md)
 
 ### Тайм-менеджмент
 - Постановка личных целей
