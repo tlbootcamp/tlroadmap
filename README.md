@@ -111,7 +111,7 @@
         - Процесс целеполагания
         - Готовые подходы
     - Управление продуктовым бэклогом
-        - [Генерация элементов бэклога](skills/product-owner/backlog-generation)
+        - [Генерация элементов бэклога](skills/product-owner/backlog-generation.md)
         - [Приоритизация бэклога](skills/product-owner/backlog-prioritization.md)
 
 ### Integrator
@@ -179,7 +179,7 @@
 ## Personal Skills
 
 ### Развитие себя
-- Умение учиться
+- [Умение учиться](skills/self-improvement/learning.md)
 - Рефлексия
 - Выработка привычек
 
@@ -200,7 +200,7 @@
 - Сотрудничество
 - Управление конфликтами
 - Дача и получение обратной связи
-- Нетворкинг
+- [Нетворкинг](skills/self-improvement/networking.md)
 - Публичные выступления
 - [Работа с текстом](skills/self-improvement/text.md)
 
