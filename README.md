@@ -112,7 +112,7 @@
         - Готовые подходы
     - Управление продуктовым бэклогом
         - [Генерация элементов бэклога](skills/product-owner/backlog-generation.md)
-        - Приоритизация бэклога
+        - [Приоритизация бэклога](skills/product-owner/backlog-prioritization.md)
 
 ### Integrator
 - [Знание бизнеса](skills/integrator/business-knowledge.md)
