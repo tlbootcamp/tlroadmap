@@ -97,10 +97,7 @@
 
 ### Product Owner
 - Понимание продукта
-    - Знание рынка
-        - Конкуренты
-        - Государство
-        - Особенности рынка
+    - [Знание рынка](skills/product-owner/market-knowledge.md)
     - Знание продукта
         - Видение продукта
         - Стратегия продукта
@@ -124,7 +121,7 @@
 
 ### Technical Lead
 - Обеспечение качества продукта
-    - [Code Review](skills/technical-lead/code-review/md)
+    - [Code Review](skills/technical-lead/code-review.md)
     - Тестирование
         - Тестовая модель
         - Тест-планы
@@ -159,7 +156,7 @@
 
 ### Administrator
 - Построение цикла разработки
-    - Получение задач
+    - [Получение задач](skills/administrator/task-inbox.md)
     - Разработка
         - Конструирование методологии
             - Описание
@@ -203,7 +200,7 @@
 - Сотрудничество
 - Управление конфликтами
 - Дача и получение обратной связи
-- Нетворкинг
+- [Нетворкинг](skills/self-improvement/networking.md)
 - Публичные выступления
 - [Работа с текстом](skills/self-improvement/text.md)
 
