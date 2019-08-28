@@ -72,7 +72,7 @@
 <node COLOR="#435b66" CREATED="1564322984023" ID="8DB07529-F2EF-4539-A9F6-32029510546B" MODIFIED="1564323588234" STYLE="fork" TEXT="&#x423;&#x43f;&#x440;&#x430;&#x432;&#x43b;&#x435;&#x43d;&#x438;&#x435; &#x43a;&#x43e;&#x43c;&#x430;&#x43d;&#x434;&#x43e;&#x439;">
 <edge COLOR="#1286de" WIDTH="1"/>
 <font NAME="Helvetica Neue" SIZE="18"/>
-<node COLOR="#435b66" CREATED="1564322984023" ID="8DB07529-F2EF-4539-A9F6-32029510546С" MODIFIED="1565030041935" STYLE="fork" TEXT="&#x417;&#x430;&#x43f;&#x443;&#x441;&#x43a; &#x43a;&#x43e;&#x43c;&#x430;&#x43d;&#x434;&#x44b;">
+<node COLOR="#435b66" CREATED="1564322984023" ID="8DB07529-F2EF-4539-A9F6-32029510546&#x421;" MODIFIED="1565030041935" STYLE="fork" TEXT="&#x417;&#x430;&#x43f;&#x443;&#x441;&#x43a; &#x43a;&#x43e;&#x43c;&#x430;&#x43d;&#x434;&#x44b;">
 <edge COLOR="#1286de" WIDTH="1"/>
 <font NAME="Helvetica Neue" SIZE="18"/>
 </node>
@@ -112,7 +112,7 @@
 <node COLOR="#435b66" CREATED="1564322984024" ID="CEBEC43D-DA2E-4D5C-A9F8-10CE5658FE60" MODIFIED="1564323588234" STYLE="fork" TEXT="&#x41f;&#x43e;&#x43d;&#x438;&#x43c;&#x430;&#x43d;&#x438;&#x435; &#x43f;&#x440;&#x43e;&#x434;&#x443;&#x43a;&#x442;&#x430;">
 <edge COLOR="#25bad1" WIDTH="1"/>
 <font NAME="Helvetica Neue" SIZE="18"/>
-<node COLOR="#435b66" CREATED="1564322984025" ID="ID_79984164" MODIFIED="1566832968659" STYLE="fork" TEXT="&#x412;&#x438;&#x434;&#x435;&#x43d;&#x438;&#x435; &#x43f;&#x440;&#x43e;&#x434;&#x443;&#x43a;&#x442;&#x430;">
+<node COLOR="#435b66" CREATED="1564322984025" ID="ID_79984164" MODIFIED="1566973058110" STYLE="fork" TEXT="&#x417;&#x43d;&#x430;&#x43d;&#x438;&#x435; &#x440;&#x44b;&#x43d;&#x43a;&#x430;">
 <edge COLOR="#25bad1" WIDTH="1"/>
 <font NAME="Helvetica Neue" SIZE="18"/>
 </node>
