@@ -97,10 +97,7 @@
 
 ### Product Owner
 - Понимание продукта
-    - Знание рынка
-        - Конкуренты
-        - Государство
-        - Особенности рынка
+    - [Знание рынка](skills/product-owner/market-knowledge.md)
     - Знание продукта
         - Видение продукта
         - Стратегия продукта
@@ -114,13 +111,13 @@
         - Процесс целеполагания
         - Готовые подходы
     - Управление продуктовым бэклогом
-        - Генерация элементов бэклога
+        - [Генерация элементов бэклога](skills/product-owner/backlog-generation)
         - Приоритизация бэклога
 
 ### Integrator
 - [Знание бизнеса](skills/integrator/business-knowledge.md)
 - [Корпоративная культура](skills/integrator/corporate-culture.md)
-- Структура компании
+- [Структура компании](skills/integrator/company-structure.md)
 
 ### Technical Lead
 - Обеспечение качества продукта
@@ -159,7 +156,7 @@
 
 ### Administrator
 - Построение цикла разработки
-    - Получение задач
+    - [Получение задач](skills/administrator/task-inbox.md)
     - Разработка
         - Конструирование методологии
             - Описание
@@ -199,13 +196,13 @@
 ### Стили управления
 
 ### Коммуникации
-- [Фасилитация](skills/communications/facilitation.md)
+- [Фасилитация](skills/self-improvement/facilitation.md)
 - Сотрудничество
 - Управление конфликтами
 - Дача и получение обратной связи
 - [Нетворкинг](skills/self-improvement/networking.md)
 - Публичные выступления
-- Работа с текстом
+- [Работа с текстом](skills/self-improvement/text.md)
 
 ### Тайм-менеджмент
 - Постановка личных целей
