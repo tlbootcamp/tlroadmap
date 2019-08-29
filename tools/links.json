@@ -23,10 +23,13 @@
   "Знание бизнеса": "skills/integrator/business-knowledge.md",
   "Корпоративная культура": "skills/integrator/corporate-culture.md",
   "Структура компании": "skills/integrator/company-structure.md",
+  "Генерация элементов бэклога": "skills/product-owner/backlog-generation.md",
   "Знание рынка": "skills/product-owner/market-knowledge.md",
-  "Генерация элементов бэклога": "skills/product-owner/backlog-generation",
+  "Приоритизация бэклога": "skills/product-owner/backlog-prioritization.md",
   "Code Review": "skills/technical-lead/code-review.md",
+  "Фасилитация": "skills/self-improvement/facilitation.md",
+  "Умение учиться": "skills/self-improvement/learning.md",
+  "Нетворкинг": "skills/self-improvement/networking.md",
   "Работа с текстом": "skills/self-improvement/text.md",
-  "Управление временем": "skills/self-improvement/time-management.md",
-  "Фасилитация": "skills/self-improvement/facilitation.md"
+  "Управление временем": "skills/self-improvement/time-management.md"
 }
