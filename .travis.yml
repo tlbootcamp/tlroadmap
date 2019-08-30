@@ -1,0 +1,7 @@
+
+language: node_js
+node_js:
+  - 10
+script:
+  - npx yaspeller -c .yaspellerrc.json .
+  - npx eclint check .
