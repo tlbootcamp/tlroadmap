@@ -6,13 +6,13 @@
 
 # What is it about?
 
-The concepts of "Team Lead", "Tech Lead", "Tech Manager" and others are very stretchy. Companies solve different tasks, these roles have different responsibilities. Besides, different leadership styles, differences in personal skills, and much more are put on the picture. But isn't that what happens to the developers? Different companies, different tasks, again, different nature of tasks and responsibilities.
+The concepts of "Team Lead", "Tech Lead", "Tech Manager" and others are very stretchy. Companies solve different tasks, these roles have different responsibilities. Besides, various leadership styles, differences in personal skills, and much more are put in the picture. But isn't that what happens to the developers? Different companies, different tasks, again, different nature of tasks and responsibilities.
 
 We interviewed several dozen large and small companies, found out what they expect from Team Leads and how they interact with them. As a result, we were able to form a single model of basic teamwork competencies that covers all the cases studied.
 
 This model can be used in any way you like - to come up with your development plan, to define duties and responsibilities, to write a job description or to conduct interviews. Keep in mind it is likely you don't need all the branches of potential development - and this is fine.
 
-> 🚨 **Important:** Depending on the company, the Team Lead needs to work on different branches and responsibilities. We don't think that the goal should be to develop all of the areas in the roadmap. It's important to focus on the problems and needs of your workplace, first of all.
+> 🚨 **Important:** Depending on a company, the Team Lead needs to work on different branches and responsibilities. We don't think that the goal should be to develop all the areas of the roadmap. It's important to focus on the problems and needs of your workplace, first of all.
 
 The work is still in progress, so feel free to publish an Issue or open a Pull Request.
 
@@ -35,7 +35,7 @@ The work is still in progress, so feel free to publish an Issue or open a Pull R
 ![Team Lead Map](../roadmap.png)
 
 The roadmap consists of two sections:
-- **Роли и обязанности.** A list of high-level work roles and more specific responsibilities.
+- **Roles and responsibilities.** A list of high-level work roles and more specific responsibilities.
 - **Personal Skills.** Personal skills and qualities that are necessary for certain roles and responsibilities.
 
 Each of the map's leaves will eventually become a large entry in the knowledge base with a description, examples of behavior, and ways to develop the skill.
@@ -44,7 +44,7 @@ Each of the map's leaves will eventually become a large entry in the knowledge b
 - [PNG](../roadmap.png)
 - [MindMap](../roadmap.mm)
 
-The easiest way to open a `mm` file is to visit [Freemind](https://sourceforge.net/projects/freemind/) (free and simple), [MindNode](https://mindnode.com/) (expensive and premium) or [MindMeister](https://mindmeister.com) (freemium and online). Other MindMap editors are also likely to work, but we haven't tested them.
+The easiest way to open a `mm` file is to use [Freemind](https://sourceforge.net/projects/freemind/) (free and simple), [MindNode](https://mindnode.com/) (expensive and premium) or [MindMeister](https://mindmeister.com) (freemium and online). Other MindMap editors are also likely to work, but we haven't tested them.
 
 ## Examples of use
 We've prepared a few common Team Lead models. With their help, you can see how to work with the roadmap, or you can just bring them to your company as examples:
@@ -53,14 +53,14 @@ We've prepared a few common Team Lead models. With their help, you can see how t
 - Startup Team Lead: [MindMap](../examples/startup-teamlead.mm)
 
 # Work in progress
-The current roadmap is an alpha version that has a common teamwork structure and partially describes the first major role, Resource Manager. We are looking forward to your participation in the project, the process of contribution is described in detail in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+The current roadmap is an alpha version that has a common teamwork structure and partially describes the first major role, Resource Manager. We are looking forward to your participation in the project. The contribution process is described in depth in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 # The knowledge base
 The base is gradually filled with Stas Tsyganov, Egor Tolstoy and the community. Our final goal is to describe each of the directions according to the following template:
 - Description (what we are talking about)
-- Why is a branch important
+- Why this branch is important
 - What happens if you don't work on it
-- Who can be delegated
+- To whom it can be delegated
 - Examples of good and bad behavior
 - Development techniques: skills, practices, consulting, theory
 
@@ -184,7 +184,7 @@ If you don't agree with any of the existing descriptions or think you can improv
 #### Self development
 - Ability to learn
 - Reflexion
-- Making habits.
+- Making habits
 
 #### Relationships
 - Empathy
