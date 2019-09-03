@@ -3,7 +3,6 @@
 > Team Lead is a ❄️, because in each company they are unique and distinct.
 
 - [Roadmap](#roadmap)
-- [Telegram chat TL Bootcamp (RU)](https://tlinks.run/tlbootcamp)
 
 # What is it about?
 
@@ -11,22 +10,22 @@ The concepts of "Team Lead", "Tech Lead", "Tech Manager" and others are very str
 
 We interviewed several dozen large and small companies, found out what they expect from Team Leads and how they interact with them. As a result, we were able to form a single model of basic teamwork competencies that covers all the cases studied.
 
-This model can be used in any way you like - to come up with your development plan, to create job descriptions in companies, to write a job description or to conduct interviews. Keep in mind it is likely you don't need all the branches of potential development - and this is fine.
+This model can be used in any way you like - to come up with your development plan, to define duties and responsibilities, to write a job description or to conduct interviews. Keep in mind it is likely you don't need all the branches of potential development - and this is fine.
 
 > 🚨 **Important:** Depending on the company, the Team Lead needs to work on different branches and responsibilities. We don't think that the goal should be to develop all of the areas in the roadmap. It's important to focus on the problems and needs of your workplace, first of all.
 
-The work is still in progress, so feel free to publish an Issue, drop your pull request and join the discussion [in Telegram chat, RU](https://tlinks.run/tlbootcamp).
+The work is still in progress, so feel free to publish an Issue or open a Pull Request.
 
 # How to use it?
 ## 🏫 For a company
-1. Download the [MindMap](roadmap.mm) with the full Team Lead model.
+1. Download the [MindMap](roadmap.mm)(Russian-only for now) with the full Team Lead model.
 2. Go through all branches of the Team Lead responsibilities. Remove those that are not required by your company or are already being performed by someone else.
 3. Form from the resulting map the artifacts you need: a profile to hire, a description of role expectations, a development plan.
 4. Use our knowledge base to go deeper into any of the branches. For each of the branches we describe in detail its meaning, motivation to use, examples of good and bad behavior, ways of development in practice and theory.
 
 ## 👩🏼‍💻 For yourself
-1. Download the [MindMap](roadmap.mm) with the full Team Lead model.
-2. Mark on it the competencies you already have and those you need for further growth within the company. To give you a hint, look at what your manager or colleagues are doing. If there are still difficulties, ask a question [in our chat room, RU](https://tlinks.run/tlbootcamp).
+1. Download the [MindMap](roadmap.mm)(Russian-only for now) with the full Team Lead model.
+2. Mark on it the competencies you already have and those you need for further growth within the company. To give you a hint, look at what your manager or colleagues are doing. If there are still some difficulties, feel free to ask a question in Issues.
 3. Make a list of competencies that that separate your current profile and your target profile.
 4. Using our knowledge base, create a development plan for each of the competencies, which includes both theory and practical application.
 5. Show your development plan to your manager and ask for assistance.
@@ -39,7 +38,7 @@ The roadmap consists of two sections:
 - **Роли и обязанности.** A list of high-level work roles and more specific responsibilities.
 - **Personal Skills.** Personal skills and qualities that are necessary for certain roles and responsibilities.
 
-Each of the map's leaves will eventually become a large entry in the knowledge base, containing a description, examples of behavior, and ways to develop the skill.
+Each of the map's leaves will eventually become a large entry in the knowledge base with a description, examples of behavior, and ways to develop the skill.
 
 ## Download roadmap
 - [PNG](../roadmap.png)
@@ -216,3 +215,6 @@ If you don't agree with any of the existing descriptions or think you can improv
 
 # Acknowledgements
 The following people contributed to the development of the map: Anatoly Panov, Roman Ivliev, Nikolay Krapivny, Georgy Mogelashvili, Yulia Rakhmanova, Nikolay Balakirev, Alexander Minenok, Pavel Antonov, Vitaly Sharovatov, Alexander Svetkin, Marat Chukmarov.
+
+### Translation notes
+Translated doc version: [commit](https://github.com/tlbootcamp/tlroadmap/commit/fe73f23a0ff29514ef4b145740fe9fc729a235fa)
