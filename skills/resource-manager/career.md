@@ -30,4 +30,4 @@
 [Профстандарт Программист](https://rosmintrud.ru/docs/mintrud/orders/138) - полезен с точки зрения структуры описания и наполнения
 
 ### Полезные статьи
-[Как оценивать работу программистов: примеры системы грейдов в компаниях](https://vc.ru/dev/76538-kak-ocenivat-rabotu-programmistov-primery-sistemy-greydov-v-kompaniyah)
+[Как оценивать работу программистов: примеры системы грейдов в компаниях](https://vc.ru/dev/76538-kak-ocenivat-rabotu-programmistov-primery-sistemy-greydov-v-kompaniyah) - примеры системы грейдов
