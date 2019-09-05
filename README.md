@@ -201,7 +201,7 @@
 - Управление конфликтами
 - Дача и получение обратной связи
 - [Нетворкинг](skills/self-improvement/networking.md)
-- Публичные выступления
+- [Публичные выступления](skills/self-improvement/public-speaking.md)
 - [Работа с текстом](skills/self-improvement/text.md)
 
 ### Тайм-менеджмент
