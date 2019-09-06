@@ -218,3 +218,4 @@ The following people contributed to the development of the map: Anatoly Panov, R
 
 ### Translation notes
 Translated doc version: [commit](https://github.com/tlbootcamp/tlroadmap/commit/fe73f23a0ff29514ef4b145740fe9fc729a235fa)
+
