@@ -18,13 +18,13 @@ The work is still in progress, so feel free to publish an Issue or open a Pull R
 
 # How to use it?
 ## 🏫 For a company
-1. Download the [MindMap](roadmap.mm)(Russian-only for now) with the full Team Lead model.
+1. Download the [MindMap](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/roadmap.mm)(Russian-only for now) with the full Team Lead model.
 2. Go through all branches of the Team Lead responsibilities. Remove those that are not required by your company or are already being performed by someone else.
 3. Form from the resulting map the artifacts you need: a profile to hire, a description of role expectations, a development plan.
 4. Use our knowledge base to go deeper into any of the branches. For each of the branches we describe in detail its meaning, motivation to use, examples of good and bad behavior, ways of development in practice and theory.
 
 ## 👩🏼‍💻 For yourself
-1. Download the [MindMap](roadmap.mm)(Russian-only for now) with the full Team Lead model.
+1. Download the [MindMap](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/roadmap.mm)(Russian-only for now) with the full Team Lead model.
 2. Mark on it the competencies you already have and those you need for further growth within the company. To give you a hint, look at what your manager or colleagues are doing. If there are still some difficulties, feel free to ask a question in Issues.
 3. Make a list of competencies that that separate your current profile and your target profile.
 4. Using our knowledge base, create a development plan for each of the competencies, which includes both theory and practical application.
@@ -41,16 +41,16 @@ The roadmap consists of two sections:
 Each of the map's leaves will eventually become a large entry in the knowledge base with a description, examples of behavior, and ways to develop the skill.
 
 ## Download roadmap
-- [PNG](../roadmap.png)
-- [MindMap](../roadmap.mm)
+- [PNG](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/roadmap.png)
+- [Mindmap](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/roadmap.mm)
 
 The easiest way to open a `mm` file is to use [Freemind](https://sourceforge.net/projects/freemind/) (free and simple), [MindNode](https://mindnode.com/) (expensive and premium) or [MindMeister](https://mindmeister.com) (freemium and online). Other MindMap editors are also likely to work, but we haven't tested them.
 
 ## Examples of use
 We've prepared a few common Team Lead models. With their help, you can see how to work with the roadmap, or you can just bring them to your company as examples:
-- Playing coach in a scrum team: [MindMap](../examples/playing-coach.mm)
-- Technical Lead: [MindMap](../examples/techlead.mm)
-- Startup Team Lead: [MindMap](../examples/startup-teamlead.mm)
+- Playing coach in a scrum team: [mindmap](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/examples/playing-coach.mm)
+- Technical Lead: [mindmap](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/examples/techlead.mm)
+- Startup Team Lead: [mindmap](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/examples/startup-teamlead.mm)
 
 # Work in progress
 The current roadmap is an alpha version that has a common teamwork structure and partially describes the first major role, Resource Manager. We are looking forward to your participation in the project. The contribution process is described in depth in [`CONTRIBUTING.md`](CONTRIBUTING.md).
@@ -218,3 +218,4 @@ The following people contributed to the development of the map: Anatoly Panov, R
 
 ### Translation notes
 Translated doc version: [commit](https://github.com/tlbootcamp/tlroadmap/commit/fe73f23a0ff29514ef4b145740fe9fc729a235fa)
+
