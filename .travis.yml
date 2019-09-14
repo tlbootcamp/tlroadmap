@@ -5,4 +5,3 @@ node_js:
 script:
   - npx yaspeller -c .yaspellerrc.json .
   - npx eclint check .
-  - npx eyo --lint "**/*.md"
