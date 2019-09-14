@@ -51,3 +51,7 @@
 ## Способы прокачки
 ### Консультации
 - [Чат TeamLead Bootcamp](https://t.me/teamlead_bootcamp)
+
+### Теория
+#### Статьи
+- [О Visibility](https://medium.com/@allo/о-visibility-993827b93c3d)
