@@ -112,6 +112,5 @@
 - [Как собеседует Google: чему быть, чего не миновать](https://habr.com/ru/company/google/blog/425279/)
 - [Как пройти собеседование в Google: советы по подготовке](https://tproger.ru/translations/google-interview-tips/)
 - [Собеседование на junior позицию. Антипаттерны собеседующих](https://habr.com/ru/post/169949/)
-https://habr.com/ru/company/cit/blog/262887/
 - [Пять способов отпугнуть соискателя](https://habr.com/ru/company/cit/blog/262887/)
 - [Я провёл сто собеседований, отказал сотне людей — и только потом научился собеседовать](https://habr.com/ru/post/440930/)
