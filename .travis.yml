@@ -1,7 +1,8 @@
 
-language: node_js
-node_js:
-  - 10
+language: generic
+
 script:
   - npx yaspeller -c .yaspellerrc.json .
   - npx eclint check .
+  - npx eyo --only-safe --lint "**/*.md"
+  - cd tools && bash check_readme.sh
