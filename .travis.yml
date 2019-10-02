@@ -1,8 +1,12 @@
+language: generic
 
-language: node_js
-node_js:
-  - 10
+before_script:
+  - curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+  - python3 get-pip.py --user
+
 script:
+  - python3 -m pip install -r tools/requirements.txt --user
   - npx yaspeller -c .yaspellerrc.json .
   - npx eclint check .
   - npx eyo --only-safe --lint "**/*.md"
+  - cd tools && bash check_readme.sh
