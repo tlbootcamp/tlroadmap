@@ -189,7 +189,7 @@
 ### Отношения
 - Эмпатия
 - [Эмоциональный интеллект](skills/self-improvement/emotional-intelligence.md)
-- Понимание ценности различий
+- [Понимание ценности различий](skills/self-improvement/diversity.md)
 
 ### Мышление
 - Системное мышление
