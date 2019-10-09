@@ -200,7 +200,7 @@
 
 ### Коммуникации
 - [Фасилитация](skills/self-improvement/facilitation.md)
-- Сотрудничество
+- [Сотрудничество](skills/self-improvement/cooperation.md)
 - Управление конфликтами
 - Дача и получение обратной связи
 - [Нетворкинг](skills/self-improvement/networking.md)
