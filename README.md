@@ -202,7 +202,7 @@
 - [Фасилитация](skills/self-improvement/facilitation.md)
 - Сотрудничество
 - Управление конфликтами
-- Дача и получение обратной связи
+- [Дача и получение обратной связи](skills/self-improvement/feedback.md)
 - [Нетворкинг](skills/self-improvement/networking.md)
 - [Публичные выступления](skills/self-improvement/public-speaking.md)
 - [Работа с текстом](skills/self-improvement/text.md)
