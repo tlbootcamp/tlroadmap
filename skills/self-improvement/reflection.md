@@ -38,3 +38,10 @@
 
 ## Консультации
 - [Чат TeamLead Bootcamp](https://t.me/teamlead_bootcamp)
+
+### Теория
+#### Статьи
+- [How Self-Reflection Can Help Leaders Stay Motivated](https://hbr.org/2018/09/how-self-reflection-can-help-leaders-stay-motivated)
+- [How to Regain the Lost Art of Reflection](https://hbr.org/2017/09/how-to-regain-the-lost-art-of-reflection)
+- [Why You Should Make Time for Self-Reflection (Even If You Hate Doing It)](https://hbr.org/2017/03/why-you-should-make-time-for-self-reflection-even-if-you-hate-doing-it)
+- [How Leaders Use Questions](https://hbswk.hbs.edu/archive/how-leaders-use-questions)
