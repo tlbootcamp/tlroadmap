@@ -183,7 +183,7 @@
 
 ### Развитие себя
 - [Умение учиться](skills/self-improvement/learning.md)
-- Рефлексия
+- [Рефлексия](skills/self-improvement/reflection.md)
 - Выработка привычек
 
 ### Отношения
