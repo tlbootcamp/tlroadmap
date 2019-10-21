@@ -26,7 +26,7 @@ The work is still in progress, so feel free to publish an Issue or open a Pull R
 ## 👩🏼‍💻 For yourself
 1. Download the [MindMap](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/roadmap.mm)(Russian-only for now) with the full Team Lead model.
 2. Mark on it the competencies you already have and those you need for further growth within the company. To give you a hint, look at what your manager or colleagues are doing. If there are still some difficulties, feel free to ask a question in Issues.
-3. Make a list of competencies that that separate your current profile and your target profile.
+3. Make a list of competencies that separate your current profile and your target profile.
 4. Using our knowledge base, create a development plan for each of the competencies, which includes both theory and practical application.
 5. Show your development plan to your manager and ask for assistance.
 
