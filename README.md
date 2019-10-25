@@ -183,7 +183,7 @@
 
 ### Развитие себя
 - [Умение учиться](skills/self-improvement/learning.md)
-- Рефлексия
+- [Рефлексия](skills/self-improvement/reflection.md)
 - Выработка привычек
 
 ### Отношения
@@ -200,7 +200,7 @@
 
 ### Коммуникации
 - [Фасилитация](skills/self-improvement/facilitation.md)
-- Сотрудничество
+- [Сотрудничество](skills/self-improvement/cooperation.md)
 - Управление конфликтами
 - Дача и получение обратной связи
 - [Нетворкинг](skills/self-improvement/networking.md)
