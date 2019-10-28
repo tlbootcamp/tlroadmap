@@ -25,6 +25,7 @@
   "Структура компании": "skills/integrator/company-structure.md",
   "Генерация элементов бэклога": "skills/product-owner/backlog-generation.md",
   "Знание рынка": "skills/product-owner/market-knowledge.md",
+  "Знание пользователей": "skills/product-owner/user-knowledge.md",
   "Приоритизация бэклога": "skills/product-owner/backlog-prioritization.md",
   "Code Review": "skills/technical-lead/code-review.md",
   "Unit-тестирование": "skills/technical-lead/unit-testing.md",
