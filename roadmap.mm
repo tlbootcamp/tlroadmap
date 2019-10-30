@@ -116,6 +116,10 @@
 <edge COLOR="#25bad1" WIDTH="1"/>
 <font NAME="Helvetica Neue" SIZE="18"/>
 </node>
+<node COLOR="#435b66" CREATED="1564322984026" ID="3DB399D7-E877-44D2-83E7-0AB86924F7B2" MODIFIED="1564323588234" STYLE="fork" TEXT="&#x417;&#x43d;&#x430;&#x43d;&#x438;&#x435; &#x43f;&#x43e;&#x43b;&#x44c;&#x437;&#x43e;&#x432;&#x430;&#x442;&#x435;&#x43b;&#x435;&#x439;">
+<edge COLOR="#25bad1" WIDTH="1"/>
+<font NAME="Helvetica Neue" SIZE="18"/>
+</node>
 <node COLOR="#435b66" CREATED="1564322984025" ID="8739A72C-B769-4A2B-B43C-C92402107460" MODIFIED="1564323588234" STYLE="fork" TEXT="&#x417;&#x43d;&#x430;&#x43d;&#x438;&#x435; &#x43f;&#x440;&#x43e;&#x434;&#x443;&#x43a;&#x442;&#x430;">
 <edge COLOR="#25bad1" WIDTH="1"/>
 <font NAME="Helvetica Neue" SIZE="18"/>
@@ -132,18 +136,6 @@
 <font NAME="Helvetica Neue" SIZE="18"/>
 </node>
 <node COLOR="#435b66" CREATED="1564322984026" ID="6FC4A713-BFA1-4D03-A564-3B553B8D54FB" MODIFIED="1564323588234" STYLE="fork" TEXT="Value streams">
-<edge COLOR="#25bad1" WIDTH="1"/>
-<font NAME="Helvetica Neue" SIZE="18"/>
-</node>
-</node>
-<node COLOR="#435b66" CREATED="1564322984026" ID="3DB399D7-E877-44D2-83E7-0AB86924F7B2" MODIFIED="1564323588234" STYLE="fork" TEXT="&#x417;&#x43d;&#x430;&#x43d;&#x438;&#x435; &#x43f;&#x43e;&#x43b;&#x44c;&#x437;&#x43e;&#x432;&#x430;&#x442;&#x435;&#x43b;&#x435;&#x439;">
-<edge COLOR="#25bad1" WIDTH="1"/>
-<font NAME="Helvetica Neue" SIZE="18"/>
-<node COLOR="#435b66" CREATED="1564322984026" ID="67A69D6C-E389-4917-8CFF-C92931705A8C" MODIFIED="1564323588234" STYLE="fork" TEXT="&#x426;&#x435;&#x43b;&#x435;&#x432;&#x430;&#x44f; &#x430;&#x443;&#x434;&#x438;&#x442;&#x43e;&#x440;&#x438;&#x44f; &#x43f;&#x440;&#x43e;&#x434;&#x443;&#x43a;&#x442;&#x430;">
-<edge COLOR="#25bad1" WIDTH="1"/>
-<font NAME="Helvetica Neue" SIZE="18"/>
-</node>
-<node COLOR="#435b66" CREATED="1564322984026" ID="69A6BE81-A1B1-43AF-8FC8-AB5566B6B8C8" MODIFIED="1564323588234" STYLE="fork" TEXT="&#x411;&#x43e;&#x43b;&#x438; &#x43f;&#x43e;&#x43b;&#x44c;&#x437;&#x43e;&#x432;&#x430;&#x442;&#x435;&#x43b;&#x435;&#x439;">
 <edge COLOR="#25bad1" WIDTH="1"/>
 <font NAME="Helvetica Neue" SIZE="18"/>
 </node>
