@@ -199,7 +199,7 @@
 ### Коммуникации
 - [Фасилитация](skills/self-improvement/facilitation.md)
 - [Сотрудничество](skills/self-improvement/cooperation.md)
-- Управление конфликтами
+- [Управление конфликтами](skills/self-improvement/conflicts.md)
 - Дача и получение обратной связи
 - [Нетворкинг](skills/self-improvement/networking.md)
 - [Публичные выступления](skills/self-improvement/public-speaking.md)
