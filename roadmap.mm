@@ -116,6 +116,10 @@
 <edge COLOR="#25bad1" WIDTH="1"/>
 <font NAME="Helvetica Neue" SIZE="18"/>
 </node>
+<node COLOR="#435b66" CREATED="1564322984026" ID="3DB399D7-E877-44D2-83E7-0AB86924F7B2" MODIFIED="1564323588234" STYLE="fork" TEXT="&#x417;&#x43d;&#x430;&#x43d;&#x438;&#x435; &#x43f;&#x43e;&#x43b;&#x44c;&#x437;&#x43e;&#x432;&#x430;&#x442;&#x435;&#x43b;&#x435;&#x439;">
+<edge COLOR="#25bad1" WIDTH="1"/>
+<font NAME="Helvetica Neue" SIZE="18"/>
+</node>
 <node COLOR="#435b66" CREATED="1564322984025" ID="8739A72C-B769-4A2B-B43C-C92402107460" MODIFIED="1564323588234" STYLE="fork" TEXT="&#x417;&#x43d;&#x430;&#x43d;&#x438;&#x435; &#x43f;&#x440;&#x43e;&#x434;&#x443;&#x43a;&#x442;&#x430;">
 <edge COLOR="#25bad1" WIDTH="1"/>
 <font NAME="Helvetica Neue" SIZE="18"/>
@@ -132,18 +136,6 @@
 <font NAME="Helvetica Neue" SIZE="18"/>
 </node>
 <node COLOR="#435b66" CREATED="1564322984026" ID="6FC4A713-BFA1-4D03-A564-3B553B8D54FB" MODIFIED="1564323588234" STYLE="fork" TEXT="Value streams">
-<edge COLOR="#25bad1" WIDTH="1"/>
-<font NAME="Helvetica Neue" SIZE="18"/>
-</node>
-</node>
-<node COLOR="#435b66" CREATED="1564322984026" ID="3DB399D7-E877-44D2-83E7-0AB86924F7B2" MODIFIED="1564323588234" STYLE="fork" TEXT="&#x417;&#x43d;&#x430;&#x43d;&#x438;&#x435; &#x43f;&#x43e;&#x43b;&#x44c;&#x437;&#x43e;&#x432;&#x430;&#x442;&#x435;&#x43b;&#x435;&#x439;">
-<edge COLOR="#25bad1" WIDTH="1"/>
-<font NAME="Helvetica Neue" SIZE="18"/>
-<node COLOR="#435b66" CREATED="1564322984026" ID="67A69D6C-E389-4917-8CFF-C92931705A8C" MODIFIED="1564323588234" STYLE="fork" TEXT="&#x426;&#x435;&#x43b;&#x435;&#x432;&#x430;&#x44f; &#x430;&#x443;&#x434;&#x438;&#x442;&#x43e;&#x440;&#x438;&#x44f; &#x43f;&#x440;&#x43e;&#x434;&#x443;&#x43a;&#x442;&#x430;">
-<edge COLOR="#25bad1" WIDTH="1"/>
-<font NAME="Helvetica Neue" SIZE="18"/>
-</node>
-<node COLOR="#435b66" CREATED="1564322984026" ID="69A6BE81-A1B1-43AF-8FC8-AB5566B6B8C8" MODIFIED="1564323588234" STYLE="fork" TEXT="&#x411;&#x43e;&#x43b;&#x438; &#x43f;&#x43e;&#x43b;&#x44c;&#x437;&#x43e;&#x432;&#x430;&#x442;&#x435;&#x43b;&#x435;&#x439;">
 <edge COLOR="#25bad1" WIDTH="1"/>
 <font NAME="Helvetica Neue" SIZE="18"/>
 </node>
@@ -244,7 +236,7 @@
 <node COLOR="#435b66" CREATED="1564322984031" ID="EF007272-0B1A-4F6B-843B-08C9394A5554" MODIFIED="1564323588235" STYLE="fork" TEXT="&#x41e;&#x431;&#x435;&#x441;&#x43f;&#x435;&#x447;&#x435;&#x43d;&#x438;&#x435; &#x442;&#x435;&#x445;&#x43d;&#x438;&#x447;&#x435;&#x441;&#x43a;&#x43e;&#x433;&#x43e; &#x43a;&#x430;&#x447;&#x435;&#x441;&#x442;&#x432;&#x430;">
 <edge COLOR="#dc2128" WIDTH="1"/>
 <font NAME="Helvetica Neue" SIZE="18"/>
-<node COLOR="#435b66" CREATED="1564322984031" ID="053FBD60-F850-497D-90A5-C2146C6C988A" MODIFIED="1564323588235" STYLE="fork" TEXT="Unit-&#x442;&#x435;&#x441;&#x442;&#x44b;">
+<node COLOR="#435b66" CREATED="1564322984031" ID="053FBD60-F850-497D-90A5-C2146C6C988A" MODIFIED="1564323588235" STYLE="fork" TEXT="Unit-&#x442;&#x435;&#x441;&#x442;&#x438;&#x440;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x435;">
 <edge COLOR="#dc2128" WIDTH="1"/>
 <font NAME="Helvetica Neue" SIZE="18"/>
 </node>
@@ -379,7 +371,7 @@
 <node COLOR="#435b66" CREATED="1564322984036" ID="C48496CF-6D55-4983-81D1-DFD060F4DE65" MODIFIED="1564323588236" STYLE="fork" TEXT="&#x412;&#x44b;&#x43f;&#x443;&#x441;&#x43a; &#x437;&#x430;&#x434;&#x430;&#x447;">
 <edge COLOR="#fcb60d" WIDTH="1"/>
 <font NAME="Helvetica Neue" SIZE="18"/>
-<node COLOR="#435b66" CREATED="1564322984036" ID="F7D68A27-7242-4F68-AF45-DF2E69348518" MODIFIED="1564323588236" STYLE="fork" TEXT="&#x41f;&#x440;&#x438;&#x435;&#x43c;&#x43a;&#x430;">
+<node COLOR="#435b66" CREATED="1564322984036" ID="F7D68A27-7242-4F68-AF45-DF2E69348518" MODIFIED="1570390219636" STYLE="fork" TEXT="&#x41f;&#x440;&#x438;&#x451;&#x43c;&#x43a;&#x430;">
 <edge COLOR="#fcb60d" WIDTH="1"/>
 <font NAME="Helvetica Neue" SIZE="18"/>
 </node>

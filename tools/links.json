@@ -25,8 +25,12 @@
   "Структура компании": "skills/integrator/company-structure.md",
   "Генерация элементов бэклога": "skills/product-owner/backlog-generation.md",
   "Знание рынка": "skills/product-owner/market-knowledge.md",
+  "Знание пользователей": "skills/product-owner/user-knowledge.md",
   "Приоритизация бэклога": "skills/product-owner/backlog-prioritization.md",
   "Code Review": "skills/technical-lead/code-review.md",
+  "Написание кода": "skills/technical-lead/code.md",
+  "Unit-тестирование": "skills/technical-lead/unit-testing.md",
+  "Сотрудничество": "skills/self-improvement/cooperation.md",
   "Понимание ценности различий": "skills/self-improvement/diversity.md",
   "Эмоциональный интеллект": "skills/self-improvement/emotional-intelligence.md",
   "Фасилитация": "skills/self-improvement/facilitation.md",
@@ -34,6 +38,7 @@
   "Умение учиться": "skills/self-improvement/learning.md",
   "Нетворкинг": "skills/self-improvement/networking.md",
   "Публичные выступления": "skills/self-improvement/public-speaking.md",
+  "Рефлексия": "skills/self-improvement/reflection.md",
   "Работа с текстом": "skills/self-improvement/text.md",
   "Управление временем": "skills/self-improvement/time-management.md"
 }
