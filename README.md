@@ -135,7 +135,7 @@
 - Обеспечение технического качества
     - [Unit-тестирование](skills/technical-lead/unit-testing.md)
     - Чистый код
-    - Рефакторинг
+    - [Рефакторинг](skills/technical-lead/refactoring.md)
     - Управление техническим долгом
 - Знание технологий
     - [Написание кода](skills/technical-lead/code.md)
