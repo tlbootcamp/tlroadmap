@@ -68,6 +68,10 @@
 <edge COLOR="#1286de" WIDTH="1"/>
 <font NAME="Helvetica Neue" SIZE="18"/>
 </node>
+<node COLOR="#435b66" CREATED="1564322984023" ID="ID_440628192" MODIFIED="1574617367314" STYLE="fork" TEXT="&#x414;&#x435;&#x43b;&#x435;&#x433;&#x438;&#x440;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x435;" VSHIFT="-13">
+<edge COLOR="#1286de" WIDTH="1"/>
+<font NAME="Helvetica Neue" SIZE="18"/>
+</node>
 </node>
 <node COLOR="#435b66" CREATED="1564322984023" ID="8DB07529-F2EF-4539-A9F6-32029510546B" MODIFIED="1564323588234" STYLE="fork" TEXT="&#x423;&#x43f;&#x440;&#x430;&#x432;&#x43b;&#x435;&#x43d;&#x438;&#x435; &#x43a;&#x43e;&#x43c;&#x430;&#x43d;&#x434;&#x43e;&#x439;">
 <edge COLOR="#1286de" WIDTH="1"/>
