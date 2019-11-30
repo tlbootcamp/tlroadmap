@@ -88,6 +88,7 @@
     - [Обратная связь](skills/resource-manager/feedback.md)
     - [One-to-one](skills/resource-manager/one-to-one.md)
     - [Административная работа](skills/resource-manager/admin.md)
+    - [Делегирование](skills/resource-manager/delegation.md)
 - Управление командой
     - [Запуск команды](skills/resource-manager/team-launch.md)
     - [Управление компетенциями](skills/resource-manager/competency-management.md)
