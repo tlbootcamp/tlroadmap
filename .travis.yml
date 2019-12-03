@@ -3,7 +3,7 @@ python:
   - 3.7
 
 install:
-  - pip install -r tools/requirements.txt --user
+  - pip install -r tools/requirements.txt
 
 script:
   - curl -JLO http://sourceforge.net/projects/plantuml/files/plantuml.jar/download
