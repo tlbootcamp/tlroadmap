@@ -8,7 +8,10 @@ install:
 script:
   - curl -JLO http://sourceforge.net/projects/plantuml/files/plantuml.jar/download
   - cat roadmap.puml | java -jar plantuml.jar -pipe > roadmap.png
+<<<<<<< HEAD
   - rm -rf roadmap.mm
+=======
+>>>>>>> 59cc6bfa25c089ebd8a39115738e7b72e6cd4f92
   - plantuml2freemind convert roadmap.puml roadmap.mm --no-interaction
   - npx yaspeller -c .yaspellerrc.json .
   - npx eclint check .
