@@ -30,7 +30,7 @@ def main():
 
         # Updating knowledge base
         os.system("plantuml2freemind convert {puml} roadmap.md --no-interaction".format(puml=PUML_FILEPATH))
-        with open("test.md", "r") as new_readme:
+        with open("roadmap.md", "r") as new_readme:
             new_readme_content = new_readme.read()
 
         begin, middle = old_readme_content.split(CONTENTS_BEGIN)
