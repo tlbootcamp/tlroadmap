@@ -1,16 +1,13 @@
-language: generic
+language: python
 python:
-  - "3.7"
+  - 3.7
 
-before_script:
-  - curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-  - python3 get-pip.py --user
-  - curl -JLO http://sourceforge.net/projects/plantuml/files/plantuml.jar/download
+install:
+  - pip install -r tools/requirements.txt --user
 
 script:
+  - curl -JLO http://sourceforge.net/projects/plantuml/files/plantuml.jar/download
   - cat roadmap.puml | java -jar plantuml.jar -pipe > roadmap.png
-  - python3 -m pip --version
-  - python3 -m pip install -r tools/requirements.txt --user
   - plantuml2freemind convert roadmap.puml roadmap.mm
   - npx yaspeller -c .yaspellerrc.json .
   - npx eclint check .
