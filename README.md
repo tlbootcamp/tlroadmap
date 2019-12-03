@@ -88,6 +88,7 @@
     - [Обратная связь](skills/resource-manager/feedback.md)
     - [One-to-one](skills/resource-manager/one-to-one.md)
     - [Административная работа](skills/resource-manager/admin.md)
+    - [Делегирование](skills/resource-manager/delegation.md)
 - Управление командой
     - [Запуск команды](skills/resource-manager/team-launch.md)
     - [Управление компетенциями](skills/resource-manager/competency-management.md)
@@ -135,7 +136,7 @@
 - Обеспечение технического качества
     - [Unit-тестирование](skills/technical-lead/unit-testing.md)
     - Чистый код
-    - Рефакторинг
+    - [Рефакторинг](skills/technical-lead/refactoring.md)
     - Управление техническим долгом
 - Знание технологий
     - [Написание кода](skills/technical-lead/code.md)
@@ -200,7 +201,7 @@
 - [Фасилитация](skills/self-improvement/facilitation.md)
 - [Сотрудничество](skills/self-improvement/cooperation.md)
 - Управление конфликтами
-- Дача и получение обратной связи
+- [Дача и получение обратной связи](skills/self-improvement/feedback.md)
 - [Нетворкинг](skills/self-improvement/networking.md)
 - [Публичные выступления](skills/self-improvement/public-speaking.md)
 - [Работа с текстом](skills/self-improvement/text.md)
