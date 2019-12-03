@@ -1,1 +1,2 @@
 lxml==4.4.1
+plantuml2freemind==0.7.1
