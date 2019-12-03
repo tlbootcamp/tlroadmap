@@ -7,6 +7,7 @@ before_script:
 
 script:
   - cat roadmap.puml | java -jar plantuml.jar -pipe > roadmap.png
+  - python3 -m pip --version
   - python3 -m pip install -r tools/requirements.txt --user
   - plantuml2freemind convert roadmap.puml roadmap.mm
   - npx yaspeller -c .yaspellerrc.json .
