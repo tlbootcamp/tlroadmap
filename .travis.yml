@@ -6,9 +6,6 @@ install:
   - pip install -r tools/requirements.txt
 
 script:
-  - curl -JLO http://sourceforge.net/projects/plantuml/files/plantuml.jar/download
-  - cat roadmap.puml | java -jar plantuml.jar -pipe > roadmap.png
-  - plantuml2freemind convert roadmap.puml roadmap.mm --no-interaction
   - npx yaspeller -c .yaspellerrc.json .
   - npx eclint check .
   - npx eyo --only-safe --lint "**/*.md"
