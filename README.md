@@ -188,7 +188,7 @@
 - [Нетворкинг](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/networking.md)
 - [Публичные выступления](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/public-speaking.md)
 - [Работа с текстом](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/text.md)
-### Тайм-менеджемент
+### Тайм-менеджмент
 - Постановка личных целей
 - [Управление временем](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/time-management.md)
 - Управление приоритетами
