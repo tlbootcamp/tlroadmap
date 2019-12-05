@@ -52,6 +52,8 @@ def main():
             begin, CONTENTS_BEGIN, updated_middle, CONTENTS_END, end
         )
 
+        os.system("rm -rf roadmap.md")
+
         with open(README_FILEPATH, "w") as updated_readme:
             updated_readme.write(updated_readme_contents)
 
