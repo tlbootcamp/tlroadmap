@@ -71,59 +71,49 @@
 
 <!--roadmap.mm table of contents begin-->
 ## Роли и обязанности
-
 ### Resource Manager
 - Управление людьми
     - Найм
-        - [Профиль кандидата](skills/resource-manager/profile.md)
-        - [Собеседования](skills/resource-manager/interview.md)
-        - [Онбординг](skills/resource-manager/onboarding.md)
-        - [Тестовый период](skills/resource-manager/test-period.md)
-    - [Увольнение](skills/resource-manager/firing.md)
-    - [Мотивация](skills/resource-manager/motivation.md)
-    - [Развитие](skills/resource-manager/development.md)
+        - [Профиль кандидата](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/profile.md)
+        - [Собеседования](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/interview.md)
+        - [Онбординг](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/onboarding.md)
+        - [Тестовый период](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/test-period.md)
+    - [Увольнение](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/firing.md)
+    - [Мотивация](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/motivation.md)
+    - [Развитие](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/development.md)
     - Промо
-        - [Ассессмент](skills/resource-manager/assessment.md)
-        - [Карьерная линейка](skills/resource-manager/career.md)
-    - [Обратная связь](skills/resource-manager/feedback.md)
-    - [One-to-one](skills/resource-manager/one-to-one.md)
-    - [Административная работа](skills/resource-manager/admin.md)
-    - [Делегирование](skills/resource-manager/delegation.md)
+        - [Ассессмент](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/assessment.md)
+        - [Карьерная линейка](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/career.md)
+    - [Обратная связь](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/feedback.md)
+    - [One-to-one](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/one-to-one.md)
+    - [Административная работа](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/admin.md)
+    - [Делегирование](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/delegation.md)
 - Управление командой
-    - [Запуск команды](skills/resource-manager/team-launch.md)
-    - [Управление компетенциями](skills/resource-manager/competency-management.md)
-    - [Дизайн команды](skills/resource-manager/team-design.md)
-    - [Организация рабочего пространства](skills/resource-manager/workspace.md)
-    - [Климат в команде](skills/resource-manager/team-climate.md)
-    - [Зрелость команды](skills/resource-manager/team-maturity.md)
-    - [Обеспечение прозрачности](skills/resource-manager/transparency.md)
-- [Развитие технического бренда](skills/resource-manager/techpr.md)
-
+    - [Запуск команды](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/team-launch.md)
+    - [Управление компетенциями](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/competency-management.md)
+    - [Дизайн команды](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/team-design.md)
+    - [Организация рабочего пространства](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/workspace.md)
+    - [Климат в команде](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/team-climate.md)
+    - [Зрелость команды](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/team-maturity.md)
+    - [Обеспечение прозрачности](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/transparency.md)
+- [Развитие технического бренда](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/techpr.md)
 ### Product Owner
 - Понимание продукта
-    - [Знание рынка](skills/product-owner/market-knowledge.md)
-    - [Знание пользователей](skills/product-owner/user-knowledge.md)
+    - [Знание рынка](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/market-knowledge.md)
+    - [Знание пользователей](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/user-knowledge.md)
     - Знание продукта
-        - Видение продукта
-        - Стратегия продукта
-        - Метрики продукта
-        - Value streams
 - Принятие продуктовых решений
     - Целеполагание
-        - Процесс целеполагания
-        - Готовые подходы
     - Управление продуктовым бэклогом
-        - [Генерация элементов бэклога](skills/product-owner/backlog-generation.md)
-        - [Приоритизация бэклога](skills/product-owner/backlog-prioritization.md)
-
+        - [Генерация элементов бэклога](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/backlog-generation.md)
+        - [Приоритизация бэклога](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/backlog-prioritization.md)
 ### Integrator
-- [Знание бизнеса](skills/integrator/business-knowledge.md)
-- [Корпоративная культура](skills/integrator/corporate-culture.md)
-- [Структура компании](skills/integrator/company-structure.md)
-
+- [Знание бизнеса](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/integrator/business-knowledge.md)
+- [Корпоративная культура](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/integrator/corporate-culture.md)
+- [Структура компании](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/integrator/company-structure.md)
 ### Technical Lead
 - Обеспечение качества продукта
-    - [Code Review](skills/technical-lead/code-review.md)
+    - [Code Review](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/code-review.md)
     - Тестирование
         - Тестовая модель
         - Тест-планы
@@ -134,12 +124,12 @@
     - Метрики и мониторинг
     - Нефункциональные требования
 - Обеспечение технического качества
-    - [Unit-тестирование](skills/technical-lead/unit-testing.md)
+    - [Unit-тестирование](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/unit-testing.md)
     - Чистый код
-    - [Рефакторинг](skills/technical-lead/refactoring.md)
+    - [Рефакторинг](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/refactoring.md)
     - Управление техническим долгом
 - Знание технологий
-    - [Написание кода](skills/technical-lead/code.md)
+    - [Написание кода](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/code.md)
     - Знание технологического стека команды
     - Выбор технологий и контроль их стека
 - Автоматизация цикла разработки
@@ -155,10 +145,9 @@
     - Архитектурные ревью
     - Эволюция
 - Capacity Management
-
 ### Administrator
 - Построение цикла разработки
-    - [Получение задач](skills/administrator/task-inbox.md)
+    - [Получение задач](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/task-inbox.md)
     - Разработка
         - Конструирование методологии
             - Описание
@@ -177,38 +166,31 @@
         - PMBoK
         - PDCA
 - Стейкхолдинг
-
 ## Personal Skills
-
 ### Развитие себя
-- [Умение учиться](skills/self-improvement/learning.md)
-- [Рефлексия](skills/self-improvement/reflection.md)
+- [Умение учиться](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/learning.md)
+- [Рефлексия](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/reflection.md)
 - Выработка привычек
-
 ### Отношения
 - Эмпатия
-- [Эмоциональный интеллект](skills/self-improvement/emotional-intelligence.md)
-- [Понимание ценности различий](skills/self-improvement/diversity.md)
-
+- [Эмоциональный интеллект](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/emotional-intelligence.md)
+- [Понимание ценности различий](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/diversity.md)
 ### Мышление
 - Системное мышление
 - Стратегическое видение
 - Принятие решений
-
 ### Стили управления
-
 ### Коммуникации
-- [Фасилитация](skills/self-improvement/facilitation.md)
-- [Сотрудничество](skills/self-improvement/cooperation.md)
+- [Фасилитация](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/facilitation.md)
+- [Сотрудничество](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/cooperation.md)
 - Управление конфликтами
-- [Дача и получение обратной связи](skills/self-improvement/feedback.md)
-- [Нетворкинг](skills/self-improvement/networking.md)
-- [Публичные выступления](skills/self-improvement/public-speaking.md)
-- [Работа с текстом](skills/self-improvement/text.md)
-
-### Тайм-менеджмент
+- [Дача и получение обратной связи](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/feedback.md)
+- [Нетворкинг](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/networking.md)
+- [Публичные выступления](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/public-speaking.md)
+- [Работа с текстом](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/text.md)
+### Тайм-менеджемент
 - Постановка личных целей
-- [Управление временем](skills/self-improvement/time-management.md)
+- [Управление временем](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/time-management.md)
 - Управление приоритетами
 <!--roadmap.mm table of contents end-->
 
