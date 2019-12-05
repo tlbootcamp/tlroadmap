@@ -20,11 +20,21 @@ CONTENTS_END = "<!--roadmap.mm table of contents end-->"
 
 RELATIVE_README_FILEPATH = "../README.md"
 RELATIVE_PUML_FILEPATH = "../roadmap.puml"
+RELATIVE_MM_FILEPATH = "../roadmap.mm"
+RELATIVE_PNG_FILEPATH = "../roadmap.png"
 
 README_FILEPATH = os.path.abspath(RELATIVE_README_FILEPATH)
 PUML_FILEPATH = os.path.abspath(RELATIVE_PUML_FILEPATH)
+MM_FILEPATH = os.path.abspath(RELATIVE_MM_FILEPATH)
+PNG_FILEPATH = os.path.abspath(RELATIVE_PNG_FILEPATH)
 
 def main():
+    # Updating .mm
+    os.system("plantuml2freemind convert {puml} {mm} --no-interaction".format(puml=PUML_FILEPATH, mm=MM_FILEPATH))
+
+    # Updating png
+    os.system("cat {puml} | java -jar plantuml.jar -pipe > {png}".format(puml=PUML_FILEPATH, png=PNG_FILEPATH))
+
     with open(README_FILEPATH, "r") as old_readme:
         old_readme_content = old_readme.read()
 
@@ -36,7 +46,6 @@ def main():
         begin, middle = old_readme_content.split(CONTENTS_BEGIN)
         middle, end = middle.split(CONTENTS_END)
         
-        print(new_readme_content)
         # Little hack to delete 1st string
         updated_middle = new_readme_content.split("\n\n")[1]
         updated_readme_contents = "{}{}\n{}\n{}{}".format(
