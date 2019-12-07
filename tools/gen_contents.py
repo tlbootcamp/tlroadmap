@@ -10,6 +10,7 @@ import os
 def main():
     os.system("python3 gen_readme.py")
     os.system("python3 gen_mindmap.py")
+    os.system("python3 gen_examples.py")
 
 if __name__ == "__main__":
     main()

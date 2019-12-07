@@ -50,10 +50,8 @@
 `mm`-файл проще всего открывать в [Freemind](https://sourceforge.net/projects/freemind/) (бесплатно и сердито), [MindNode](https://mindnode.com/) (дорого и премиально) или [MindMeister](https://mindmeister.com) (условно-бесплатно и онлайн). Скорее всего подойдут и другие редакторы майндмепов, но их работоспособность мы не проверяли.
 
 ## Примеры использования
-Мы подготовили несколько часто встречающихся моделей тимлида. С их помощью можно посмотреть, как работать с роадмапом, либо просто забрать их в свою компанию как примеры:
-- Играющий тренер в scrum-команде: [mindmap](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/examples/playing-coach.mm)
-- Технический лид: [mindmap](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/examples/techlead.mm)
-- Тимлид стартапа: [mindmap](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/examples/startup-teamlead.mm)
+Мы собираем профили тимлидов из разных компаний. Если вы использовали роадмап, [не забудьте пошарить](CONTRIBUTING.md), что у вас получилось! С их помощью можно посмотреть, как работать с роадмапом, либо просто забрать их в свою компанию как примеры:
+- Technical Unit Lead в Авито: [mindmap](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/examples/avito.mm)
 
 # Work in progress
 Текущий роадмап – альфа-версия, в которой есть общая структура компетенций тимлида и частично описана первая крупная роль, Resource Manager. Мы будем очень рады вашему участию в проекте – а про варианты и сам процесс подробно написали в [`CONTRIBUTING.md`](CONTRIBUTING.md).
