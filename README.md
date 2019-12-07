@@ -69,7 +69,7 @@
 
 <!--roadmap.mm table of contents begin-->
 ## Роли и обязанности
-### Resource Manager
+### People Manager
 - Управление людьми
     - Найм
         - [Профиль кандидата](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/profile.md)
