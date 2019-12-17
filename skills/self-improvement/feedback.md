@@ -75,4 +75,4 @@
 <!-- yaspeller ignore:end -->
 
 ### Книги
-- [Спасибо за отзыв. Как правильно реагировать на обратную связь, Дуглас Стоун, Шейла Хин, 2014](https://www.litres.ru/duglas-stoun/spasibo-za-otzyv-kak-pravilno-reagirovat-na-obratnuu-svyaz/) 
+- [Спасибо за отзыв. Как правильно реагировать на обратную связь, Дуглас Стоун, Шейла Хин, 2014](https://www.litres.ru/duglas-stoun/spasibo-za-otzyv-kak-pravilno-reagirovat-na-obratnuu-svyaz/)
