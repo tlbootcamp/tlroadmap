@@ -57,7 +57,7 @@ One-to-one – это регулярные встречи менеджера и 
 
 ## Способы прокачки
 ### Консультации
-- [Чат TeamLead Bootcamp](https://t.me/teamlead_bootcamp)
+- [Чат TeamLead Bootcamp](https://t.me/tlbootcamp)
 
 ### Практика
 #### Как внедрить процесс
@@ -107,3 +107,6 @@ One-to-one – это регулярные встречи менеджера и 
 - [Про важность прозрачность и агенды на one-to-one](https://opensource.com/open-organization/18/5/open-one-on-one-meetings-guide)
 - [Как тимлид в Spotify трансформировал one-to-one из бездушной встречи в полезный инструмент](https://labs.spotify.com/2015/12/16/a-101-on-11s/)
 - [Ещё один чек-лист для проведения one-to-one](https://hbswk.hbs.edu/item/master-the-one-on-one-meeting)
+
+#### Книги
+- [Behind Closed Doors: Secrets of Great Management, Johanna Rothman, Esther Derby, 2005](https://www.amazon.com/Behind-Closed-Doors-Management-Programmers-ebook/dp/B00A4OA6UQ/)
