@@ -73,3 +73,6 @@
 
 - [Метод оценки персонала «360 градусов»](http://www.elitarium.ru/metod-ocenka-360-gradusov-opros-podchinennyj-rukovoditel-organizaciya-kompetenciya-podrazdelenie-rezultat-razvitie/)
 <!-- yaspeller ignore:end -->
+
+### Книги
+- [Спасибо за отзыв. Как правильно реагировать на обратную связь, Дуглас Стоун, Шейла Хин, 2014](https://www.litres.ru/duglas-stoun/spasibo-za-otzyv-kak-pravilno-reagirovat-na-obratnuu-svyaz/)
