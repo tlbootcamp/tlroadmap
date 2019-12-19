@@ -57,7 +57,7 @@ One-to-one – это регулярные встречи менеджера и 
 
 ## Способы прокачки
 ### Консультации
-- [Чат TeamLead Bootcamp](https://t.me/teamlead_bootcamp)
+- [Чат TeamLead Bootcamp](https://t.me/tlbootcamp)
 
 ### Практика
 #### Как внедрить процесс
