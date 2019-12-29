@@ -130,3 +130,4 @@
 #### Видео
 - [Драйв! Что на самом деле нас мотивирует](https://youtu.be/GOE5zGWdrww)
 - [Обзор и объяснение терминов: стимул, мотив, потребность. Обзор теорий мотивации Неделя 1, 2](https://www.coursera.org/learn/psikhotekhnologii-raboty/home/welcome)
+- [Анна Обухова. Хочу/буду и деньги. Мотивация Agile команды](https://www.youtube.com/watch?v=OCgxIMhsy60)
