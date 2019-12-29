@@ -25,12 +25,12 @@ README_FILEPATH = os.path.abspath(RELATIVE_README_FILEPATH)
 PUML_FILEPATH = os.path.abspath(RELATIVE_PUML_FILEPATH)
 
 def main():
-    with open(README_FILEPATH, "r") as old_readme:
+    with open(README_FILEPATH, mode="r", encoding='utf-8') as old_readme:
         old_readme_content = old_readme.read()
 
         # Updating knowledge base
         os.system("plantuml2freemind convert {puml} roadmap.md --no-interaction".format(puml=PUML_FILEPATH))
-        with open("roadmap.md", "r") as new_readme:
+        with open("roadmap.md", mode="r", encoding='utf-8') as new_readme:
             new_readme_content = new_readme.read()
 
         begin, middle = old_readme_content.split(CONTENTS_BEGIN)
@@ -44,7 +44,7 @@ def main():
 
         os.system("rm -rf roadmap.md")
 
-        with open(README_FILEPATH, "w") as updated_readme:
+        with open(README_FILEPATH, mode="w", encoding='utf-8') as updated_readme:
             updated_readme.write(updated_readme_contents)
 
 
