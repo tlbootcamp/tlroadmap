@@ -56,7 +56,7 @@
 
 ## Теория
 ### Книги
-- ITIL 4 Foundation, 2019, https://www.axelos.com
+- [ITIL 4 Foundation, 2019](https://www.axelos.com)
 
 - Digital Swarming “The Next Model for Distributed Collaboration and Decision Making”, Cisco Internet Business Solutions Group (IBSG), 2008, https://s3.amazonaws.com/connected_republic/attachments/4/Digital_Swarming_EB_0812c_FINAL.pdf
 
