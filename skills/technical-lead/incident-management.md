@@ -58,6 +58,6 @@
 ### Книги
 - [ITIL 4 Foundation, 2019](https://www.axelos.com)
 
-- Digital Swarming “The Next Model for Distributed Collaboration and Decision Making”, Cisco Internet Business Solutions Group (IBSG), 2008, https://s3.amazonaws.com/connected_republic/attachments/4/Digital_Swarming_EB_0812c_FINAL.pdf
+- [Digital Swarming “The Next Model for Distributed Collaboration and Decision Making”, Cisco Internet Business Solutions Group (IBSG), 2008](https://s3.amazonaws.com/connected_republic/attachments/4/Digital_Swarming_EB_0812c_FINAL.pdf)
 
 - Intelligent Swarming: A Framework for Collaboration, 2019, https://library.serviceinnovation.org/Intelligent_Swarming/Intelligent_Swarming%3A_A_Framework_for_Collaboration
