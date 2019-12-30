@@ -51,3 +51,4 @@
 - [Getting Results the Agile Way: A Personal Results System for Work and Life](https://www.amazon.com/Getting-Results-Agile-Way-Personal/dp/0984548203)
 - [Джедайские техники
 Как воспитать свою обезьяну, опустошить инбокс и сберечь мыслетопливо](https://www.mann-ivanov-ferber.ru/books/dzhedajskie-texniki/)
+- [Путь джедая. Поиск собственной методики продуктивности | Дорофеев Максим](https://www.ozon.ru/context/detail/id/161055633/)

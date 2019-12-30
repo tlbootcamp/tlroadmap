@@ -21,7 +21,7 @@ def main():
     os.system("plantuml2freemind convert {puml} {mm} --no-interaction".format(puml=PUML_FILEPATH, mm=MM_FILEPATH))
 
     # Updating png
-    os.system("cat {puml} | java -jar plantuml.jar -pipe > {png}".format(puml=PUML_FILEPATH, png=PNG_FILEPATH))
+    os.system("cat {puml} | java -jar plantuml.jar -charset UTF-8 -pipe > {png}".format(puml=PUML_FILEPATH, png=PNG_FILEPATH))
 
 if __name__ == "__main__":
     main()

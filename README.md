@@ -182,7 +182,7 @@
 ### Коммуникации
 - [Фасилитация](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/facilitation.md)
 - [Сотрудничество](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/cooperation.md)
-- Управление конфликтами
+- [Управление конфликтами](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/conflicts.md)
 - [Дача и получение обратной связи](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/feedback.md)
 - [Нетворкинг](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/networking.md)
 - [Публичные выступления](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/public-speaking.md)
