@@ -133,7 +133,7 @@
     - Выбор технологий и контроль их стека
 - Автоматизация цикла разработки
     - Работа с VCS
-    - CI
+    - [CI](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/ci.md)
     - Автоматизация релизов
 - Управление знаниями
     - Распространение знаний
