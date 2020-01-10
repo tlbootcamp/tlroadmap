@@ -188,7 +188,7 @@
 - [Публичные выступления](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/public-speaking.md)
 - [Работа с текстом](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/text.md)
 ### Тайм-менеджмент
-- [Постановка личных целей](skills/self-improvement/goal-setting.md)
+- Постановка личных целей
 - [Управление временем](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/time-management.md)
 - Управление приоритетами
 <!--roadmap.mm table of contents end-->
