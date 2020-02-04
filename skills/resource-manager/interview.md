@@ -41,7 +41,7 @@
 
 ## Способы прокачки
 ### Консультации
-- [Чат TeamLead Bootcamp](https://t.me/teamlead_bootcamp)
+- [Чат TeamLead Bootcamp](https://t.me/tlbootcamp)
 
 ### Практика
 Как внедрить процесс. Порядок этапов не является каноническим, впрочем как и не обязательно их наличие.
@@ -98,7 +98,7 @@
 
 ## Способы прокачки
 ### Консультации
-- [Чат TeamLead Bootcamp](https://t.me/teamlead_bootcamp)
+- [Чат TeamLead Bootcamp](https://t.me/tlbootcamp)
 
 ### Теория
 #### Книги

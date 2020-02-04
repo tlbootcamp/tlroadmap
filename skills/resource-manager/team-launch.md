@@ -71,4 +71,4 @@
 - Как принимаем решения? (большинство голосов, римское голосование, подбрасываем монету)
 
 ### Консультации
-- [Чат TeamLead Bootcamp](https://t.me/teamlead_bootcamp)
+- [Чат TeamLead Bootcamp](https://t.me/tlbootcamp)
