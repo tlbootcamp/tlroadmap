@@ -54,7 +54,7 @@
 
 ## Способы прокачки
 ### Консультации
-- [Чат TeamLead Bootcamp](https://t.me/teamlead_bootcamp)
+- [Чат TeamLead Bootcamp](https://t.me/tlbootcamp)
 
 ### Практика
 #### Прозрачность наружу

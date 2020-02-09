@@ -42,7 +42,7 @@
     - [Мотивационные карты](https://blog.unusual-concepts.ru/2014/07/11/mm-spidergap/) - более общий, даёт возможность на свою интерпретацию каждого мотиватора
 
 ### Консультации
-- [Чат TeamLead Bootcamp](https://t.me/teamlead_bootcamp)
+- [Чат TeamLead Bootcamp](https://t.me/tlbootcamp)
 
 ### Теория
 

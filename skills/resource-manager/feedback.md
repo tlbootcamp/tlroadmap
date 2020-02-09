@@ -51,7 +51,7 @@
 - [Обучение профессиональному коучингу](https://icf-russia.ru/icf-info/provajdery-obuchenija-kouchingu-v-rossii/)
 
 ### Консультации
-- [Чат TeamLead Bootcamp](https://t.me/teamlead_bootcamp)
+- [Чат TeamLead Bootcamp](https://t.me/tlbootcamp)
 
 ### Теория
 #### Статьи

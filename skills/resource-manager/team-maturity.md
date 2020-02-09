@@ -21,4 +21,4 @@ HR, Product Owner, тимлид ниже уровнем
 
 ## Способы прокачки
 ### Консультации
-- [Чат TeamLead Bootcamp](https://t.me/teamlead_bootcamp)
+- [Чат TeamLead Bootcamp](https://t.me/tlbootcamp)
