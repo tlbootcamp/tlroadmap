@@ -154,7 +154,7 @@
             - Движение
             - Контроль выполнения
         - Готовые подходы
-            - Scrum
+            - [Scrum](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/scrum.md)
             - Lean
     - Выпуск задач
         - Приёмка
