@@ -190,7 +190,7 @@
 ### Тайм-менеджмент
 - Постановка личных целей
 - [Управление временем](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/time-management.md)
-- Управление приоритетами
+- [Управление приоритетами](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/prioritization.md)
 <!--roadmap.mm table of contents end-->
 
 # Лицензия
