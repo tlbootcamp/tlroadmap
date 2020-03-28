@@ -149,10 +149,6 @@
     - [Получение задач](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/task-inbox.md)
     - Разработка
         - Конструирование методологии
-            - Описание
-            - Оценка
-            - Движение
-            - Контроль выполнения
         - Готовые подходы
             - [Scrum](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/scrum.md)
             - Lean
@@ -160,10 +156,8 @@
         - Приёмка
         - Раскатка
 - Проектное управление
-    - Конструирование методологии
-    - Готовые подходы
-        - PMBoK
-        - PDCA
+    - PMBoK
+    - PDCA
 - Стейкхолдинг
 ## Personal Skills
 ### Развитие себя
