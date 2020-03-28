@@ -97,10 +97,16 @@
     - [Знание пользователей](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/user-knowledge.md)
     - Знание продукта
 - Принятие продуктовых решений
+    - Продуктовая стратегия
     - Целеполагание
+    - Управление роадмапом
     - Управление продуктовым бэклогом
         - [Генерация элементов бэклога](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/backlog-generation.md)
         - [Приоритизация бэклога](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/backlog-prioritization.md)
+- Управление продуктом
+    - Запуск продукта
+    - Ценообразование
+    - Жизненный цикл фичей
 ### Integrator
 - [Знание бизнеса](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/integrator/business-knowledge.md)
 - [Корпоративная культура](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/integrator/corporate-culture.md)
