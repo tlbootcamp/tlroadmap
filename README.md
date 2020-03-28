@@ -126,7 +126,7 @@
     - [Unit-тестирование](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/unit-testing.md)
     - Чистый код
     - [Рефакторинг](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/refactoring.md)
-    - Управление техническим долгом
+    - [Управление техническим долгом](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/technical-debt.md)
 - Знание технологий
     - [Написание кода](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/code.md)
     - Знание технологического стека команды
