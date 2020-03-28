@@ -121,7 +121,7 @@
     - Работа с багами
     - [Управление инцидентами](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/incident-management.md)
     - Метрики и мониторинг
-    - Нефункциональные требования
+    - [Нефункциональные требования](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/nfr.md)
 - Обеспечение технического качества
     - [Unit-тестирование](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/unit-testing.md)
     - Чистый код
