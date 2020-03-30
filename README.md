@@ -161,7 +161,7 @@
 - Проектное управление
     - PMBoK
     - PDCA
-- Стейкхолдинг
+- [Стейкхолдинг](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/stakeholding.md)
 ## Personal Skills
 ### Развитие себя
 - [Умение учиться](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/learning.md)
