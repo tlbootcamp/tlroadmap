@@ -138,7 +138,7 @@
     - Работа с VCS
     - [CI](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/ci.md)
     - Автоматизация релизов
-- Управление знаниями
+- [Управление знаниями](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/knowledge-management.md)
     - Распространение знаний
     - Техническая документация
 - Архитектура
