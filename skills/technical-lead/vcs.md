@@ -38,7 +38,18 @@ VCS (СКВ) - система контроля версий.
 
 ## Правила работы с git в команде
 ### Методологии
+
+#### GitHub-flow
+[GitHub-flow](https://guides.github.com/introduction/flow/)
+
 #### Git-flow
+[Удачная модель ветвления для Git](https://habr.com/ru/post/106912/)
+
+[Пожалуйста, перестаньте рекомендовать Git Flow](https://habr.com/ru/company/flant/blog/491320/)
+
+#### Trunk-Based Development
+[Trunk-Based Development](https://paulhammant.com/2013/04/05/what-is-trunk-based-development/)
+
 
 ### Наименования коммитов
 1. В команде должно быть соглашение о наименовании коммитов
