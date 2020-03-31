@@ -50,7 +50,7 @@
 - [Onboarding checklist example](https://www.notion.so/0ed0cc85ecc646a7ab4b6f78736a18fa)
 
 ### Консультации
-- [Чат TeamLead Bootcamp](https://t.me/teamlead_bootcamp)
+- [Чат TeamLead Bootcamp](https://t.me/tlbootcamp)
 
 ### Теория
 #### Статьи

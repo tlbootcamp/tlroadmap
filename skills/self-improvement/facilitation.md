@@ -67,4 +67,4 @@ Scrum-мастер, внешний фасилитатор, тимлид ниже
 - [Руководство фасилитатора. Как привести группу к принятию совместного решения, Сэм Кейнер, 2016 г.](https://www.alpinabook.ru/catalog/general-managment/7631/)
 
 ### Консультации
-- [Чат TeamLead Bootcamp](https://t.me/teamlead_bootcamp)
+- [Чат TeamLead Bootcamp](https://t.me/tlbootcamp)

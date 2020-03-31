@@ -83,7 +83,7 @@
     - При необходимости проведи личные встречи с остальными членами команды и дай им больше деталей.
 
 ### Консультации
-- [Чат TeamLead Bootcamp](https://t.me/teamlead_bootcamp)
+- [Чат TeamLead Bootcamp](https://t.me/tlbootcamp)
 
 ### Теория
 #### Статьи
