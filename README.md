@@ -176,6 +176,7 @@
 - Стратегическое видение
 - Принятие решений
 ### Стили управления
+### [Личный бренд](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/personal-brand.md)
 ### Коммуникации
 - [Фасилитация](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/facilitation.md)
 - [Сотрудничество](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/cooperation.md)
