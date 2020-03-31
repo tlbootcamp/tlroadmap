@@ -40,7 +40,7 @@
 - Выступления в профессиональных сообществах и на конференциях
 
 ## Консультации
-- [Чат TeamLead Bootcamp](https://t.me/teamlead_bootcamp)
+- [Чат TeamLead Bootcamp](https://t.me/tlbootcamp)
 
 ## Теория
 

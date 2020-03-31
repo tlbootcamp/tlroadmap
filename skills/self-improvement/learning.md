@@ -29,7 +29,7 @@
 2. Идти от области ответственности. Больше подходит для случая, когда явных проблем нет. В этом может помочь данный роадмап, алгоритм работы описан [тут](https://github.com/tlbootcamp/tlroadmap#%D0%BA%D0%B0%D0%BA-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C).
 
 ## Консультации
-- [Чат TeamLead Bootcamp](https://t.me/teamlead_bootcamp)
+- [Чат TeamLead Bootcamp](https://t.me/tlbootcamp)
 
 ## Теория
 ### Курсы
