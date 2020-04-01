@@ -132,7 +132,7 @@
     - [Управление техническим долгом](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/technical-debt.md)
 - Знание технологий
     - [Написание кода](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/code.md)
-    - Знание технологического стека команды
+    - [Знание технологического стека команды](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/stack-knowledge.md)
     - Выбор технологий и контроль их стека
 - Автоматизация цикла разработки
     - Работа с VCS
@@ -176,7 +176,6 @@
 - Стратегическое видение
 - Принятие решений
 ### Стили управления
-### [Личный бренд](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/personal-brand.md)
 ### Коммуникации
 - [Фасилитация](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/facilitation.md)
 - [Сотрудничество](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/cooperation.md)
