@@ -160,7 +160,7 @@
         - Раскатка
 - Проектное управление
     - PMBoK
-    - PDCA
+    - [PDCA](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/pdca.md)
 - [Стейкхолдинг](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/stakeholding.md)
 ## Personal Skills
 ### Развитие себя
