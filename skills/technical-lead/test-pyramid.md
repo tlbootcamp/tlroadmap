@@ -68,17 +68,10 @@
 - Использовать механизмы статического и динамического анализа кодовой базы
 - Производить автоматический расчет Test Code Coverage и настраивать Quality Gates для автоматических проверок на соответствие минимальным критериям к кодовой базе
 
-### Статьи
-**Раскрывают тему:**
-- [Пирамида тестирования, как категоризовать и писать авто-тесты](https://martinfowler.com/articles/practical-test-pyramid.html)
-- [Антипаттерны тестирования ПО](https://habr.com/ru/post/358178/)
-
-**Дополнительные материалы:**
-- [Исправление недостатков пирамиды: Модель круглой земли](https://www.satisfice.com/blog/archives/4947) [(рус)](https://software-testing.ru/library/testing/test-management/3163-roundearth)
-- [Обзор различных групп тестов, библиотек и практик их написания](https://habr.com/ru/company/sberbank/blog/443316/)
+## Консультации
+- [Telegram-чат TL Bootcamp](https://tlinks.run/tlbootcamp).
 
 ## Теория
-
 ### Принцип пирамиды тестирования
 ![](/assets/test-pyramid.png)
 
@@ -92,3 +85,11 @@
 - меньше нужно денег на содержание инфраструктуры для запуска этих тестов
 - ниже уровень необходимой квалификации того, кто эти тесты может разрабатывать 
 
+### Статьи
+**Раскрывают тему:**
+- [Пирамида тестирования, как категоризовать и писать авто-тесты](https://martinfowler.com/articles/practical-test-pyramid.html)
+- [Антипаттерны тестирования ПО](https://habr.com/ru/post/358178/)
+
+**Дополнительные материалы:**
+- [Исправление недостатков пирамиды: Модель круглой земли](https://www.satisfice.com/blog/archives/4947) [(рус)](https://software-testing.ru/library/testing/test-management/3163-roundearth)
+- [Обзор различных групп тестов, библиотек и практик их написания](https://habr.com/ru/company/sberbank/blog/443316/)
