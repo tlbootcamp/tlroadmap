@@ -52,7 +52,7 @@
 # Work in progress
 Текущий роадмап – не финальный, пока наполнена большая часть базы знаний. Мы будем очень рады вашему участию в проекте – а про варианты и сам процесс подробно написали в [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-> Статус заполнения базы знаний: **55/91**
+> Статус заполнения базы знаний: **57/91**
 
 # База знаний
 База наполняется постепенно Стасом Цыгановым, Егором Толстым и сообществом. Наша итоговая цель – описать каждое из направлений по следующему шаблону:
@@ -121,7 +121,7 @@
         - Тест-планы
         - Пирамида тестирования
         - Оптимизация количества тестирования
-    - Работа с багами
+    - [Работа с багами](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/bugs.md)
     - [Управление инцидентами](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/incident-management.md)
     - Метрики и мониторинг
     - [Нефункциональные требования](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/nfr.md)
@@ -132,7 +132,7 @@
     - [Управление техническим долгом](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/technical-debt.md)
 - Знание технологий
     - [Написание кода](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/code.md)
-    - Знание технологического стека команды
+    - [Знание технологического стека команды](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/stack-knowledge.md)
     - Выбор технологий и контроль их стека
 - Автоматизация цикла разработки
     - Работа с VCS
@@ -160,7 +160,7 @@
         - Раскатка
 - Проектное управление
     - PMBoK
-    - PDCA
+    - [PDCA](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/pdca.md)
 - [Стейкхолдинг](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/stakeholding.md)
 ## Personal Skills
 ### Развитие себя

@@ -66,7 +66,7 @@
 *****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/technical-debt.md Управление техническим долгом]]
 ****_ Знание технологий
 *****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/code.md Написание кода]]
-*****_ Знание технологического стека команды
+*****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/stack-knowledge.md Знание технологического стека команды]]
 *****_ Выбор технологий и контроль их стека
 ****_ Автоматизация цикла разработки
 *****_ Работа с VCS
@@ -94,7 +94,7 @@
 ******_ Раскатка
 ****_ Проектное управление
 *****_ PMBoK
-*****_ PDCA
+*****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/pdca.md PDCA]]
 ****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/stakeholding.md Стейкхолдинг]]
 
 left side
