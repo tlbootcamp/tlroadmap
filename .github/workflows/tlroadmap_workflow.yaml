@@ -19,10 +19,10 @@ jobs:
       - name: Spell checks
         run: |
           npx yaspeller -c .yaspellerrc.json .
-      - name: Ё checks
+      - name: Linter check
         run: |
           npx eclint check .
-      - name: Linter check
+      - name: Ё checks
         run: |
           npx eyo --only-safe --lint "**/*.md"
       - name: README checks
