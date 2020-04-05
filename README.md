@@ -159,7 +159,7 @@
         - Приёмка
         - Раскатка
 - Проектное управление
-    - PMBoK
+    - [PMBoK](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/pmbok.md)
     - PDCA
 - [Стейкхолдинг](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/stakeholding.md)
 ## Personal Skills
