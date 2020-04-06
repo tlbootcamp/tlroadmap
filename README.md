@@ -140,7 +140,7 @@
     - Автоматизация релизов
 - Управление знаниями
     - [Распространение знаний](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/knowledge-management.md)
-    - Техническая документация
+    - [Техническая документация](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/documentation.md)
 - Архитектура
     - Сбор технических требований
     - Проектирование
