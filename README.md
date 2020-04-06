@@ -174,7 +174,7 @@
 ### Мышление
 - Системное мышление
 - Стратегическое видение
-- Принятие решений
+- [Принятие решений](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/decision-making.md)
 ### Стили управления
 ### Коммуникации
 - [Фасилитация](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/facilitation.md)
