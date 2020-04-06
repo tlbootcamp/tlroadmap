@@ -53,7 +53,7 @@
 *****_ Тестирование
 ******_ Тестовая модель
 ******_ Тест-планы
-******_ Пирамида тестирования
+******_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/test-pyramid.md Пирамида тестирования]]
 ******_ Оптимизация количества тестирования
 *****_ Работа с багами
 *****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/incident-management.md Управление инцидентами]]
@@ -67,7 +67,7 @@
 ****_ Знание технологий
 *****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/code.md Написание кода]]
 *****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/stack-knowledge.md Знание технологического стека команды]]
-*****_ Выбор технологий и контроль их стека
+*****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/stack-choice.md Выбор технологий и контроль их стека]]
 ****_ Автоматизация цикла разработки
 *****_ Работа с VCS
 *****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/ci.md CI]]
