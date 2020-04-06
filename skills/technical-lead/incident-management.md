@@ -38,6 +38,10 @@
 - Несвоевременное и недостаточно полное внесение информации о ходе решения инцидента или не внесение такой информации вовсе приведёт к нерациональному решению аналогичных инцидентов в будущем или даже к невозможности решения
 - Отсутствие ранжирования инцидентов по тяжести и степени влияния на продукт
 - Выбор неэффективного метода решения сложного инцидента, если не подошла ни одна из ранее описанных процедур, без привлечения команды с соответствующей компетенцией, поддержки поставщика или коллективного анализа, при необходимости.
+<<<<<<< HEAD
+=======
+- Фокус на поиске виновного.
+>>>>>>> upstream/master
 
 ### Примеры хорошего поведения
 - Использовать подходящий инструментарий для управления инцидентами: с содержанием в записях об инцидентах блоков и ссылок с описанием влияния на компоненты конфигурации продукта, связанных проблем, известных ошибок и другой информации, чтобы обеспечить быструю и эффективную диагностику и восстановление.
@@ -53,3 +57,8 @@
 - [ITIL 4 Foundation, 2019](https://www.axelos.com)
 - [Digital Swarming “The Next Model for Distributed Collaboration and Decision Making”, Cisco Internet Business Solutions Group (IBSG), 2008](https://s3.amazonaws.com/connected_republic/attachments/4/Digital_Swarming_EB_0812c_FINAL.pdf)
 - [Intelligent Swarming: A Framework for Collaboration, 2019](https://library.serviceinnovation.org/Intelligent_Swarming/Intelligent_Swarming%3A_A_Framework_for_Collaboration)
+<<<<<<< HEAD
+=======
+- [Site Reliability Engineering: How Google Runs Production Systems (главы 14 и 15)](https://landing.google.com/sre/sre-book/toc/index.html)
+
+>>>>>>> upstream/master

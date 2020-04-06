@@ -33,10 +33,16 @@
 *****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/user-knowledge.md Знание пользователей]]
 *****_ Знание продукта
 ****_ Принятие продуктовых решений
+*****_ Продуктовая стратегия
 *****_ Целеполагание
+*****_ Управление роадмапом
 *****_ Управление продуктовым бэклогом
 ******_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/backlog-generation.md Генерация элементов бэклога]]
 ******_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/backlog-prioritization.md Приоритизация бэклога]]
+****_ Управление продуктом
+*****_ Запуск продукта
+*****_ Ценообразование
+*****_ Жизненный цикл фичей
 ***_ Integrator
 ****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/integrator/business-knowledge.md Знание бизнеса]]
 ****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/integrator/corporate-culture.md Корпоративная культура]]
@@ -47,27 +53,27 @@
 *****_ Тестирование
 ******_ Тестовая модель
 ******_ Тест-планы
-******_ Пирамида тестирования
+******_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/test-pyramid.md Пирамида тестирования]]
 ******_ Оптимизация количества тестирования
 *****_ Работа с багами
 *****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/incident-management.md Управление инцидентами]]
 *****_ Метрики и мониторинг
-*****_ Нефункциональные требования
+*****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/nfr.md Нефункциональные требования]]
 ****_ Обеспечение технического качества
 *****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/unit-testing.md Unit-тестирование]]
 *****_ Чистый код
 *****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/refactoring.md Рефакторинг]]
-*****_ Управление техническим долгом
+*****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/technical-debt.md Управление техническим долгом]]
 ****_ Знание технологий
 *****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/code.md Написание кода]]
-*****_ Знание технологического стека команды
-*****_ Выбор технологий и контроль их стека
+*****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/stack-knowledge.md Знание технологического стека команды]]
+*****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/stack-choice.md Выбор технологий и контроль их стека]]
 ****_ Автоматизация цикла разработки
 *****_ Работа с VCS
-*****_ CI
+*****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/ci.md CI]]
 *****_ Автоматизация релизов
 ****_ Управление знаниями
-*****_ Распространение знаний
+*****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/knowledge-management.md Распространение знаний]]
 *****_ Техническая документация
 ****_ Архитектура
 *****_ Сбор технических требований
@@ -80,22 +86,16 @@
 *****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/task-inbox.md Получение задач]]
 *****_ Разработка
 ******_ Конструирование методологии
-*******_ Описание
-*******_ Оценка
-*******_ Движение
-*******_ Контроль выполнения
 ******_ Готовые подходы
-*******_ Scrum
+*******_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/scrum.md Scrum]]
 *******_ Lean
 *****_ Выпуск задач
 ******_ Приёмка
 ******_ Раскатка
 ****_ Проектное управление
-*****_ Конструирование методологии
-*****_ Готовые подходы
-******_ PMBoK
-******_ PDCA
-****_ Стейкхолдинг
+*****_ PMBoK
+*****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/pdca.md PDCA]]
+****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/stakeholding.md Стейкхолдинг]]
 
 left side
 
@@ -103,7 +103,7 @@ left side
 ***_ Развитие себя
 ****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/learning.md Умение учиться]]
 ****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/reflection.md Рефлексия]]
-****_ Выработка привычек
+****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/habits.md Работа с привычками]]
 ***_ Отношения
 ****_ Эмпатия
 ****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/emotional-intelligence.md Эмоциональный интеллект]]
@@ -122,8 +122,8 @@ left side
 ****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/public-speaking.md Публичные выступления]]
 ****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/text.md Работа с текстом]]
 ***_ Тайм-менеджмент
-****_ Постановка личных целей
+****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/goal-setting.md Постановка личных целей]]
 ****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/time-management.md Управление временем]]
-****_ Управление приоритетами
+****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/prioritization.md Управление приоритетами]]
 
 @endmindmap
