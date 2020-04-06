@@ -73,10 +73,10 @@
 
 ### Видео
 - [Думай медленно решай быстро, интуиция и рациональность с Даниэлем Канеманом](https://youtu.be/ppK8dPnkU8g)
-- [Этапы принятия решений, Доктор технических наук НИУ ВШЭ, Фуад Алескеров](https://youtu.be/grwaJ8w17iI)
-- [Техника и теории принятия решения, Максим Поташёв](https://youtu.be/9j2OYodj4TM)
-- [Интуиция и факторы для принятия правильного решения, Максим Поташёв](https://youtu.be/yNx5PuXofz4)
-- [Виды решений, Максим Поташёв](https://youtu.be/3K7dLuXqMng)
+- [Этапы принятия решений](https://youtu.be/grwaJ8w17iI)
+- [Техника и теории принятия решения](https://youtu.be/9j2OYodj4TM)
+- [Интуиция и факторы для принятия правильного решения](https://youtu.be/yNx5PuXofz4)
+- [Виды решений](https://youtu.be/3K7dLuXqMng)
 
 ### Книги
 - [Thinking, Fast and Slow, Daniel Kahneman](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555/ref=sr_1_1?ie=UTF8&qid=1471970781&sr=8-1&keywords=kahneman)
