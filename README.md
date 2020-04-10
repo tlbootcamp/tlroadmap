@@ -119,7 +119,7 @@
     - Тестирование
         - Тестовая модель
         - Тест-планы
-        - Пирамида тестирования
+        - [Пирамида тестирования](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/test-pyramid.md)
         - Оптимизация количества тестирования
     - Работа с багами
     - [Управление инцидентами](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/incident-management.md)
