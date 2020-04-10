@@ -135,7 +135,7 @@
     - Знание технологического стека команды
     - Выбор технологий и контроль их стека
 - Автоматизация цикла разработки
-    - Работа с VCS
+    - [Работа с VCS](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/vcs.md)
     - [CI](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/ci.md)
     - Автоматизация релизов
 - Управление знаниями
