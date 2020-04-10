@@ -108,7 +108,7 @@
 - Управление продуктом
     - Запуск продукта
     - Ценообразование
-    - Жизненный цикл фичей
+    - [Жизненный цикл фичей](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/feature-lifecycle.md)
 ### Integrator
 - [Знание бизнеса](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/integrator/business-knowledge.md)
 - [Корпоративная культура](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/integrator/corporate-culture.md)
