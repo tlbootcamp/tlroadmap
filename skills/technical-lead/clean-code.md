@@ -45,6 +45,18 @@
 
 ## Способы прокачки
 
+Для тимлида:
+
+- Выстроить процесс code review
+- Разбирать с командой примеры плохого и хорошего кода, подсказывать как применить best practices
+- Планировать рефакторинг для возврата вынужденного технического долга
+
+Для разработчика:
+
+- Изучить приёмы [работы с легаси-кодом](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052) 
+- Изучить [набор принципов SOLID](https://en.wikipedia.org/wiki/SOLID) 
+- Попробовать парное программирование с опытным коллегой
+
 ## Консультации
 
 - [Telegram-чат TL Bootcamp](https://tlinks.run/tlbootcamp)
@@ -53,5 +65,8 @@
 
 ### Книги
 
-### Статьи
+- [Clean Code: A Handbook of Agile Software Craftsmanship, Robert C. Martin, 2008](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+- [Working Effectively with Legacy Code, Michael Feathers, 2004](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052) 
+
+
 
