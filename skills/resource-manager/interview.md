@@ -102,7 +102,7 @@
 
 ### Теория
 #### Книги
-- [Брать или не брать? или Как собеседовать разработчика, Константин Борисов](https://www.ozon.ru/context/detail/id/153098478/)
+- [Брать или не брать? или Как собеседовать разработчика, Константин Борисов](https://www.litres.ru/konstantin-evgenevich-b/brat-ili-ne-brat-ili-kak-sobesedovat-razrabotchika/chitat-onlayn/)
 - [Кто. Решите вашу проблему номер один, Джефф Смарт и Рэнди Стрит](https://www.ozon.ru/context/detail/id/141261611/)
 
 #### Статьи
