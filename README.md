@@ -108,7 +108,7 @@
 - Управление продуктом
     - Запуск продукта
     - Ценообразование
-    - Жизненный цикл фичей
+    - [Жизненный цикл фичей](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/feature-lifecycle.md)
 ### Integrator
 - [Знание бизнеса](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/integrator/business-knowledge.md)
 - [Корпоративная культура](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/integrator/corporate-culture.md)
@@ -119,7 +119,7 @@
     - Тестирование
         - Тестовая модель
         - Тест-планы
-        - Пирамида тестирования
+        - [Пирамида тестирования](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/test-pyramid.md)
         - Оптимизация количества тестирования
     - [Работа с багами](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/bugs.md)
     - [Управление инцидентами](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/incident-management.md)
@@ -133,7 +133,7 @@
 - Знание технологий
     - [Написание кода](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/code.md)
     - [Знание технологического стека команды](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/stack-knowledge.md)
-    - Выбор технологий и контроль их стека
+    - [Выбор технологий и контроль их стека](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/stack-choice.md)
 - Автоматизация цикла разработки
     - Работа с VCS
     - [CI](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/ci.md)
