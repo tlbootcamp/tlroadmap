@@ -35,17 +35,19 @@
 
 # Roadmap
 
-![Карта Тимлида](roadmap.png)
-
+![Карта Тимлида](https://raw.githubusercontent.com/tlbootcamp/tlroadmap/master/roadmap.svg?sanitize=true)
 Роадмап содержит в себе два раздела:
 - **Роли и обязанности.** Перечень высокоуровневых рабочих ролей и более конкретных обязанностей и зон ответственности.
 - **Personal Skills.** Личные навыки и качества, наличие которых необходимо для определённых ролей и обязанностей.
 
 Каждый из листьев карты со временем превратится в большую запись в базе знаний, содержащую описание, примеры поведения, способы прокачки навыка.
 
+Если кликнуть по картинке выше, то все ссылки в листьях станут кликабельны, и будут вести на соответсвующую запись.
+
 ## Скачать роадмап
 - [PNG](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/roadmap.png)
 - [Mindmap](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/roadmap.mm)
+- [SVG](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/roadmap.svg)
 
 `mm`-файл проще всего открывать в [Freemind](https://sourceforge.net/projects/freemind/) (бесплатно и сердито), [MindNode](https://mindnode.com/) (дорого и премиально) или [MindMeister](https://mindmeister.com) (условно-бесплатно и онлайн). Скорее всего подойдут и другие редакторы майндмепов, но их работоспособность мы не проверяли.
 
