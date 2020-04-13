@@ -121,7 +121,7 @@
         - Тест-планы
         - [Пирамида тестирования](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/test-pyramid.md)
         - Оптимизация количества тестирования
-    - Работа с багами
+    - [Работа с багами](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/bugs.md)
     - [Управление инцидентами](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/incident-management.md)
     - Метрики и мониторинг
     - [Нефункциональные требования](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/nfr.md)
