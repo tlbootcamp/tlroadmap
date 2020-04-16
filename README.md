@@ -175,7 +175,7 @@
 - [Эмоциональный интеллект](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/emotional-intelligence.md)
 - [Понимание ценности различий](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/diversity.md)
 ### Мышление
-- Системное мышление
+- [Холистическое мышление](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/holistic-thinking.md)
 - Стратегическое видение
 - Принятие решений
 ### Стили управления
