@@ -138,7 +138,7 @@
     - [Знание технологического стека команды](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/stack-knowledge.md)
     - [Выбор технологий и контроль их стека](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/stack-choice.md)
 - Автоматизация цикла разработки
-    - Работа с VCS
+    - [Работа с VCS](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/vcs.md)
     - [CI](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/ci.md)
     - Автоматизация релизов
 - Управление знаниями
