@@ -1,0 +1,12 @@
+{
+  "name": "tlroadmap",
+  "version": "1.0.0",
+  "description": "Teamlead Roadmap statis doc",
+  "scripts": {
+    "site:dev": "vuepress dev skills",
+    "site:build": "vuepress build skills"
+  },
+  "dependencies": {
+    "vuepress": "^1.4.1"
+  }
+}
