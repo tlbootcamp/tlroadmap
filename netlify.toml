@@ -2,3 +2,5 @@
   command = "yarn site:build"
   publish = "tlroadmap/.vuepress/dist"
 
+[context.deploy-preview]
+  publish = "tlroadmap/.vuepress/dist"
