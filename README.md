@@ -55,7 +55,7 @@
 # Work in progress
 Текущий роадмап – не финальный, пока наполнена большая часть базы знаний. Мы будем очень рады вашему участию в проекте – а про варианты и сам процесс подробно написали в [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-> Статус заполнения базы знаний: **57/91**
+> Статус заполнения базы знаний: **63/90**
 
 # База знаний
 База наполняется постепенно Стасом Цыгановым, Егором Толстым и сообществом. Наша итоговая цель – описать каждое из направлений по следующему шаблону:
@@ -138,12 +138,12 @@
     - [Знание технологического стека команды](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/stack-knowledge.md)
     - [Выбор технологий и контроль их стека](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/stack-choice.md)
 - Автоматизация цикла разработки
-    - Работа с VCS
+    - [Работа с VCS](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/vcs.md)
     - [CI](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/ci.md)
     - Автоматизация релизов
 - Управление знаниями
     - [Распространение знаний](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/knowledge-management.md)
-    - Техническая документация
+    - [Техническая документация](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/documentation.md)
 - Архитектура
     - Сбор технических требований
     - Проектирование
