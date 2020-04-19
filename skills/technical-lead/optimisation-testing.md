@@ -47,14 +47,13 @@
 
 ## Теория
 ### Статьи
-**Раскрывают тему:**
-- Описание одним предложением: ссылка
-- Описание одним предложением: ссылка
+- Почему тестирование занимает столько времени — [оригинал, часть 1](https://www.developsense.com/blog/2009/11/why-is-testing-taking-so-long-part-1), [оригинал, часть 2](https://www.developsense.com/blog/2009/11/what-does-testing-take-so-long-part-2), [перевод](https://software-testing.ru/library/testing/general-testing/911-why-is-testing-taking-so-long)
+- Нужно ли вам больше тестировщиков? — [Оригинал](https://www.developsense.com/blog/2007/04/do-you-need-more-testers-context-driven), [перевод](http://goblingame.blogspot.com/2011/09/blog-post.html)
 
-**Дополнительные материалы:**
-- Описание одним предложением: ссылка
-- Описание одним предложением: ссылка
+### Подкасты
+- [Радио QA. Стратегия тестирования](http://radio-qa.com/vypusk-10-strategiya-testirovaniya/)
 
 ### Видео
-
-### Книги
+- [Как Atlassian ускорял тестирование](https://www.atlassian.com/agile/software-development/qa-at-speed)
+- [Тестирование через мониторинг] (https://www.highload.ru/2016/abstracts/2346.html)
+- [Автотестеры не нужны, или Эволюция применения тестов] (https://www.youtube.com/watch?v=jviyM-2D0F8&l)
