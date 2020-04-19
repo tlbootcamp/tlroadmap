@@ -53,8 +53,6 @@ module.exports = (options, ctx) => ({
       }
     }
 
-    const title = pages.flatMap(page => page.path).join(', ');
-
     SIDEBAR_DATA = [
       tree,
     ]
