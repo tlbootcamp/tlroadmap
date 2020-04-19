@@ -46,7 +46,6 @@ module.exports = (options, ctx) => ({
     for (const page of pages.slice(1)) {
       const keys = page.path.endsWith('/') ? page.path.slice(0, -1).split('/') : page.path.split('/')
       const parent = findParent(tree, keys)
-      console.error(page)
       if (page._strippedContent.trim()) {
         parent.children.push(getPageLeaf(page))
       } else {
@@ -56,7 +55,6 @@ module.exports = (options, ctx) => ({
 
     const title = pages.flatMap(page => page.path).join(', ');
 
-    console.error(tree.children[0].children[0].children[0].children[0])
     SIDEBAR_DATA = [
       tree,
     ]
