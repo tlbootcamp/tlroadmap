@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Teamlead Roadmap statis doc",
   "scripts": {
-    "site:dev": "vuepress dev skills",
-    "site:build": "vuepress build skills"
+    "site:dev": "vuepress dev tlroadmap",
+    "site:build": "vuepress build tlroadmap"
   },
   "dependencies": {
     "vuepress": "^1.4.1"
