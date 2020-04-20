@@ -100,7 +100,7 @@
 - Понимание продукта
     - [Знание рынка](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/market-knowledge.md)
     - [Знание пользователей](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/user-knowledge.md)
-    - Знание продукта
+    - [Знание продукта](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/product-knowledge.md)
 - Принятие продуктовых решений
     - Продуктовая стратегия
     - Целеполагание
