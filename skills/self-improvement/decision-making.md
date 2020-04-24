@@ -73,6 +73,7 @@
 - [Виды решений](https://youtu.be/3K7dLuXqMng)
 
 ### Книги
+- [Принципы, Рэй Далио](https://www.amazon.com/dp/B07H4N4S5F/ref=cm_sw_em_r_mt_dp_U_waVOEb7FQ1RS3)
 - [Thinking, Fast and Slow, Daniel Kahneman](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555/ref=sr_1_1?ie=UTF8&qid=1471970781&sr=8-1&keywords=kahneman)
 - [The Goal: A Process of Ongoing Improvement, Eliyahu M. Goldratt](https://www.amazon.com/Goal-Process-Ongoing-Improvement-Anniversary/dp/B00IFGGDA2/ref=sr_1_1?dchild=1&keywords=The+Goal&qid=1586116406&s=audible&sr=1-1)
 - [Critical Chain, Eliyahu M. Goldratt](https://www.amazon.com/Critical-Chain-Project-Management-Constraints/dp/B00IGFKKIS/ref=sr_1_1?dchild=1&keywords=Eliyahu+M.+Goldratt.+Critical+Chain&qid=1586116883&s=audible&sr=1-1)
