@@ -116,6 +116,7 @@ jobs:
           path: tlroadmap/.vuepress/dist
 
       - name: Publish to netlify [prod]
+        id: publish-prod
         if: github.ref == 'refs/heads/master'
         env:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
@@ -139,6 +140,6 @@ jobs:
         with:
           token: "${{ github.token }}"
           environment: "${{ (github.event_name == 'pull_request' && 'review') || 'prod' }}"
-          ref: "${{ github.head_ref }}"
-          target_url: "${{ steps.publish-preview.outputs.deploy-url }}"
+          ref: "${{ github.head_ref || github.ref }}"
+          target_url: "${{ steps.publish-preview.outputs.deploy-url ||steps.publish-prod.outputs.deploy-url  }}"
           initial_status: success
