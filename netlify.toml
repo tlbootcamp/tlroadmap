@@ -1,6 +1,0 @@
-[build]
-  command = "yarn site:build"
-  publish = "tlroadmap/.vuepress/dist"
-  environment = { NODE_VERSION = "13.12.0" }
-[context.deploy-preview]
-  publish = "tlroadmap/.vuepress/dist"

@@ -4,9 +4,12 @@
   "description": "Teamlead Roadmap statis doc",
   "scripts": {
     "site:dev": "vuepress dev tlroadmap",
-    "site:build": "vuepress build tlroadmap"
+    "site:build": "vuepress build tlroadmap",
+    "site:publish:preview": "netlify deploy --json --dir=tlroadmap/.vuepress/dist",
+    "site:publish:prod": "netlify deploy --json --dir=tlroadmap/.vuepress/dist --prod"
   },
   "dependencies": {
+    "netlify-cli": "^2.47.0",
     "vuepress": "^1.4.1"
   }
 }

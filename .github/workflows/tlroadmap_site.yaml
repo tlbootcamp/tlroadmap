@@ -1,0 +1,144 @@
+name: Publish site
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  # generate_puml?
+
+  generate-roadmap-freemind:
+    name: Generate roadmap.mm
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+
+      - name: Cache dependencies
+        uses: actions/cache@v1
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r tools/requirements.txt
+
+      - name: Run plantuml2freemind
+        run: plantuml2freemind convert roadmap.puml roadmap.mm --no-interaction
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: freemind
+          path: roadmap.mm
+
+  generate-roadmap-image:
+    name: Generate roadmap.svg, roadmap.png
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Java
+        uses: actions/setup-java@v1
+        with:
+          java-version: '11'
+
+      - name: Generate .png and .svg
+        run: |
+          mkdir images
+          cat roadmap.puml | java -jar tools/plantuml.jar -charset UTF-8 -pipe > images/roadmap.png
+          cat roadmap.puml | java -jar tools/plantuml.jar -charset UTF-8 -tsvg -pipe > images/roadmap.svg
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: images
+          path: images
+
+  publish-vuepress:
+    name: Build and publish VuePress site
+    runs-on: ubuntu-latest
+    needs:
+      - generate-roadmap-image
+      - generate-roadmap-freemind
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '13.x'
+
+      - name: Cache dependencies
+        uses: actions/cache@v1
+        with:
+          path: ~/.cache/yarn
+          key: ${{ runner.os }}-yarn-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - uses: actions/download-artifact@v1
+        with:
+          name: images
+
+      - uses: actions/download-artifact@v1
+        with:
+          name: freemind
+
+      - name: Prepare roadmap outputs
+        run: |
+          mv images/roadmap.png tlroadmap/.vuepress/public/
+          mv images/roadmap.svg tlroadmap/.vuepress/public/
+          mv freemind/roadmap.mm tlroadmap/.vuepress/public/
+
+      - name: Install js dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build vuepress site
+        run: yarn run site:build
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: vuepress-site
+          path: tlroadmap/.vuepress/dist
+
+      - name: Publish to netlify [prod]
+        if: github.ref == 'refs/heads/master'
+        env:
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        run: |
+          deploy_url=$(yarn -s site:publish:prod | jq -r .deploy_url)
+          echo "::set-output name=deploy-url::$deploy_url"
+
+      - name: Publish to netlify [preview]
+        id: publish-preview
+        if: github.event_name == 'pull_request'
+        env:
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        run: |
+          deploy_url=$(yarn -s site:publish:preview | jq -r .deploy_url)
+          echo "::set-output name=deploy-url::$deploy_url"
+
+      - name: Create GitHub deployment
+        uses: chrnorm/deployment-action@v1.2.0
+        with:
+          token: "${{ github.token }}"
+          environment: "${{ (github.event_name == 'pull_request' && 'review') || 'prod' }}"
+          ref: "${{ github.head_ref }}"
+          target_url: "${{ steps.publish-preview.outputs.deploy-url }}"
+          initial_status: success
