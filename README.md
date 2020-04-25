@@ -170,6 +170,7 @@
 - [Умение учиться](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/learning.md)
 - [Рефлексия](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/reflection.md)
 - [Работа с привычками](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/habits.md)
+- [Личный бренд](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/personal-brand.md)
 ### Отношения
 - Эмпатия
 - [Эмоциональный интеллект](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/emotional-intelligence.md)
@@ -177,7 +178,7 @@
 ### Мышление
 - Системное мышление
 - Стратегическое видение
-- Принятие решений
+- [Принятие решений](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/decision-making.md)
 ### Стили управления
 ### Коммуникации
 - [Фасилитация](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/facilitation.md)
