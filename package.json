@@ -9,7 +9,8 @@
     "site:publish:prod": "netlify deploy --json --dir=tlroadmap/.vuepress/dist --prod"
   },
   "dependencies": {
-    "netlify-cli": "^2.47.0",
-    "vuepress": "^1.4.1"
+    "vuepress": "^1.4.1",
+    "@vuepress/core": "*",
+    "netlify-cli": "^2.47.0"
   }
 }
