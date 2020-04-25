@@ -121,9 +121,14 @@ jobs:
         env:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        # If auto-publishing is on then right after deploying site address
+        # will be changed to main address:
+        # preview-abcde--subdomain.example.com -> subdomain.example.com
+        # Unfortunately, netlify-cms returns draft address :(
         run: |
-          deploy_url=$(yarn -s site:publish:prod | jq -r .deploy_url)
-          echo "::set-output name=deploy-url::$deploy_url"
+          draft_url=$(yarn -s site:publish:prod | jq -r .deploy_url)
+          deploy_host=$(echo $draft_url | awk -F'--' '{print $NF}')
+          echo "::set-output name=deploy-url::https://$deploy_host"
 
       - name: Publish to netlify [preview]
         id: publish-preview
