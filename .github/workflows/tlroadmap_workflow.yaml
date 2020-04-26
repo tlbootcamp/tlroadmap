@@ -30,8 +30,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Spell check
+        # problem matching breaks loop when it finds unrelated data, so we use reverse grep to clear output
         run: |
-          npx yaspeller -c .yaspellerrc.json .
+          echo "::add-matcher::.github/problem-matchers/yaspeller.json"
+          set -o pipefail; npx yaspeller -c .yaspellerrc.json . 2>&1 >/dev/null | grep -v "\-\-\-\-\-" | grep -v "Typos"
 
   editor-config:
     name: Editor Config check
@@ -39,14 +41,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Editor Config Check
+        # problem matching breaks loop when it finds unrelated data, so we use reverse grep to clear output
         run: |
-          npx eclint check .
-
-  yo:
-    name: Ё check
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Ё checks
-        run: |
-          npx eyo --only-safe --lint "**/*.md"
+          echo "::add-matcher::.github/problem-matchers/editor-config.json"
+          set -o pipefail; npx eclint check "**/*.md" 2>&1 >/dev/null | grep -v "EditorConfig"

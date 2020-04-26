@@ -9,6 +9,7 @@
   "ignoreUppercase": true,
   "ignoreUrls": true,
   "ignoreCapitalization": true,
+  "checkYo": true,
   "ignoreText": [
     ["– .*\\]", "g"],
     ["следующие люди:.*", "g"]
