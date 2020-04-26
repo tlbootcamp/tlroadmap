@@ -1,0 +1,3 @@
+files:
+  - source: /tlroadmap/**/ru.md
+    translation: /tlroadmap/**/%two_letters_code%.md

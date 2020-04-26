@@ -1,4 +1,4 @@
-const { Page } = require('vuepress');
+const Page = require('@vuepress/core/lib/node/Page');
 
 /**
  * Create non-clickable sidebar group.
@@ -47,11 +47,16 @@ function findParent(tree, keys) {
   return parent
 }
 
-let SIDEBAR_DATA = Object.create(null);
+const SIDEBARS = new Map();
+
 module.exports = (options, ctx) => ({
   name: "auto-sidebar-plugin",
   async ready() {
-    let { pages } = ctx;
+    /** @type Page[] */
+    let pages = ctx.pages;
+    /** @type Map<string, string> */
+    const locales = options.locales
+    const prefixes = Array.from(locales.values())
 
     pages = pages.sort((p1, p2) => {
       if (p1.path < p2.path) return -1;
@@ -59,33 +64,50 @@ module.exports = (options, ctx) => ({
       return 0;
     });
 
-    const rootPage = pages[0]
-    const tree = getLeafData(rootPage)
-
-    for (const page of pages.slice(1)) {
-      // split path by `/` and remove empty parts
-      // /abc/ -> ["abc"]
-      // /abc/d.html -> ["abc", "d.html"]
-      const keys = page.path.split('/').filter(pathPart => pathPart)
-      const parent = findParent(tree, keys)
-
-      if (page._strippedContent.trim()) {
-        // if page has content we should create clickable PageLeaf
-        parent.children.push(getLeafData(page, keys[keys.length - 1]))
-      } else {
-        parent.children.push(getGroupData(page, keys[keys.length - 1]))
+    for (const prefix of prefixes) {
+      const rootPage = pages.find(page => page.path === prefix)
+      const tree = getLeafData(rootPage, '')
+      let prefixPages = pages.filter(
+        page => page.path !== prefix // exclude root page
+          && page.path.startsWith(prefix)  // include only pages with prefix
+      )
+      // special case for default prefix `/`
+      if (prefix === '/') {
+        const otherPrefixes = prefixes.filter(prefix => prefix !== '/')
+        prefixPages = prefixPages.filter(page => {
+          for (const otherPrefix of otherPrefixes) {
+            if (page.path.startsWith(otherPrefix)) return false
+          }
+          return true
+        })
       }
-    }
+      for (const page of prefixPages) {
+        // split path by `/` and remove empty parts
+        // /abc/ -> ["abc"]
+        // /abc/d.html -> ["abc", "d.html"]
+        const keys = page.path.split('/').filter(pathPart => pathPart).filter(pathPart => pathPart !== prefix)
+        const parent = findParent(tree, keys)
 
-    SIDEBAR_DATA = [
-      tree,
-    ]
+        if (page._strippedContent.trim()) {
+          // if page has content we should create clickable PageLeaf
+          parent.children.push(getLeafData(page, keys[keys.length - 1]))
+        } else {
+          parent.children.push(getGroupData(page, keys[keys.length - 1].slice(0, -5)))
+        }
+      }
+      SIDEBARS.set(prefix, tree)
+    }
   },
   async enhanceAppFiles() {
+    let content = ''
+    SIDEBARS.forEach((sidebar, prefix) => {
+      content += `siteData.themeConfig.locales['${prefix}'].sidebar = ${JSON.stringify([sidebar])};\n`
+    })
+
     return {
       name: 'auto-sidebar-enhance-app',
-      content: `export default ({ siteData }) => { 
-        siteData.themeConfig.sidebar = ${JSON.stringify(SIDEBAR_DATA)}
+      content: `export default ({ siteData }) => {
+        ${content}
       }`
     }
   },
