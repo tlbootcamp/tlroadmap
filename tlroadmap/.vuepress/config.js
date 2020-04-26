@@ -1,5 +1,8 @@
 module.exports = {
   title: 'Teamlead Roadmap',
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.png' }],
+  ],
   themeConfig: {
     sidebarDepth: 0,
     lastUpdated: 'В последний раз обновленно',
