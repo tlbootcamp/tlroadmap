@@ -1,0 +1,20 @@
+{
+    "problemMatcher": [
+        {
+            "owner": "editor-config",
+            "pattern": [
+              {
+                "regexp": "^([^\\\\s].*)$",
+                "file": 1
+              },
+              {
+                "regexp": "^\\s+(\\d+):(\\d+)\\s(.+)$",
+                "line": 1,
+                "column": 2,
+                "message": 3,
+                "loop": true
+              }
+            ]
+        }
+    ]
+}
