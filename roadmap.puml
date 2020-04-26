@@ -31,7 +31,7 @@
 ****_ Понимание продукта
 *****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/market-knowledge.md Знание рынка]]
 *****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/user-knowledge.md Знание пользователей]]
-*****_ Знание продукта
+*****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/product-knowledge.md Знание продукта]]
 ****_ Принятие продуктовых решений
 *****_ Продуктовая стратегия
 *****_ Целеполагание
@@ -61,7 +61,7 @@
 *****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/nfr.md Нефункциональные требования]]
 ****_ Обеспечение технического качества
 *****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/unit-testing.md Unit-тестирование]]
-*****_ Чистый код
+*****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/clean-code.md Чистый код]]
 *****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/refactoring.md Рефакторинг]]
 *****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/technical-debt.md Управление техническим долгом]]
 ****_ Знание технологий
@@ -104,6 +104,7 @@ left side
 ****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/learning.md Умение учиться]]
 ****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/reflection.md Рефлексия]]
 ****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/habits.md Работа с привычками]]
+****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/personal-brand.md Личный бренд]]
 ***_ Отношения
 ****_ Эмпатия
 ****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/emotional-intelligence.md Эмоциональный интеллект]]
@@ -111,7 +112,7 @@ left side
 ***_ Мышление
 ****_ Системное мышление
 ****_ Стратегическое видение
-****_ Принятие решений
+****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/decision-making.md Принятие решений]]
 ***_ Стили управления
 ***_ Коммуникации
 ****_ [[https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/facilitation.md Фасилитация]]
