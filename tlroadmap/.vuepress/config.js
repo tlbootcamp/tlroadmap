@@ -3,10 +3,16 @@ const LOCALES = new Map([
   ['ru', '/'],
 ])
 
+const uslug = require('uslug')
+const uslugify = s => uslug(s)
+
 module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
   ],
+  markdown: {
+    slugify: uslugify,
+  },
   locales: {
     '/': {
       lang: 'ru-RU',
