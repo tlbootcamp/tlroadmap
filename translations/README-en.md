@@ -53,7 +53,7 @@ We've prepared a few common Team Lead models. With their help, you can see how t
 - Startup Team Lead: [mindmap](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/examples/startup-teamlead.mm)
 
 # Work in progress
-The current roadmap is an alpha version that has a common teamwork structure and partially describes the first major role, Resource Manager. We are looking forward to your participation in the project. The contribution process is described in depth in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+The current roadmap is an alpha version that has a common teamwork structure and partially describes the first major role, Resource Manager. We are looking forward to your participation in the project. The contribution process is described in depth in [`CONTRIBUTING.md`](/contributing).
 
 # The knowledge base
 The base is gradually filled with Stas Tsyganov, Egor Tolstoy and the community. Our final goal is to describe each of the directions according to the following template:

@@ -3,27 +3,6 @@ name: Checks
 on: [pull_request]
 
 jobs:
-  readme-md:
-    name: README.md check
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v1
-        with:
-          python-version: "3.x"
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r tools/requirements.txt
-
-      - name: README check
-        run: |
-          cd tools
-          bash check_readme.sh
-
   yaspeller:
     name: Spell check
     runs-on: ubuntu-latest
