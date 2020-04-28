@@ -1,0 +1,15 @@
+{
+    "problemMatcher": [
+        {
+            "owner": "check-directory-tree",
+            "pattern": [
+              {
+                "regexp": "^(.+?) (.+?) (.*)",
+                "file": 1,
+                "code": 2,
+                "message": 3
+              }
+            ]
+        }
+    ]
+}

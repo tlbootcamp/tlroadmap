@@ -13,6 +13,7 @@ jobs:
         run: |
           echo "::add-matcher::.github/problem-matchers/yaspeller.json"
           set -o pipefail; npx yaspeller -c .yaspellerrc.json . 2>&1 >/dev/null | grep -v "\-\-\-\-\-" | grep -v "Typos"
+          echo "::remove-matcher owner=yaspeller::"
 
   editor-config:
     name: Editor Config check
@@ -24,3 +25,15 @@ jobs:
         run: |
           echo "::add-matcher::.github/problem-matchers/editor-config.json"
           set -o pipefail; npx eclint check "**/*.md" 2>&1 >/dev/null | grep -v "EditorConfig"
+          echo "::remove-matcher owner=editor-config::"
+
+  direcyory-tree:
+    name: Directory tree check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Directory tree check
+        run: |
+          echo "::add-matcher::.github/problem-matchers/check-directory-tree.json"
+          bash ./tools/check_directory_tree.sh tlroadmap
+          echo "::remove-matcher owner=check-directory-tree::"
