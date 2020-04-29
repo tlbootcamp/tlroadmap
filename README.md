@@ -35,7 +35,7 @@
 
 # Roadmap
 
-![Карта Тимлида](roadmap.png)
+![Карта Тимлида](https://raw.githubusercontent.com/tlbootcamp/tlroadmap/master/roadmap.svg?sanitize=true)
 
 Роадмап содержит в себе два раздела:
 - **Роли и обязанности.** Перечень высокоуровневых рабочих ролей и более конкретных обязанностей и зон ответственности.
@@ -43,16 +43,19 @@
 
 Каждый из листьев карты со временем превратится в большую запись в базе знаний, содержащую описание, примеры поведения, способы прокачки навыка.
 
+Если кликнуть по картинке выше, то все ссылки в листьях станут кликабельны, и будут вести на соответствующую запись.
+
 ## Скачать роадмап
 - [PNG](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/roadmap.png)
 - [Mindmap](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/roadmap.mm)
+- [SVG](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/roadmap.svg)
 
 `mm`-файл проще всего открывать в [Freemind](https://sourceforge.net/projects/freemind/) (бесплатно и сердито), [MindNode](https://mindnode.com/) (дорого и премиально) или [MindMeister](https://mindmeister.com) (условно-бесплатно и онлайн). Скорее всего подойдут и другие редакторы майндмепов, но их работоспособность мы не проверяли.
 
 # Work in progress
 Текущий роадмап – не финальный, пока наполнена большая часть базы знаний. Мы будем очень рады вашему участию в проекте – а про варианты и сам процесс подробно написали в [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-> Статус заполнения базы знаний: **55/91**
+> Статус заполнения базы знаний: **63/90**
 
 # База знаний
 База наполняется постепенно Стасом Цыгановым, Егором Толстым и сообществом. Наша итоговая цель – описать каждое из направлений по следующему шаблону:
@@ -97,7 +100,7 @@
 - Понимание продукта
     - [Знание рынка](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/market-knowledge.md)
     - [Знание пользователей](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/user-knowledge.md)
-    - Знание продукта
+    - [Знание продукта](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/product-knowledge.md)
 - Принятие продуктовых решений
     - Продуктовая стратегия
     - Целеполагание
@@ -108,7 +111,7 @@
 - Управление продуктом
     - Запуск продукта
     - Ценообразование
-    - Жизненный цикл фичей
+    - [Жизненный цикл фичей](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/feature-lifecycle.md)
 ### Integrator
 - [Знание бизнеса](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/integrator/business-knowledge.md)
 - [Корпоративная культура](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/integrator/corporate-culture.md)
@@ -119,28 +122,28 @@
     - Тестирование
         - Тестовая модель
         - Тест-планы
-        - Пирамида тестирования
+        - [Пирамида тестирования](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/test-pyramid.md)
         - Оптимизация количества тестирования
-    - Работа с багами
+    - [Работа с багами](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/bugs.md)
     - [Управление инцидентами](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/incident-management.md)
     - Метрики и мониторинг
     - [Нефункциональные требования](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/nfr.md)
 - Обеспечение технического качества
     - [Unit-тестирование](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/unit-testing.md)
-    - Чистый код
+    - [Чистый код](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/clean-code.md)
     - [Рефакторинг](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/refactoring.md)
     - [Управление техническим долгом](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/technical-debt.md)
 - Знание технологий
     - [Написание кода](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/code.md)
-    - Знание технологического стека команды
-    - Выбор технологий и контроль их стека
+    - [Знание технологического стека команды](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/stack-knowledge.md)
+    - [Выбор технологий и контроль их стека](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/stack-choice.md)
 - Автоматизация цикла разработки
-    - Работа с VCS
+    - [Работа с VCS](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/vcs.md)
     - [CI](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/ci.md)
     - Автоматизация релизов
 - Управление знаниями
     - [Распространение знаний](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/knowledge-management.md)
-    - Техническая документация
+    - [Техническая документация](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/documentation.md)
 - Архитектура
     - Сбор технических требований
     - Проектирование
@@ -160,13 +163,14 @@
         - Раскатка
 - Проектное управление
     - [PMBoK](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/pmbok.md)
-    - PDCA
+    - [PDCA](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/pdca.md)
 - [Стейкхолдинг](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/stakeholding.md)
 ## Personal Skills
 ### Развитие себя
 - [Умение учиться](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/learning.md)
 - [Рефлексия](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/reflection.md)
 - [Работа с привычками](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/habits.md)
+- [Личный бренд](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/personal-brand.md)
 ### Отношения
 - Эмпатия
 - [Эмоциональный интеллект](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/emotional-intelligence.md)
@@ -174,7 +178,7 @@
 ### Мышление
 - Системное мышление
 - Стратегическое видение
-- Принятие решений
+- [Принятие решений](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/decision-making.md)
 ### Стили управления
 ### Коммуникации
 - [Фасилитация](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/facilitation.md)
