@@ -1,0 +1,20 @@
+{
+    "problemMatcher": [
+        {
+            "owner": "yaspeller",
+            "pattern": [
+              {
+                "regexp": "^✗\\s(.*)\\s\\d+\\sms$",
+                "file": 1
+              },
+              {
+                "regexp": "^\\d+\\. (.+) \\((\\d+):(\\d+).*$",
+                "message": 1,
+                "line": 2,
+                "column": 3,
+                "loop": true
+              }
+            ]
+        }
+    ]
+}
