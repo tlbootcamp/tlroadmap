@@ -209,3 +209,7 @@ Code review выглядит просто. Проверяете merge request н
 - [Code review по-человечески (часть 2)](https://habr.com/ru/post/342244/)
 - [Pull Requests and Code Review](https://medium.com/@pstepchenko/pull-requests-and-code-review-30abde0c98d3)
 - [Unlearning toxic behaviors in a code review culture](https://medium.com/@sandya.sankarram/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c)
+
+### Видео
+
+- [Automating code reviews](https://sobolevn.me/talks/dumpconf-2019)
