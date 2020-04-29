@@ -140,7 +140,7 @@
 - Автоматизация цикла разработки
     - [Работа с VCS](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/vcs.md)
     - [CI](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/ci.md)
-    - Автоматизация релизов
+    - [Автоматизация релизов](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/release.md)
 - Управление знаниями
     - [Распространение знаний](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/knowledge-management.md)
     - [Техническая документация](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/documentation.md)
