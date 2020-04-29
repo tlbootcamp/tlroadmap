@@ -68,7 +68,9 @@
 
 ## Теория
 ### Статьи
-[Ещё один взгляд на разбор багов](http://wolonter.blogspot.com/2018/01/blog-post_10.html)
-[Багодельня — марафон по убийству престарелых багов](https://habr.com/ru/company/avito/blog/351736/)
-[Багодельня: BUgHunting. Как найти 200 багов за день](https://habr.com/ru/company/avito/blog/453000/)
-[Zero Bug Policy. Нет багов — нет проблем?](https://habr.com/ru/company/avito/blog/455068/)
+
+- [Ещё один взгляд на разбор багов](http://wolonter.blogspot.com/2018/01/blog-post_10.html)
+- [Багодельня — марафон по убийству престарелых багов](https://habr.com/ru/company/avito/blog/351736/)
+- [Багодельня: BUgHunting. Как найти 200 багов за день](https://habr.com/ru/company/avito/blog/453000/)
+- [Zero Bug Policy. Нет багов — нет проблем?](https://habr.com/ru/company/avito/blog/455068/)
+- [Best engineering practices: how to fix a bug?](https://sobolevn.me/2019/01/how-to-fix-a-bug)
