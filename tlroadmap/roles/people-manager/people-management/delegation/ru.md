@@ -34,7 +34,7 @@
   - Влияет на удержание людей
 
 ## На кого может быть делегирована?
-![We need to go deeper](/assets/deeper.jpg)
+![We need to go deeper](./deeper.jpg)
 
 ## Примеры поведения
 ### Примеры плохого поведения

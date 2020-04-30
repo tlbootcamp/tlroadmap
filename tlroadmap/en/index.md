@@ -4,7 +4,7 @@ home: true
 heroText: Teamlead Roadmap
 tagline: English
 actionText: English →
-actionLink: /en/guide/
+actionLink: /en/guide.html
 features:
 - title: English
   details: Понятия «тимлид», «техлид» и прочие – очень растяжимы. Компании решают разные задачи, у этих ролей разные ответственности. Поэтому и ❄️, роадмап — для всех.

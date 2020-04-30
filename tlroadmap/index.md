@@ -4,7 +4,7 @@ home: true
 heroText: Teamlead Roadmap
 tagline: Тимлид – это ❄️, потому что в каждой компании он уникален и неповторим.
 actionText: Начать →
-actionLink: /guide/
+actionLink: /guide.html
 features:
 - title: Про кого?
   details: Понятия «тимлид», «техлид» и прочие – очень растяжимы. Компании решают разные задачи, у этих ролей разные ответственности. Поэтому и ❄️, роадмап — для всех.

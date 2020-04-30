@@ -100,7 +100,7 @@ One-to-one – это регулярные встречи менеджера и 
 **Дополнительные материалы:**
 - [Организация системы логирования one-to-one с помощью блокнотов](http://marcgg.com/blog/2017/10/09/paper-note-taking-meetings/)
 - [Исследование вопросов для one-to-one, которые вскрывают больше всего неожиданных фактов](https://m.signalvnoise.com/the-9-questions-that-uncover-the-most-surprising-insights-from-employees/)
-- [Как задавать конкретные открытые вопросы](https://signalvnoise.com/specific-questions-yield-specific-answers/)
+- [Как задавать конкретные открытые вопросы](https://medium.com/signal-v-noise/specific-questions-yield-specific-answers-df790a63a90c)
 - [Как сделать one-to-one полезным со стороны сотрудника](https://getlighthouse.com/blog/effective-1-on-1-meetings/)
 - [Мысли о том, почему one-to-one важен, и какие вопросы на нем можно задавать](https://a16z.com/2012/08/30/one-on-one/)
 - [Про три типа one-to-one и модели поведения и использования информации каждого из них](http://randsinrepose.com/archives/the-update-the-vent-and-the-disaster/)

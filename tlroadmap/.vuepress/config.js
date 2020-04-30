@@ -40,7 +40,7 @@ module.exports = {
         // will be injected later
         sidebar: {},
         nav: [
-          { text: 'Как использовать?', link: '/guide/' },
+          { text: 'Как использовать?', link: '/guide.html' },
           // TODO: Сейчас базовая тема использует ensureExt, если считает, что ссылка внутренняя
           // как он понимает, что ссылка внешняя или внутренняя:
           // https://github.com/vuejs/vuepress/blob/b105089d4b09c17a2085a2637cf1a7a5553c2c3f/packages/%40vuepress/theme-default/util/index.js#L4

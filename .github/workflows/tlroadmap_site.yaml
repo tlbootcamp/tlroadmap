@@ -9,13 +9,31 @@ on:
       - master
 
 jobs:
-  # generate_puml?
+  generate-roadmap-plantuml:
+    name: Generate roadmap.puml
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      # TODO: temporary mock
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: plantuml
+          path: roadmap.puml
+
 
   generate-roadmap-freemind:
     name: Generate roadmap.mm
     runs-on: ubuntu-latest
+    needs:
+      - generate-roadmap-plantuml
     steps:
       - uses: actions/checkout@v2
+
+      - uses: actions/download-artifact@v1
+        with:
+          name: plantuml
 
       - name: Set up Python 3.8
         uses: actions/setup-python@v1
@@ -36,7 +54,7 @@ jobs:
           pip install -r tools/requirements.txt
 
       - name: Run plantuml2freemind
-        run: plantuml2freemind convert roadmap.puml roadmap.mm --no-interaction
+        run: plantuml2freemind convert plantuml/roadmap.puml roadmap.mm --no-interaction
 
       - name: Upload artifact
         uses: actions/upload-artifact@v1
@@ -47,8 +65,14 @@ jobs:
   generate-roadmap-image:
     name: Generate roadmap.svg, roadmap.png
     runs-on: ubuntu-latest
+    needs:
+      - generate-roadmap-plantuml
     steps:
       - uses: actions/checkout@v2
+
+      - uses: actions/download-artifact@v1
+        with:
+          name: plantuml
 
       - name: Setup Java
         uses: actions/setup-java@v1
@@ -58,8 +82,8 @@ jobs:
       - name: Generate .png and .svg
         run: |
           mkdir images
-          cat roadmap.puml | java -jar tools/plantuml.jar -charset UTF-8 -pipe > images/roadmap.png
-          cat roadmap.puml | java -jar tools/plantuml.jar -charset UTF-8 -tsvg -pipe > images/roadmap.svg
+          cat plantuml/roadmap.puml | java -jar tools/plantuml.jar -charset UTF-8 -pipe > images/roadmap.png
+          cat plantuml/roadmap.puml | java -jar tools/plantuml.jar -charset UTF-8 -tsvg -pipe > images/roadmap.svg
 
       - name: Upload artifact
         uses: actions/upload-artifact@v1
@@ -67,14 +91,27 @@ jobs:
           name: images
           path: images
 
-  publish-vuepress:
-    name: Build and publish VuePress site
+  build-vuepress:
+    name: Build VuePress site
     runs-on: ubuntu-latest
     needs:
       - generate-roadmap-image
+      - generate-roadmap-plantuml
       - generate-roadmap-freemind
     steps:
       - uses: actions/checkout@v2
+
+      - uses: actions/download-artifact@v1
+        with:
+          name: images
+
+      - uses: actions/download-artifact@v1
+        with:
+          name: freemind
+
+      - uses: actions/download-artifact@v1
+        with:
+          name: plantuml
 
       - name: Setup Node
         uses: actions/setup-node@v1
@@ -89,18 +126,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-      - uses: actions/download-artifact@v1
-        with:
-          name: images
-
-      - uses: actions/download-artifact@v1
-        with:
-          name: freemind
-
       - name: Prepare roadmap outputs
         run: |
           mv images/roadmap.png tlroadmap/.vuepress/public/
           mv images/roadmap.svg tlroadmap/.vuepress/public/
+          mv plantuml/roadmap.puml tlroadmap/.vuepress/public/
           mv freemind/roadmap.mm tlroadmap/.vuepress/public/
 
       - name: Install js dependencies
@@ -115,6 +145,40 @@ jobs:
           name: vuepress-site
           path: tlroadmap/.vuepress/dist
 
+  check-links:
+    name: Check broken links
+    runs-on: ubuntu-latest
+    needs:
+      - build-vuepress
+    steps:
+      - uses: actions/download-artifact@v1
+        with:
+          name: vuepress-site
+
+      - name: Check links
+        uses: chabad360/htmlproofer@master
+        with:
+          directory: vuepress-site
+          arguments: >-
+            --assume-extension
+            --typhoeus-config '{"timeout": 60}'
+            --url-ignore "/www\.consultant\.ru/.*/"
+
+  publish-vuepress:
+    name: Publish VuePress site
+    runs-on: ubuntu-latest
+    needs:
+      - build-vuepress
+    steps:
+      - uses: actions/download-artifact@v1
+        with:
+          name: vuepress-site
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '13.x'
+
       - name: Publish to netlify [prod]
         id: publish-prod
         if: github.ref == 'refs/heads/master'
@@ -126,7 +190,7 @@ jobs:
         # preview-abcde--subdomain.example.com -> subdomain.example.com
         # Unfortunately, netlify-cms returns draft address :(
         run: |
-          draft_url=$(yarn -s site:publish:prod | jq -r .deploy_url)
+          draft_url=$(npx netlify-cli deploy --json --dir=vuepress-site --prod | jq -r .deploy_url)
           deploy_host=$(echo $draft_url | awk -F'--' '{print $NF}')
           echo "::set-output name=deploy-url::https://$deploy_host"
 
@@ -137,7 +201,7 @@ jobs:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
         run: |
-          deploy_url=$(yarn -s site:publish:preview | jq -r .deploy_url)
+          deploy_url=$(npx netlify-cli deploy --json --dir=vuepress-site | jq -r .deploy_url)
           echo "::set-output name=deploy-url::$deploy_url"
 
       - name: Create GitHub deployment
@@ -146,5 +210,5 @@ jobs:
           token: "${{ github.token }}"
           environment: "${{ (github.event_name == 'pull_request' && 'review') || 'prod' }}"
           ref: "${{ github.head_ref || 'master' }}"
-          target_url: "${{ steps.publish-preview.outputs.deploy-url ||steps.publish-prod.outputs.deploy-url  }}"
+          target_url: "${{ steps.publish-preview.outputs.deploy-url || steps.publish-prod.outputs.deploy-url }}"
           initial_status: success

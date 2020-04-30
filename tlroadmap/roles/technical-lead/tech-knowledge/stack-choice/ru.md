@@ -113,7 +113,7 @@
 
 **Дополнительные материалы:**
 - [Радар технологий: перечень языков, инструментов и платформ, которые прошли через руки Lamoda](https://habr.com/ru/company/lamoda/blog/428411/)
-- [Avito Tech Radar](https://techradar.avito.ru/)
+- <a href="https://techradar.avito.ru/" data-proofer-ignore>Avito Tech Radar</a>
 
 ### Прочие материалы
 - [StackShare – база данных технологических стеков разных компаний](https://stackshare.io/)

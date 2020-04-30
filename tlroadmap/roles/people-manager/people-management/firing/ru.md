@@ -94,6 +94,6 @@
 - [Подробный гайд построения разговора при увольнении](https://hiring.monster.com/employer-resources/workforce-management/leadership-management-skills/employee-termination-tips/)
 
 **Дополнительные материалы:**
-- [Ещё одна заметка про то, как увольнять](https://boss.blogs.nytimes.com/2014/08/07/letting-someone-go-with-dignity/)
+- <a href="https://boss.blogs.nytimes.com/2014/08/07/letting-someone-go-with-dignity" data-proofer-ignore> Ещё одна заметка про то, как увольнять</a>
 - [Нужно ли увольнять good enough кандидатов](https://hbr.org/2015/05/when-should-you-fire-a-good-enough-employee)
 - [Как составить и использовать performance improvement plan](https://mfbt.ca/how-i-talk-to-leaders-about-firing-people-8149dfcb035b)
