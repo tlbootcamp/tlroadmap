@@ -73,13 +73,13 @@ module.exports = {
   },
   plugins: [
     [
-      require('./localeFilesToLocalePrefix.js'),
+      '@b0g3r/locale-prefix',
       {
         locales: LOCALES,
       },
     ],
     [
-      require('./autoSidebar.js'),
+      '@b0g3r/generate-tree',
       {
         locales: LOCALES,
       },
