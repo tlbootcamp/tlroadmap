@@ -12,5 +12,9 @@
     "@vuepress/core": "*",
     "uslug": "^1.0.4",
     "vuepress": "^1.4.1"
+  },
+  "devDependencies": {
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2"
   }
 }

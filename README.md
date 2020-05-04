@@ -35,7 +35,7 @@
 
 # Roadmap
 
-![Карта Тимлида](https://raw.githubusercontent.com/tlbootcamp/tlroadmap/master/roadmap.svg?sanitize=true)
+<Roadmap/>
 
 Роадмап содержит в себе два раздела:
 - **Роли и обязанности.** Перечень высокоуровневых рабочих ролей и более конкретных обязанностей и зон ответственности.
