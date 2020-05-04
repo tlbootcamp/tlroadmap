@@ -55,5 +55,5 @@
 
 ### Теория
 #### Книги
-- [Семь навыков высокоэффективных людей. Мощные инструменты развития личности, Стивен Кови](https://www.ozon.ru/context/detail/id/4749424/)
-- [Драйв. Что на самом деле нас мотивирует, Дэниел Пинк](https://www.ozon.ru/context/detail/id/22524686/)
+- [Семь навыков высокоэффективных людей. Мощные инструменты развития личности, Стивен Кови](https://www.livelib.ru/book/1003055575-sem-navykov-vysokoeffektivnyh-lyudej-stiven-kovi)
+- [Драйв. Что на самом деле нас мотивирует, Дэниел Пинк](https://www.livelib.ru/book/1000898792-drajv-chto-na-samom-dele-nas-motiviruet-deniel-pink)

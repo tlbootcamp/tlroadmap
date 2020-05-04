@@ -151,5 +151,5 @@
 - [Антипаттерны тестирования ПО](https://habr.com/ru/post/358178/)
 
 **Дополнительные материалы:**
-- [Исправление недостатков пирамиды: Модель круглой земли](https://www.satisfice.com/blog/archives/4947) [(рус)](https://software-testing.ru/library/testing/test-management/3163-roundearth)
+- [Исправление недостатков пирамиды: Модель круглой земли](https://www.satisfice.com/blog/archives/4947) <a href="https://software-testing.ru/library/testing/test-management/3163-roundearth" data-proofer-ignore>(рус)</a>
 - [Обзор различных групп тестов, библиотек и практик их написания](https://habr.com/ru/company/sberbank/blog/443316/)

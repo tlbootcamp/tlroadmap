@@ -59,8 +59,8 @@
 - [Ещё несколько правил дачи и приёма](https://habr.com/ru/company/yamoney/blog/441036/)
 
 #### Книги
-- [Пять пороков команды, Патрик Ленсиони](https://www.ozon.ru/context/detail/id/138829608/)
-- [Фидбек. Получите обратную связь!, Елена Золина и Игорь Манн](https://www.ozon.ru/context/detail/id/31247395/)
+- [Пять пороков команды, Патрик Ленсиони](https://www.livelib.ru/book/1002048401-pyat-porokov-komandy-pritchi-o-liderstve-patrik-lensioni)
+- [Фидбек. Получите обратную связь!, Елена Золина и Игорь Манн](https://www.livelib.ru/book/1001127521-fidbek-poluchite-obratnuyu-svyaz-igor-mann)
 
 
 #### Видео

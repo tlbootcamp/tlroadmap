@@ -28,5 +28,5 @@
 
 ## Теория
 ### Книги
-- [Работа рулит! Почему большинство людей в мире хотят работать именно в Google, Ласло Бок](https://www.ozon.ru/context/detail/id/33537490/)
-- [Измеряйте самое важное. Как Google, Intel и другие компании добиваются роста с помощью OKR, Джон Дорр](https://www.ozon.ru/context/detail/id/148592247/)
+- [Работа рулит! Почему большинство людей в мире хотят работать именно в Google, Ласло Бок](https://www.livelib.ru/book/1001385857-rabota-rulit-pochemu-bolshinstvo-lyudej-v-mire-hotyat-rabotat-imenno-v-google-laslo-bok)
+- [Измеряйте самое важное. Как Google, Intel и другие компании добиваются роста с помощью OKR, Джон Дорр](https://www.livelib.ru/book/1002908599-izmeryajte-samoe-vazhnoe-kak-google-intel-i-drugie-kompanii-dobivayutsya-rosta-s-pomoschyu-okr-dzhon-dorr)

@@ -162,7 +162,7 @@ jobs:
           arguments: >-
             --assume-extension
             --typhoeus-config '{"timeout": 60}'
-            --url-ignore "/www\.consultant\.ru/.*/"
+            --url-ignore "/www\.consultant\.ru/.*/,/github.com\/.*\/edit\/.*/"
 
   publish-vuepress:
     name: Publish VuePress site

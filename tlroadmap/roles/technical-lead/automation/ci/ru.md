@@ -54,9 +54,9 @@ CI (Continuous Integration или Непрерывная интеграция) �
 ## Теория
 <!-- yaspeller ignore:start -->
 ### Книги
-- [Джез Хамбл, Дэйвид Фарли Непрерывное развёртывание ПО. Автоматизация процессов сборки, тестирования и внедрения новых версий программ](https://www.ozon.ru/context/detail/id/162984056/)
-- [Философия DevOps. Искусство управления IT](https://www.ozon.ru/context/detail/id/141365634/) - лучше в оригинале
-- [Continuous delivery. Практика непрерывных апдейтов](https://www.ozon.ru/context/detail/id/143509632/)
+- [Джез Хамбл, Дэйвид Фарли Непрерывное развёртывание ПО. Автоматизация процессов сборки, тестирования и внедрения новых версий программ](https://www.livelib.ru/book/1000505317-nepreryvnoe-razvertyvanie-po-avtomatizatsiya-protsessov-sborki-testirovaniya-i-vnedreniya-novyh-versij-programm-dzhez-hambl)
+- [Философия DevOps. Искусство управления IT](https://www.livelib.ru/book/1002458135-filosofiya-devops-iskusstvo-upravleniya-it-dzhennifer-devis) - лучше в оригинале
+- [Continuous delivery. Практика непрерывных апдейтов](https://www.livelib.ru/book/1002620197-continuous-delivery-praktika-nepreryvnyh-apdejtov-eberhard-volf)
 
 ### Видео
 - [Илья Климов — Ламповый CI/CD. Как и с чего начать](https://www.youtube.com/watch?v=CwU-OiS_PEQ)

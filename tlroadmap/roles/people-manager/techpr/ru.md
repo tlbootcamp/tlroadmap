@@ -68,8 +68,8 @@
 
 ### Теория
 #### Книги
-- [Код публичности, Ана Мавричева](https://www.ozon.ru/context/detail/id/147972989/)
-- [Никогда не ешьте в одиночку и другие правила нетворкинга, Кит Феррацци](https://www.ozon.ru/context/detail/id/28260123/)
+- [Код публичности, Ана Мавричева](https://www.livelib.ru/book/1002922627-kod-publichnosti-razvitie-lichnogo-brenda-v-epohu-digital-ana-mavricheva)
+- [Никогда не ешьте в одиночку и другие правила нетворкинга, Кит Феррацци](https://www.livelib.ru/book/1002026808-nikogda-ne-eshte-v-odinochku-i-drugie-pravila-netvorkinga-kejt-ferratstsi)
 
 #### Статьи
 - [Про что выступать](https://medium.com/@etolstoy/%D0%BF%D1%80%D0%BE-%D1%87%D1%82%D0%BE-%D0%B2%D1%8B%D1%81%D1%82%D1%83%D0%BF%D0%B0%D1%82%D1%8C-5ee9874bd45f)

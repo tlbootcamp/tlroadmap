@@ -103,7 +103,7 @@
 ### Теория
 #### Книги
 - [Брать или не брать? или Как собеседовать разработчика, Константин Борисов](https://www.litres.ru/konstantin-evgenevich-b/brat-ili-ne-brat-ili-kak-sobesedovat-razrabotchika/chitat-onlayn/)
-- [Кто. Решите вашу проблему номер один, Джефф Смарт и Рэнди Стрит](https://www.ozon.ru/context/detail/id/141261611/)
+- [Кто. Решите вашу проблему номер один, Джефф Смарт и Рэнди Стрит](https://www.livelib.ru/work/1002281362-kto-reshite-vashu-problemu-nomer-odin-dzheff-smart)
 
 #### Статьи
 - [Опыт проведения собеседований разных компаний](https://habr.com/ru/post/322758/)

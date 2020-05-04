@@ -42,4 +42,4 @@ PDCA (Plan-Do-Check-Act) или его ещё называют цикл Деми
 
 ### Книги
 - [Deming Cycle PDCA – Plan Do Check Act Journal in Daily Life TOYOTA way](https://www.amazon.com/Deming-Cycle-PDCA-Journal-TOYOTA/dp/1798524708)
-- [Optimization of Raw Material Cost Using PDCA Cycle](https://www.ozon.ru/context/detail/id/169121496/)
+- [Optimization of Raw Material Cost Using PDCA Cycle](https://books.google.ru/books/about/Optimization_of_Raw_Material_Cost_Using.html?id=SyNntAEACAAJ)

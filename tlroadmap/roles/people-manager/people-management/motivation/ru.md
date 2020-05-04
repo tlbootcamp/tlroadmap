@@ -124,8 +124,8 @@
 - [Пинк Д. Драйв. Что на самом деле нас мотивирует](https://www.alpinabook.ru/catalog/hr/66437/)
 - [Иванова С. Мотивация на 100%](https://www.alpinabook.ru/catalog/hr/5641/)
 - [Бланшар К. Киты. Выше и лучше, или уроки мотивации, вдохновения и определения целей](https://www.labirint.ru/books/38628/)
-- [Том ДеМарко, Тимоти Листер. Человеческий фактор. Успешные проекты и команды](https://www.ozon.ru/context/detail/id/141703518/)
-- [Сьюзен Фаулер. Почему они не работают? Новый взгляд на мотивацию сотрудников](https://www.ozon.ru/context/detail/id/136801528/)
+- [Том ДеМарко, Тимоти Листер. Человеческий фактор. Успешные проекты и команды](https://www.livelib.ru/book/1001259783-chelovecheskij-faktor-uspeshnye-proekty-i-komandy-tom-demarko)
+- [Сьюзен Фаулер. Почему они не работают? Новый взгляд на мотивацию сотрудников](https://www.livelib.ru/book/1001597912-pochemu-oni-ne-rabotayut-novyj-vzglyad-na-motivatsiyu-sotrudnikov-syuzen-fauler)
 
 #### Видео
 - [Драйв! Что на самом деле нас мотивирует](https://youtu.be/GOE5zGWdrww)
