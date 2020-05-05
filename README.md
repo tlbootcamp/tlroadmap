@@ -176,7 +176,7 @@
 - [Понимание ценности различий](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/diversity.md)
 ### Мышление
 - Системное мышление
-- Стратегическое видение
+- [Стратегическое видение](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/stategic-thinking.md)
 - Принятие решений
 ### Стили управления
 ### Коммуникации
