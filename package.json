@@ -11,7 +11,10 @@
     "@b0g3r/vuepress-plugin-locale-prefix": "^0.1.1",
     "@vuepress/core": "*",
     "uslug": "^1.0.4",
-    "vuepress": "^1.4.1"
+    "vuepress": "^1.4.1",
+    "vuepress-plugin-git-log": "^1.0.1",
+    "vuepress-plugin-seo": "^0.1.2",
+    "vuepress-plugin-sitemap": "^2.3.1"
   },
   "devDependencies": {
     "sass": "^1.26.5",

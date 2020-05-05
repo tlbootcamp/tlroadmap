@@ -6,7 +6,21 @@ const LOCALES = new Map([
 const uslug = require('uslug')
 const uslugify = s => uslug(s)
 
-module.exports = {
+const HOSTNAME = process.env.HOSTNAME || 'https://tlroadmap.io'
+
+function extractDescription($page) {
+  if ($page.frontmatter.description) return $page.frontmatter.description;
+  if (!$page._strippedContent) return null;
+  const lines = $page._strippedContent.split('\n').filter(line => line);
+  const descriptionTitleIndex = lines.indexOf('## Описание');
+  if (descriptionTitleIndex === -1) {
+    return null;
+  } else {
+    return lines[descriptionTitleIndex + 1];
+  }
+}
+
+module.exports = (ctx) => ({
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
   ],
@@ -73,6 +87,13 @@ module.exports = {
   },
   plugins: [
     [
+      'git-log',
+      {
+        additionalArgs: '--follow',
+        formatTime: (timestamp, _) => timestamp,
+      },
+    ],
+    [
       '@b0g3r/locale-prefix',
       {
         locales: LOCALES,
@@ -84,5 +105,23 @@ module.exports = {
         locales: LOCALES,
       },
     ],
+    [
+      'sitemap',
+      {
+        hostname: HOSTNAME,
+        dateFormatter: (lastUpdated) => lastUpdated,
+      },
+    ],
+    [
+      'seo',
+      {
+        title: ($page) => $page.frontmatter.title || ('Teamlead Roadmap: ' + $page.title),
+        description: extractDescription,
+        modifiedAt: ($page) => $page.git && $page.git.updated && new Date($page.git.updated * 1000).toISOString(),
+        publishedAt: ($page) => $page.git && $page.git.created && new Date($page.git.created * 1000).toISOString(),
+        author: ($page) => $page.frontmatter.author || $page.git && $page.git.contributors.slice(-1)[0],
+        type: ($page) => $page.frontmatter.home ? 'website' : 'article',
+      },
+    ],
   ]
-}
+});
