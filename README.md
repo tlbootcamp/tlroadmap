@@ -163,6 +163,7 @@
         - Раскатка
 - Проектное управление
     - [PMBoK](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/pmbok.md)
+    - [3express.md p3express](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/p)
     - [PDCA](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/pdca.md)
 - [Стейкхолдинг](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/stakeholding.md)
 ## Personal Skills
