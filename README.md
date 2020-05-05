@@ -109,7 +109,7 @@
         - [Генерация элементов бэклога](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/backlog-generation.md)
         - [Приоритизация бэклога](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/backlog-prioritization.md)
 - Управление продуктом
-    - Запуск продукта
+    - [Запуск продукта](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/product-launch.md)
     - Ценообразование
     - [Жизненный цикл фичей](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/feature-lifecycle.md)
 ### Integrator
