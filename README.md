@@ -172,7 +172,6 @@
 - [Работа с привычками](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/habits.md)
 - [Личный бренд](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/personal-brand.md)
 ### Отношения
-- Эмпатия
 - [Эмоциональный интеллект](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/emotional-intelligence.md)
 - [Понимание ценности различий](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/diversity.md)
 ### Мышление
