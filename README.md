@@ -100,7 +100,7 @@
 - Понимание продукта
     - [Знание рынка](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/market-knowledge.md)
     - [Знание пользователей](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/user-knowledge.md)
-    - Знание продукта
+    - [Знание продукта](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/product-knowledge.md)
 - Принятие продуктовых решений
     - Продуктовая стратегия
     - Целеполагание
@@ -123,14 +123,14 @@
         - Тестовая модель
         - Тест-планы
         - [Пирамида тестирования](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/test-pyramid.md)
-        - Оптимизация количества тестирования
+        - [Оптимизация количества тестирования](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/optimisation-testing.md)
     - [Работа с багами](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/bugs.md)
     - [Управление инцидентами](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/incident-management.md)
     - Метрики и мониторинг
     - [Нефункциональные требования](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/nfr.md)
 - Обеспечение технического качества
     - [Unit-тестирование](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/unit-testing.md)
-    - Чистый код
+    - [Чистый код](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/clean-code.md)
     - [Рефакторинг](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/refactoring.md)
     - [Управление техническим долгом](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/technical-debt.md)
 - Знание технологий
@@ -162,7 +162,7 @@
         - Приёмка
         - Раскатка
 - Проектное управление
-    - PMBoK
+    - [PMBoK](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/pmbok.md)
     - [PDCA](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/pdca.md)
 - [Стейкхолдинг](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/stakeholding.md)
 ## Personal Skills
@@ -170,14 +170,14 @@
 - [Умение учиться](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/learning.md)
 - [Рефлексия](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/reflection.md)
 - [Работа с привычками](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/habits.md)
+- [Личный бренд](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/personal-brand.md)
 ### Отношения
-- Эмпатия
 - [Эмоциональный интеллект](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/emotional-intelligence.md)
 - [Понимание ценности различий](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/diversity.md)
 ### Мышление
 - Системное мышление
 - Стратегическое видение
-- Принятие решений
+- [Принятие решений](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/decision-making.md)
 ### Стили управления
 ### Коммуникации
 - [Фасилитация](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/facilitation.md)

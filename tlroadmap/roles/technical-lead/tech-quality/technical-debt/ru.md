@@ -79,3 +79,4 @@
 
 ### Видео
 - [Debt Metaphor](https://www.youtube.com/watch?v=pqeJFYwnkjE)
+- [Максим Смирнов. Как списать технический долг](https://www.youtube.com/watch?v=HRRv82L75wU)
