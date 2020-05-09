@@ -1,3 +1,3 @@
 lxml==4.4.1
-plantuml2freemind==0.7.3
+plantuml2freemind==0.8.0
 typing_extensions==3.7.4

@@ -53,7 +53,7 @@ We've prepared a few common Team Lead models. With their help, you can see how t
 - Startup Team Lead: [mindmap](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/examples/startup-teamlead.mm)
 
 # Work in progress
-The current roadmap is an alpha version that has a common teamwork structure and partially describes the first major role, Resource Manager. We are looking forward to your participation in the project. The contribution process is described in depth in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+The current roadmap is an alpha version that has a common teamwork structure and partially describes the first major role, Resource Manager. We are looking forward to your participation in the project. The contribution process is described in depth in [`CONTRIBUTING.md`](/contributing).
 
 # The knowledge base
 The base is gradually filled with Stas Tsyganov, Egor Tolstoy and the community. Our final goal is to describe each of the directions according to the following template:
@@ -72,28 +72,28 @@ If you don't agree with any of the existing descriptions or think you can improv
 ### Resource Manager
 - Human management
     - Hiring
-        - [Candidate profile](../skills/resource-manager/profile.md)
-        - [Interviews](../skills/resource-manager/interview.md)
-        - [Onboarding](../skills/resource-manager/onboarding.md)
-        - [Probation](../skills/resource-manager/test-period.md)
-    - [Firing](../skills/resource-manager/firing.md)
-    - [Motivation](../skills/resource-manager/motivation.md)
-    - [Development](../skills/resource-manager/development.md)
+        - [Candidate profile](../tlroadmap/old/resource-manager/profile.md)
+        - [Interviews](../tlroadmap/old/resource-manager/interview.md)
+        - [Onboarding](../tlroadmap/old/resource-manager/onboarding.md)
+        - [Probation](../tlroadmap/old/resource-manager/test-period.md)
+    - [Firing](../tlroadmap/old/resource-manager/firing.md)
+    - [Motivation](../tlroadmap/old/resource-manager/motivation.md)
+    - [Development](../tlroadmap/old/resource-manager/development.md)
     - Promotion
-        - [Assessments](../skills/resource-manager/assessment.md)
-        - [Career path](../skills/resource-manager/career.md)
-    - [Feedback](../skills/resource-manager/feedback.md)
-    - [One-to-one](../skills/resource-manager/one-to-one.md)
-    - [Administrative tasks](../skills/resource-manager/admin.md)
+        - [Assessments](../tlroadmap/old/resource-manager/assessment.md)
+        - [Career path](../tlroadmap/old/resource-manager/career.md)
+    - [Feedback](../tlroadmap/old/resource-manager/feedback.md)
+    - [One-to-one](../tlroadmap/old/resource-manager/one-to-one.md)
+    - [Administrative tasks](../tlroadmap/old/resource-manager/admin.md)
 - Team management
-    - [Creating a team](../skills/resource-manager/team-launch.md)
-    - [Competency management](../skills/resource-manager/competency-management.md)
-    - [Team design](../skills/resource-manager/team-design.md)
-    - [Workspace organization](../skills/resource-manager/workspace.md)
-    - [Team spirit](../skills/resource-manager/team-climate.md)
-    - [Team maturity](../skills/resource-manager/team-maturity.md)
-    - [Transparency](../skills/resource-manager/transparency.md)
-- [Technical Brand Development](../skills/resource-manager/techpr.md)
+    - [Creating a team](../tlroadmap/old/resource-manager/team-launch.md)
+    - [Competency management](../tlroadmap/old/resource-manager/competency-management.md)
+    - [Team design](../tlroadmap/old/resource-manager/team-design.md)
+    - [Workspace organization](../tlroadmap/old/resource-manager/workspace.md)
+    - [Team spirit](../tlroadmap/old/resource-manager/team-climate.md)
+    - [Team maturity](../tlroadmap/old/resource-manager/team-maturity.md)
+    - [Transparency](../tlroadmap/old/resource-manager/transparency.md)
+- [Technical Brand Development](../tlroadmap/old/resource-manager/techpr.md)
 
 ### Product Owner
 - Product understanding
@@ -118,13 +118,13 @@ If you don't agree with any of the existing descriptions or think you can improv
         - Backlog prioritization
 
 ### Integrator
-- [Business knowledge](../skills/integrator/business-knowledge.md)
-- [Corporate culture](../skills/integrator/corporate-culture.md)
+- [Business knowledge](../tlroadmap/roles/integrator/business-knowledge.md)
+- [Corporate culture](../tlroadmap/roles/integrator/corporate-culture.md)
 - Company structure
 
 ### Technical Lead
 - Product quality assurance
-    - [Code Review](../skills/technical-lead/code-review.md)
+    - [Code Review](../tlroadmap/roles/technical-lead/product-quality/code-review.md)
     - Testing
         - Test model
         - Test plans
@@ -199,7 +199,7 @@ If you don't agree with any of the existing descriptions or think you can improv
 #### The control styles
 
 ### Communication
-- [Facilitation](../skills/communications/facilitation.md)
+- [Facilitation](../tlroadmap/communications/facilitation.md)
 - Cooperation
 - Conflict management
 - Giving and receiving feedback
@@ -209,7 +209,7 @@ If you don't agree with any of the existing descriptions or think you can improv
 
 ### Time-management
 - Setting personal goals
-- [Time management](../skills/self-improvement/time-management.md)
+- [Time management](../tlroadmap/personal-skills/time-management/time-management.md)
 - Priority management
 <!--roadmap.mm table of contents end-->
 
