@@ -49,7 +49,7 @@
 
 Название у файлов соответствуют двухбуквенному имени локали + `.md`, например `ru.md`, `zh.md`. Это позволяет нам составлять локализованные версии роадмапа.
 
-Мы стараемся содержать базу знаний в едином формате (одинаковая система заголовков и изложения), который можно подсмотреть в нашем [шаблоне](https://github.com/b0g3r/tlroadmap/blob/master/tlroadmap/.template/ru.md).
+Мы стараемся содержать базу знаний в едином формате (одинаковая система заголовков и изложения), который можно подсмотреть в нашем [шаблоне](https://github.com/tlbootcamp/tlroadmap/blob/master/tlroadmap/.template/ru.md).
 
 В начале каждого файла _может_ идти специальный блок с мета-информацией в формате [Frontmatter](https://jekyllrb.com/docs/front-matter/), которая используется при сборке. Она может выглядеть вот так:
 ```
@@ -76,7 +76,7 @@ author: Dima Boger
 
 Создайте там новую папку с коротким и понятным названием на английском. Используйте нижний регистр букв, а пробелы замените на дефисы `-`. В нашем случае — `ci` или `continuous-integration`. У вас получится структура `tlroadmap/roles/tech-lead/automation/continuous-integration`
 
-Теперь нужно создать файл с контентом. Для этого используйте наш шаблон для описаний: скопируйте файл [.template/ru.md](https://github.com/b0g3r/tlroadmap/blob/master/tlroadmap/.template/ru.md) в `tlroadmap/roles/tech-lead/automation/continuous-integration/ru.md` и заполняйте его, согласно инструкции внутри.
+Теперь нужно создать файл с контентом. Для этого используйте наш шаблон для описаний: скопируйте файл [.template/ru.md](https://github.com/tlbootcamp/tlroadmap/blob/master/tlroadmap/.template/ru.md) в `tlroadmap/roles/tech-lead/automation/continuous-integration/ru.md` и заполняйте его, согласно инструкции внутри.
 
 ### Как сделать новую ветку
 Большинство веток (не путайте с листочками) не содержат подробного описания и служат для логической группировки компетенций.

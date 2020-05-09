@@ -42,7 +42,7 @@ module.exports = (ctx) => ({
     }
   },
   themeConfig: {
-    repo: 'b0g3r/tlroadmap',
+    repo: 'tlbootcamp/tlroadmap',
     docsDir: 'tlroadmap',
     editLinks: true,
     locales: {

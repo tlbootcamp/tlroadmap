@@ -11,6 +11,9 @@
 ehthumbs.db
 Thumbs.db
 
+/.venv
+/node_modules
+
 # Vuepress
 /tlroadmap/.vuepress/dist
 /tlroadmap/.vuepress/trees/*
