@@ -217,14 +217,16 @@ jobs:
           deploy_host=$(echo $draft_url | awk -F'--' '{print $NF}')
           echo "::set-output name=deploy-url::https://$deploy_host"
 
-      - name: Publish to netlify [preview]
+      - name: Publish to surge [preview]
         id: publish-preview
         if: github.event_name == 'pull_request'
         env:
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          SURGE_LOGIN: tlroadmap@tlroadmap.dev
+          SURGE_TOKEN: 61f3e26c04ef5bf004895830445a5308
         run: |
-          deploy_url=$(npx netlify-cli deploy --json --dir=vuepress-site | jq -r .deploy_url)
+          pr_number=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
+          deploy_url="${pr_number}-tlroadmap-review.surge.sh"
+          npx surge vuepress-site $deploy_url
           echo "::set-output name=deploy-url::$deploy_url"
 
       - name: Create GitHub deployment
