@@ -1,3 +1,4 @@
+const moment = require('moment')
 const LOCALES = new Map([
   ['en', '/en/'],
   ['ru', '/'],
@@ -87,6 +88,15 @@ module.exports = (ctx) => ({
   },
   plugins: [
     [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          moment.locale(lang)
+          return moment(timestamp).format()
+        },
+      },
+    ],
+    [
       'git-log',
       {
         additionalArgs: '--follow',
@@ -108,10 +118,9 @@ module.exports = (ctx) => ({
     ],
     [
       'sitemap',
-      ctx.isProd ? {
+      {
         hostname: HOSTNAME,
-        dateFormatter: (lastUpdated) => lastUpdated,
-      } : false,
+      },
     ],
     [
       'seo',
