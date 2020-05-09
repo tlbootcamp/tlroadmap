@@ -1,6 +1,6 @@
 <template>
-  <object @load="reformatLinks" class="svg-roadmap" data="/roadmap.svg" type="image/svg+xml">
-    <img alt="Roadmap file" src="/roadmap.png" />
+  <object @load="reformatLinks" class="svg-roadmap" data="/roadmap-ru.svg" type="image/svg+xml">
+    <img alt="Roadmap file" src="/roadmap-ru.png" />
   </object>
 </template>
 
@@ -12,6 +12,11 @@
         for (const link of links) {
           link.target.baseVal = '_blank';
         }
+      }
+    },
+    computed: {
+      roadmap() {
+        return this.$roadmap
       }
     }
   }

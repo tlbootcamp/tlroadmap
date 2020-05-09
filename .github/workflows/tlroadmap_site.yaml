@@ -9,31 +9,54 @@ on:
       - master
 
 jobs:
-  generate-roadmap-plantuml:
-    name: Generate roadmap.puml
+  build-vuepress:
+    name: Build VuePress site and generate roadmap tree
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      # TODO: temporary mock
 
-      - name: Upload artifact
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '13.x'
+
+      - name: Cache dependencies
+        uses: actions/cache@v1
+        with:
+          path: ~/.cache/yarn
+          key: ${{ runner.os }}-yarn-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Install js dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build vuepress site
+        run: yarn run site:build
+
+      - name: Upload pre-site to artifact
         uses: actions/upload-artifact@v1
         with:
-          name: plantuml
-          path: roadmap.puml
+          name: vuepress-pre-site
+          path: tlroadmap/.vuepress/dist
 
+      - name: Upload trees
+        uses: actions/upload-artifact@v1
+        with:
+          name: trees
+          path: tlroadmap/.vuepress/trees
 
-  generate-roadmap-freemind:
-    name: Generate roadmap.mm
+  generate-roadmap-freemind-plantuml:
+    name: Generate .mm and .puml
     runs-on: ubuntu-latest
     needs:
-      - generate-roadmap-plantuml
+      - build-vuepress
     steps:
       - uses: actions/checkout@v2
 
       - uses: actions/download-artifact@v1
         with:
-          name: plantuml
+          name: trees
 
       - name: Set up Python 3.8
         uses: actions/setup-python@v1
@@ -54,19 +77,31 @@ jobs:
           pip install -r tools/requirements.txt
 
       - name: Run plantuml2freemind
-        run: plantuml2freemind convert plantuml/roadmap.puml roadmap.mm --no-interaction
+        run: |
+          mkdir freemind
+          mkdir plantuml
+          plantuml2freemind convert trees/tree-ru.json freemind/roadmap-ru.mm --no-interaction
+          plantuml2freemind convert trees/tree-en.json freemind/roadmap-en.mm --no-interaction
+          plantuml2freemind convert trees/tree-ru.json plantuml/roadmap-ru.puml --no-interaction
+          plantuml2freemind convert trees/tree-en.json plantuml/roadmap-en.puml --no-interaction
 
       - name: Upload artifact
         uses: actions/upload-artifact@v1
         with:
           name: freemind
-          path: roadmap.mm
+          path: freemind
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: plantuml
+          path: plantuml
 
   generate-roadmap-image:
-    name: Generate roadmap.svg, roadmap.png
+    name: Generate .svg and .png
     runs-on: ubuntu-latest
     needs:
-      - generate-roadmap-plantuml
+      - generate-roadmap-freemind-plantuml
     steps:
       - uses: actions/checkout@v2
 
@@ -82,8 +117,10 @@ jobs:
       - name: Generate .png and .svg
         run: |
           mkdir images
-          cat plantuml/roadmap.puml | java -jar tools/plantuml.jar -charset UTF-8 -pipe > images/roadmap.png
-          cat plantuml/roadmap.puml | java -jar tools/plantuml.jar -charset UTF-8 -tsvg -pipe > images/roadmap.svg
+          cat plantuml/roadmap-ru.puml | java -jar tools/plantuml.jar -charset UTF-8 -pipe > images/roadmap-ru.png
+          cat plantuml/roadmap-en.puml | java -jar tools/plantuml.jar -charset UTF-8 -pipe > images/roadmap-en.png
+          cat plantuml/roadmap-ru.puml | java -jar tools/plantuml.jar -charset UTF-8 -tsvg -pipe > images/roadmap-ru.svg
+          cat plantuml/roadmap-en.puml | java -jar tools/plantuml.jar -charset UTF-8 -tsvg -pipe > images/roadmap-en.svg
 
       - name: Upload artifact
         uses: actions/upload-artifact@v1
@@ -91,19 +128,25 @@ jobs:
           name: images
           path: images
 
-  build-vuepress:
-    name: Build VuePress site
+  combine-site:
+    name: Combine artifacts and site
     runs-on: ubuntu-latest
     needs:
+      - generate-roadmap-freemind-plantuml
       - generate-roadmap-image
-      - generate-roadmap-plantuml
-      - generate-roadmap-freemind
+      - build-vuepress
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/download-artifact@v1
+        with:
+          name: vuepress-pre-site
 
       - uses: actions/download-artifact@v1
         with:
-          name: images
+          name: trees
+
+      - uses: actions/download-artifact@v1
+        with:
+          name: plantuml
 
       - uses: actions/download-artifact@v1
         with:
@@ -111,45 +154,25 @@ jobs:
 
       - uses: actions/download-artifact@v1
         with:
-          name: plantuml
+          name: images
 
-      - name: Setup Node
-        uses: actions/setup-node@v1
-        with:
-          node-version: '13.x'
-
-      - name: Cache dependencies
-        uses: actions/cache@v1
-        with:
-          path: ~/.cache/yarn
-          key: ${{ runner.os }}-yarn-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-
-      - name: Prepare roadmap outputs
-        run: |
-          mv images/roadmap.png tlroadmap/.vuepress/public/
-          mv images/roadmap.svg tlroadmap/.vuepress/public/
-          mv plantuml/roadmap.puml tlroadmap/.vuepress/public/
-          mv freemind/roadmap.mm tlroadmap/.vuepress/public/
-
-      - name: Install js dependencies
-        run: yarn install --frozen-lockfile
-
-      - name: Build vuepress site
-        run: yarn run site:build
+      - run: |
+          mv -v plantuml/* vuepress-pre-site
+          mv -v freemind/* vuepress-pre-site
+          mv -v images/* vuepress-pre-site
+          mv -v trees/* vuepress-pre-site
 
       - name: Upload artifact
         uses: actions/upload-artifact@v1
         with:
           name: vuepress-site
-          path: tlroadmap/.vuepress/dist
+          path: vuepress-pre-site
 
   check-links:
     name: Check broken links
     runs-on: ubuntu-latest
     needs:
-      - build-vuepress
+      - combine-site
     steps:
       - uses: actions/download-artifact@v1
         with:
@@ -168,7 +191,7 @@ jobs:
     name: Publish VuePress site
     runs-on: ubuntu-latest
     needs:
-      - build-vuepress
+      - combine-site
     steps:
       - uses: actions/download-artifact@v1
         with:

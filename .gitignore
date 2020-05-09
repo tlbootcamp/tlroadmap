@@ -12,4 +12,5 @@ ehthumbs.db
 Thumbs.db
 
 # Vuepress
-tlroadmap/.vuepress/dist
+/tlroadmap/.vuepress/dist
+/tlroadmap/.vuepress/trees/*

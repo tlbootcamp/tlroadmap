@@ -7,7 +7,7 @@
     "site:build": "vuepress build tlroadmap"
   },
   "dependencies": {
-    "@b0g3r/vuepress-plugin-generate-tree": "^0.1.0",
+    "@b0g3r/vuepress-plugin-generate-tree": "^0.2.6",
     "@b0g3r/vuepress-plugin-locale-prefix": "^0.1.1",
     "@vuepress/core": "*",
     "uslug": "^1.0.4",

@@ -103,14 +103,15 @@ module.exports = (ctx) => ({
       '@b0g3r/generate-tree',
       {
         locales: LOCALES,
+        dumpingEnabled: ctx.isProd,
       },
     ],
     [
       'sitemap',
-      {
+      ctx.isProd ? {
         hostname: HOSTNAME,
         dateFormatter: (lastUpdated) => lastUpdated,
-      },
+      } : false,
     ],
     [
       'seo',
