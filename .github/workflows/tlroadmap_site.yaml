@@ -225,12 +225,13 @@ jobs:
           SURGE_TOKEN: 61f3e26c04ef5bf004895830445a5308
         run: |
           pr_number=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
-          deploy_url="${pr_number}-tlroadmap-review.surge.sh"
-          npx surge vuepress-site $deploy_url
-          echo "::set-output name=deploy-url::$deploy_url"
+          deploy_host="${pr_number}-tlroadmap-review.surge.sh"
+          npx surge vuepress-site $deploy_host
+          echo "::set-output name=deploy-url::https://$deploy_host"
 
       - name: Create GitHub deployment
         uses: chrnorm/deployment-action@v1.2.0
+        if: github.ref == 'refs/heads/master'
         with:
           token: "${{ github.token }}"
           environment: "${{ (github.event_name == 'pull_request' && 'review') || 'prod' }}"
