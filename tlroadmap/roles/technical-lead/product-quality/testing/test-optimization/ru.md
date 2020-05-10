@@ -90,7 +90,7 @@
 
 ## Теория
 ### Статьи
-- Почему тестирование занимает столько времени — [часть 1](https://www.developsense.com/blog/2009/11/why-is-testing-taking-so-long-part-1), [часть 2](https://www.developsense.com/blog/2009/11/what-does-testing-take-so-long-part-2), [перевод](https://software-testing.ru/library/testing/general-testing/911-why-is-testing-taking-so-long)
+- Почему тестирование занимает столько времени — [часть 1](https://www.developsense.com/blog/2009/11/why-is-testing-taking-so-long-part-1), [часть 2](https://www.developsense.com/blog/2009/11/what-does-testing-take-so-long-part-2), <a href="https://software-testing.ru/library/testing/general-testing/911-why-is-testing-taking-so-long" data-proofer-ignore>перевод</a>
 - Нужно ли вам больше тестировщиков? — [оригинал](https://www.developsense.com/blog/2007/04/do-you-need-more-testers-context-driven), [перевод](http://goblingame.blogspot.com/2011/09/blog-post.html)
 
 ### Подкасты
