@@ -3,7 +3,7 @@
 > Тимлид – это ❄️, потому что в каждой компании он уникален и неповторим.
 [Teamlead Roadmap](tlroadmap.io) – это карта навыков и компетенций тимлидов, которую можно адаптировать для любой компании и команды. Попробуйте приложить её и к себе!
 
-- [Роадмап](#roadmap)
+- [Роадмап](tlroadmap.io/roadmap-ru.svg)
 - [Сайт с базой знаний](tlroadmap.io)
 - [Telegram-чат проекта](https://tlinks.run/tlbootcamp)
 
@@ -54,12 +54,13 @@
 - **Роли и обязанности.** Перечень высокоуровневых рабочих ролей и более конкретных обязанностей и зон ответственности.
 - **Personal Skills.** Личные навыки и качества, наличие которых необходимо для определённых ролей и обязанностей.
 
-Если кликнуть по картинке выше, то все ссылки в листьях станут кликабельны, и будут вести на соответствующую запись.
+Если кликнуть по картинке выше, то все ссылки в листьях станут кликабельны, и будут вести на соответствующую запись в базе знаний.
 
 ## Скачать роадмап
-- [PNG](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/roadmap.png)
-- [Mindmap](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/roadmap.mm)
-- [SVG](https://cdn.jsdelivr.net/gh/tlbootcamp/tlroadmap@master/roadmap.svg)
+- [PNG](https://tlroadmap.io/roadmap-ru.png)
+- [Mindmap](https://tlroadmap.io/roadmap-ru.mm)
+- [Plantuml](https://tlroadmap.io/roadmap-ru.puml)
+- [SVG](https://tlroadmap.io/roadmap-ru.svg)
 
 `mm`-файл проще всего открывать в [Freemind](https://sourceforge.net/projects/freemind/) (бесплатно и сердито), [MindNode](https://mindnode.com/) (дорого и премиально) или [MindMeister](https://mindmeister.com) (условно-бесплатно и онлайн). Скорее всего подойдут и другие редакторы майндмепов, но их работоспособность мы не проверяли.
 
@@ -67,132 +68,11 @@
 Текущий роадмап – не финальный, база знаний продолжает наполняться, а структура веток периодически обновляется. Мы будем очень рады вашему участию в проекте. Если вы готовы помочь и поделиться своим опытом – прочитайте [инструкцию по быстрому старту](CONTRIBUTING.md).
 
 # База знаний
-База наполняется постепенно Стасом Цыгановым, Егором Толстым и сообществом. Если вы не согласны с каким-то из существующих описаний, или считаете, что можете его улучшить – присылайте свой pull request. Если есть вопросы по самой структуре – точно так же, добро пожаловать [в наш чат](https://tlinks.run/tlbootcamp) или сразу в pull request.
+Использовать базу можно двумя способами:
+- Открывая статьи [на сайте](https://tlroadmap.io/guide.html)
+- Переходя по ссылкам в листьях [кликабельной версии карты](https://tlroadmap.io/roadmap-ru.svg)
 
-<!--roadmap.mm table of contents begin-->
-## Роли и обязанности
-### People Manager
-- Управление людьми
-    - Найм
-        - [Профиль кандидата](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/profile.md)
-        - [Собеседования](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/interview.md)
-        - [Онбординг](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/onboarding.md)
-        - [Тестовый период](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/test-period.md)
-    - [Увольнение](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/firing.md)
-    - [Мотивация](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/motivation.md)
-    - [Развитие](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/development.md)
-    - Промо
-        - [Ассессмент](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/assessment.md)
-        - [Карьерная линейка](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/career.md)
-    - [Обратная связь](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/feedback.md)
-    - [One-to-one](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/one-to-one.md)
-    - [Административная работа](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/admin.md)
-    - [Делегирование](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/delegation.md)
-- Управление командой
-    - [Запуск команды](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/team-launch.md)
-    - [Управление компетенциями](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/competency-management.md)
-    - [Дизайн команды](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/team-design.md)
-    - [Организация рабочего пространства](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/workspace.md)
-    - [Климат в команде](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/team-climate.md)
-    - [Зрелость команды](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/team-maturity.md)
-    - [Обеспечение прозрачности](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/transparency.md)
-- [Развитие технического бренда](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/resource-manager/techpr.md)
-### Product Owner
-- Понимание продукта
-    - [Знание рынка](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/market-knowledge.md)
-    - [Знание пользователей](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/user-knowledge.md)
-    - [Знание продукта](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/product-knowledge.md)
-- Принятие продуктовых решений
-    - Продуктовая стратегия
-    - Целеполагание
-    - Управление роадмапом
-    - Управление продуктовым бэклогом
-        - [Генерация элементов бэклога](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/backlog-generation.md)
-        - [Приоритизация бэклога](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/backlog-prioritization.md)
-- Управление продуктом
-    - Запуск продукта
-    - Ценообразование
-    - [Жизненный цикл фичей](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/product-owner/feature-lifecycle.md)
-### Integrator
-- [Знание бизнеса](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/integrator/business-knowledge.md)
-- [Корпоративная культура](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/integrator/corporate-culture.md)
-- [Структура компании](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/integrator/company-structure.md)
-### Technical Lead
-- Обеспечение качества продукта
-    - [Code Review](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/code-review.md)
-    - Тестирование
-        - Тестовая модель
-        - Тест-планы
-        - [Пирамида тестирования](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/test-pyramid.md)
-        - [Оптимизация количества тестирования](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/optimisation-testing.md)
-    - [Работа с багами](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/bugs.md)
-    - [Управление инцидентами](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/incident-management.md)
-    - Метрики и мониторинг
-    - [Нефункциональные требования](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/nfr.md)
-- Обеспечение технического качества
-    - [Unit-тестирование](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/unit-testing.md)
-    - [Чистый код](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/clean-code.md)
-    - [Рефакторинг](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/refactoring.md)
-    - [Управление техническим долгом](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/technical-debt.md)
-- Знание технологий
-    - [Написание кода](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/code.md)
-    - [Знание технологического стека команды](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/stack-knowledge.md)
-    - [Выбор технологий и контроль их стека](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/stack-choice.md)
-- Автоматизация цикла разработки
-    - [Работа с VCS](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/vcs.md)
-    - [CI](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/ci.md)
-    - Автоматизация релизов
-- Управление знаниями
-    - [Распространение знаний](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/knowledge-management.md)
-    - [Техническая документация](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/technical-lead/documentation.md)
-- Архитектура
-    - Сбор технических требований
-    - Проектирование
-    - Архитектурные ревью
-    - Эволюция
-- Capacity Management
-### Administrator
-- Построение цикла разработки
-    - [Получение задач](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/task-inbox.md)
-    - Разработка
-        - Конструирование методологии
-        - Готовые подходы
-            - [Scrum](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/scrum.md)
-            - Lean
-    - Выпуск задач
-        - Приёмка
-        - Раскатка
-- Проектное управление
-    - [PMBoK](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/pmbok.md)
-    - [PDCA](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/pdca.md)
-- [Стейкхолдинг](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/administrator/stakeholding.md)
-## Personal Skills
-### Развитие себя
-- [Умение учиться](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/learning.md)
-- [Рефлексия](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/reflection.md)
-- [Работа с привычками](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/habits.md)
-- [Личный бренд](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/personal-brand.md)
-### Отношения
-- [Эмоциональный интеллект](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/emotional-intelligence.md)
-- [Понимание ценности различий](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/diversity.md)
-### Мышление
-- Системное мышление
-- Стратегическое видение
-- [Принятие решений](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/decision-making.md)
-### Стили управления
-### Коммуникации
-- [Фасилитация](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/facilitation.md)
-- [Сотрудничество](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/cooperation.md)
-- [Управление конфликтами](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/conflicts.md)
-- [Дача и получение обратной связи](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/feedback.md)
-- [Нетворкинг](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/networking.md)
-- [Публичные выступления](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/public-speaking.md)
-- [Работа с текстом](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/text.md)
-### Тайм-менеджмент
-- [Постановка личных целей](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/goal-setting.md)
-- [Управление временем](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/time-management.md)
-- [Управление приоритетами](https://github.com/tlbootcamp/tlroadmap/blob/master/skills/self-improvement/prioritization.md)
-<!--roadmap.mm table of contents end-->
+База наполняется постепенно Стасом Цыгановым, Егором Толстым и сообществом. Если вы не согласны с каким-то из существующих описаний, или считаете, что можете его улучшить – присылайте свой pull request. Если есть вопросы по самой структуре – точно так же, добро пожаловать [в наш чат](https://tlinks.run/tlbootcamp) или сразу в pull request.
 
 # Лицензия
 Мы используем [лицензию Creative Commons Attribution-ShareAlike 4.0](LICENSE.md). Если кратко, вы можете свободно:
