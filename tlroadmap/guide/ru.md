@@ -14,7 +14,7 @@
 - [PNG](/roadmap-ru.png)
 - [SVG](/roadmap-ru.svg)
 
-`mm`-файл проще всего открывать в [Freemind](https://sourceforge.net/projects/freemind/) (бесплатно и сердито), [MindNode](https://mindnode.com/) (дорого и премиально) или [MindMeister](https://mindmeister.com) (условно-бесплатно и онлайн). Скорее всего подойдут и другие редакторы майндмепов, но их работоспособность мы не проверяли. 
+`mm`-файл проще всего открывать в [Freemind](https://sourceforge.net/projects/freemind/) (бесплатно и сердито), [MindNode](https://mindnode.com/) (дорого и премиально) или [MindMeister](https://mindmeister.com) (условно-бесплатно и онлайн). Скорее всего подойдут и другие редакторы майндмепов, но их работоспособность мы не проверяли.
 
 `.puml`-файл можно открыть в [онлайн-редакторе](https://www.planttext.com/) или в редакторе кода с подключённым PlantUML плагином.
 
