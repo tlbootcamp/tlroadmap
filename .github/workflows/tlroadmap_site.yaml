@@ -81,9 +81,7 @@ jobs:
           mkdir freemind
           mkdir plantuml
           plantuml2freemind convert trees/tree-ru.json freemind/roadmap-ru.mm --no-interaction
-          plantuml2freemind convert trees/tree-en.json freemind/roadmap-en.mm --no-interaction
           plantuml2freemind convert trees/tree-ru.json plantuml/roadmap-ru.puml --no-interaction
-          plantuml2freemind convert trees/tree-en.json plantuml/roadmap-en.puml --no-interaction
 
       - name: Upload artifact
         uses: actions/upload-artifact@v1
@@ -118,9 +116,7 @@ jobs:
         run: |
           mkdir images
           cat plantuml/roadmap-ru.puml | java -jar tools/plantuml.jar -charset UTF-8 -pipe > images/roadmap-ru.png
-          cat plantuml/roadmap-en.puml | java -jar tools/plantuml.jar -charset UTF-8 -pipe > images/roadmap-en.png
           cat plantuml/roadmap-ru.puml | java -jar tools/plantuml.jar -charset UTF-8 -tsvg -pipe > images/roadmap-ru.svg
-          cat plantuml/roadmap-en.puml | java -jar tools/plantuml.jar -charset UTF-8 -tsvg -pipe > images/roadmap-en.svg
 
       - name: Upload artifact
         uses: actions/upload-artifact@v1
