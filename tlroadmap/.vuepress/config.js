@@ -1,6 +1,5 @@
 const moment = require('moment')
 const LOCALES = new Map([
-  ['en', '/en/'],
   ['ru', '/'],
 ])
 
@@ -34,12 +33,6 @@ module.exports = (ctx) => ({
       title: 'Teamlead Roadmap',
       description: 'Teamlead Roadmap'
     },
-    // we don't have production version for english version
-    '/en/': {
-      lang: 'en-US',
-      title: 'Teamlead Roadmap',
-      description: 'Teamlead Roadmap'
-    }
   },
   themeConfig: {
     repo: 'tlbootcamp/tlroadmap',
@@ -75,13 +68,6 @@ module.exports = (ctx) => ({
           // }
         ]
       },
-      '/en/': {
-        selectText: 'English',
-        label: 'English',
-        ariaLabel: 'Languages',
-        // will be injected later
-        sidebar: {}
-      }
     },
     sidebarDepth: 0,
     lastUpdated: 'В последний раз обновленно',
