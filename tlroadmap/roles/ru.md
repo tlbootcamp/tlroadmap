@@ -1,4 +1,4 @@
 ---
-title: Роли и обязанности
+title: Job Roles
 direction: right
 ---
