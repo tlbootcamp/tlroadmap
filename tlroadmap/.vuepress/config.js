@@ -22,7 +22,8 @@ function extractDescription($page) {
 
 module.exports = (ctx) => ({
   head: [
-    ['link', { rel: 'icon', href: '/favicon.png' }],
+    ['link', { rel: 'icon', href: '/favicon.png', type: 'image/png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
   ],
   markdown: {
