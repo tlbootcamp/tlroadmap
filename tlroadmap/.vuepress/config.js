@@ -72,7 +72,7 @@ module.exports = (ctx) => ({
       },
     },
     sidebarDepth: 0,
-    lastUpdated: 'В последний раз обновленно',
+    lastUpdated: 'В последний раз обновлено',
   },
   plugins: [
     [
