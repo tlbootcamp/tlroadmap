@@ -121,5 +121,17 @@ module.exports = (ctx) => ({
         type: ($page) => $page.frontmatter.home ? 'website' : 'article',
       },
     ],
+    [
+      'metrika',
+      {
+        counter: '62722396',
+        config: {
+          accurateTrackBounce: true,
+          clickmap: true,
+          trackLinks: true,
+          webvisor: true
+        },
+      },
+    ],
   ]
 });
