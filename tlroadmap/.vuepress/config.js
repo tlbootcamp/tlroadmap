@@ -123,7 +123,7 @@ module.exports = (ctx) => ({
     ],
     [
       'metrika',
-      {
+      ctx.isProd ? {
         counter: '62722396',
         config: {
           accurateTrackBounce: true,
@@ -131,7 +131,7 @@ module.exports = (ctx) => ({
           trackLinks: true,
           webvisor: true
         },
-      },
+      } : false,
     ],
   ]
 });
