@@ -27,6 +27,7 @@
   $desktop-breakpoint: 720px;
 
   object, img {
+    max-width: 100%;
     position: relative;
 
     // make roadmap on desktop wider than page content block
