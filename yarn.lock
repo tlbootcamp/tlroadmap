@@ -7619,6 +7619,11 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
+vue-yandex-metrika@^1.8.3:
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/vue-yandex-metrika/-/vue-yandex-metrika-1.8.3.tgz#f27d71f385ae3f20544a4d295865a2e446293c60"
+  integrity sha512-WD/2CPM5NWXg7JdmgfiOq8J5QbidrCDoDAaE0JfE32wceY56ewzERVGnOGS/Tfx+HvarGc+oJsBbZxl/e2BWTA==
+
 vue@^2.6.10:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
@@ -7650,6 +7655,13 @@ vuepress-plugin-git-log@^1.0.1:
   integrity sha512-oVUfHdfvP0e7JBRIgwJ/Kmxj1AO+JJyTEsNRnBRw7YBlIfJIIC/zcGFidupsw6LSr1+UTHdGqn2vlYr8Ade6Fw==
   dependencies:
     cross-spawn "^6.0.5"
+
+vuepress-plugin-metrika@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-metrika/-/vuepress-plugin-metrika-1.0.2.tgz#705fbb0bf3386129a142148df5d3990277e2250c"
+  integrity sha512-zWqb8kZpxoRSiCvg+SOgRJVXvZAJ6yEIt3LCKUM90RJ9c6fYEuEOxVUjAPKi7qtPHZbi6155+dAEEoJgYHcYfQ==
+  dependencies:
+    vue-yandex-metrika "^1.8.3"
 
 vuepress-plugin-seo@^0.1.2:
   version "0.1.2"
