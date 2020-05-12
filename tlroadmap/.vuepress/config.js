@@ -22,7 +22,8 @@ function extractDescription($page) {
 
 module.exports = (ctx) => ({
   head: [
-    ['link', { rel: 'icon', href: '/favicon.png' }],
+    ['link', { rel: 'icon', href: '/favicon.png', type: 'image/png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
   ],
   markdown: {
@@ -49,7 +50,8 @@ module.exports = (ctx) => ({
         // will be injected later
         sidebar: {},
         nav: [
-          { text: 'Как использовать?', link: '/guide.html' },
+          { text: 'Как использовать', link: '/guide.html' },
+          { text: 'Чат в Telegram', link: 'https://tlinks.run/tlbootcamp' },
           // TODO: Сейчас базовая тема использует ensureExt, если считает, что ссылка внутренняя
           // как он понимает, что ссылка внешняя или внутренняя:
           // https://github.com/vuejs/vuepress/blob/b105089d4b09c17a2085a2637cf1a7a5553c2c3f/packages/%40vuepress/theme-default/util/index.js#L4
@@ -71,7 +73,7 @@ module.exports = (ctx) => ({
       },
     },
     sidebarDepth: 0,
-    lastUpdated: 'В последний раз обновленно',
+    lastUpdated: 'В последний раз обновлено',
   },
   plugins: [
     [
@@ -119,6 +121,18 @@ module.exports = (ctx) => ({
         author: ($page) => $page.frontmatter.author || $page.git && $page.git.contributors.slice(-1)[0],
         type: ($page) => $page.frontmatter.home ? 'website' : 'article',
       },
+    ],
+    [
+      'metrika',
+      ctx.isProd ? {
+        counter: '62722396',
+        config: {
+          accurateTrackBounce: true,
+          clickmap: true,
+          trackLinks: true,
+          webvisor: true
+        },
+      } : false,
     ],
   ]
 });
