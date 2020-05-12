@@ -1,4 +1,4 @@
 ---
-title: Personal skills
+title: Личные навыки
 direction: left
 ---
