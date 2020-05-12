@@ -1,0 +1,236 @@
+name: Publish site
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build-vuepress:
+    name: Build VuePress site and generate roadmap tree
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '13.x'
+
+      - name: Cache dependencies
+        uses: actions/cache@v1
+        with:
+          path: ~/.cache/yarn
+          key: ${{ runner.os }}-yarn-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Install js dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build vuepress site
+        run: yarn run site:build
+
+      - name: Upload pre-site to artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: vuepress-pre-site
+          path: tlroadmap/.vuepress/dist
+
+      - name: Upload trees
+        uses: actions/upload-artifact@v1
+        with:
+          name: trees
+          path: tlroadmap/.vuepress/trees
+
+  generate-roadmap-freemind-plantuml:
+    name: Generate .mm and .puml
+    runs-on: ubuntu-latest
+    needs:
+      - build-vuepress
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/download-artifact@v1
+        with:
+          name: trees
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+
+      - name: Cache dependencies
+        uses: actions/cache@v1
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r tools/requirements.txt
+
+      - name: Run plantuml2freemind
+        run: |
+          mkdir freemind
+          mkdir plantuml
+          plantuml2freemind convert trees/tree-ru.json freemind/roadmap-ru.mm --no-interaction
+          plantuml2freemind convert trees/tree-ru.json plantuml/roadmap-ru.puml --no-interaction
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: freemind
+          path: freemind
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: plantuml
+          path: plantuml
+
+  generate-roadmap-image:
+    name: Generate .svg and .png
+    runs-on: ubuntu-latest
+    needs:
+      - generate-roadmap-freemind-plantuml
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/download-artifact@v1
+        with:
+          name: plantuml
+
+      - name: Setup Java
+        uses: actions/setup-java@v1
+        with:
+          java-version: '11'
+
+      - name: Generate .png and .svg
+        run: |
+          mkdir images
+          cat plantuml/roadmap-ru.puml | java -jar tools/plantuml.jar -charset UTF-8 -pipe > images/roadmap-ru.png
+          cat plantuml/roadmap-ru.puml | java -jar tools/plantuml.jar -charset UTF-8 -tsvg -pipe > images/roadmap-ru.svg
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: images
+          path: images
+
+  combine-site:
+    name: Combine artifacts and site
+    runs-on: ubuntu-latest
+    needs:
+      - generate-roadmap-freemind-plantuml
+      - generate-roadmap-image
+      - build-vuepress
+    steps:
+      - uses: actions/download-artifact@v1
+        with:
+          name: vuepress-pre-site
+
+      - uses: actions/download-artifact@v1
+        with:
+          name: trees
+
+      - uses: actions/download-artifact@v1
+        with:
+          name: plantuml
+
+      - uses: actions/download-artifact@v1
+        with:
+          name: freemind
+
+      - uses: actions/download-artifact@v1
+        with:
+          name: images
+
+      - run: |
+          mv -v plantuml/* vuepress-pre-site
+          mv -v freemind/* vuepress-pre-site
+          mv -v images/* vuepress-pre-site
+          mv -v trees/* vuepress-pre-site
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: vuepress-site
+          path: vuepress-pre-site
+
+  check-links:
+    name: Check broken links
+    runs-on: ubuntu-latest
+    needs:
+      - combine-site
+    steps:
+      - uses: actions/download-artifact@v1
+        with:
+          name: vuepress-site
+
+      - name: Check links
+        uses: chabad360/htmlproofer@master
+        with:
+          directory: vuepress-site
+          arguments: >-
+            --assume-extension
+            --typhoeus-config '{"timeout": 60}'
+            --url-ignore "/www\.consultant\.ru/.*/,/github.com\/.*\/edit\/.*/"
+
+  publish-vuepress:
+    name: Publish VuePress site
+    runs-on: ubuntu-latest
+    needs:
+      - combine-site
+    steps:
+      - uses: actions/download-artifact@v1
+        with:
+          name: vuepress-site
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '13.x'
+
+      - name: Publish to netlify [prod]
+        id: publish-prod
+        if: github.ref == 'refs/heads/master'
+        env:
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        # If auto-publishing is on then right after deploying site address
+        # will be changed to main address:
+        # preview-abcde--subdomain.example.com -> subdomain.example.com
+        # Unfortunately, netlify-cms returns draft address :(
+        run: |
+          draft_url=$(npx netlify-cli deploy --json --dir=vuepress-site --prod | jq -r .deploy_url)
+          deploy_host=$(echo $draft_url | awk -F'--' '{print $NF}')
+          echo "::set-output name=deploy-url::https://$deploy_host"
+
+      - name: Publish to surge [preview]
+        id: publish-preview
+        if: github.event_name == 'pull_request'
+        env:
+          SURGE_LOGIN: tlroadmap@tlroadmap.dev
+          SURGE_TOKEN: 61f3e26c04ef5bf004895830445a5308
+        run: |
+          pr_number=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
+          deploy_host="${pr_number}-tlroadmap-review.surge.sh"
+          npx surge vuepress-site $deploy_host
+          echo "::set-output name=deploy-url::https://$deploy_host"
+
+      - name: Create GitHub deployment
+        uses: chrnorm/deployment-action@v1.2.0
+        if: github.ref == 'refs/heads/master'
+        with:
+          token: "${{ github.token }}"
+          environment: "${{ (github.event_name == 'pull_request' && 'review') || 'prod' }}"
+          ref: "${{ github.head_ref || 'master' }}"
+          target_url: "${{ steps.publish-preview.outputs.deploy-url || steps.publish-prod.outputs.deploy-url }}"
+          initial_status: success
