@@ -53,4 +53,4 @@
 - [How to Build a Product Roadmap](https://www.youtube.com/watch?v=x0d_GE_jWGE)
 
 #### Книги
-- [Inspired: How to Create Products Customers Love, Marty Cagan](https://www.amazon.co.uk/Inspired-Create-Products-Customers-Love/dp/0981690408)
+- [Inspired: How to Create Products Customers Love, Marty Cagan](https://www.goodreads.com/book/show/35249663-inspired)
