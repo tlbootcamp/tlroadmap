@@ -1,10 +1,10 @@
 ![Logotype](logo.png)
 
 > Тимлид – это ❄️, потому что в каждой компании он уникален и неповторим.
-[Teamlead Roadmap](tlroadmap.io) – это карта навыков и компетенций тимлидов, которую можно адаптировать для любой компании и команды. Попробуйте приложить её и к себе!
+[Teamlead Roadmap](https://tlroadmap.io) – это карта навыков и компетенций тимлидов, которую можно адаптировать для любой компании и команды. Попробуйте приложить её и к себе!
 
-- [Роадмап](tlroadmap.io/roadmap-ru.svg)
-- [Сайт с базой знаний](tlroadmap.io)
+- [Роадмап](https://tlroadmap.io/roadmap-ru.svg)
+- [Сайт с базой знаний](https://tlroadmap.io)
 - [Telegram-чат проекта](https://tlinks.run/tlbootcamp)
 
 ## Translations
