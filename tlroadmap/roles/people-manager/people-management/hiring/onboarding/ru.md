@@ -54,6 +54,7 @@
 
 ### Теория
 #### Статьи
+- [Коллекция статей по теме онбординга](https://github.com/92bondstreet/awesome-onboarding/blob/master/README.md)
 - [Гайд с вопросами для создания онбординга](https://www.shrm.org/resourcesandtools/hr-topics/talent-acquisition/pages/new-employee-onboarding-guide.aspx)
 - [Подробный гайд по онбордингу](https://www.sweetprocess.com/employee-onboarding/)
 - [Buddy program: 5 компонентов наставничества](https://blog.potok.io/5-buddy-program/)
