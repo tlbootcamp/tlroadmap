@@ -94,7 +94,7 @@
   - в нем не было тестов
 
 #### С чего начать
-1. Прежде чем советовать своим подчинённым, как именно следует писать тесты, вы должны в совершенстве овладеть навыком написания [Unit-тестов](/roles/technical-lead/tech-quality/unit-testing) самостоятельно.
+1. Прежде чем советовать своим подчинённым, как именно следует писать тесты, вы должны в совершенстве овладеть навыком написания [Unit-тестов](/roles/technical-lead/product-quality/testing/test-pyramid/unit-testing) самостоятельно.
 Это базовый навык, без которого сложно двигаться дальше. Таких тестов нужно будет писать много и не задумываясь.
 1. Разберитесь в различиях между терминами [mock/stub/spy](https://objectcomputing.com/news/2018/06/22/mock-vs-stub-vs-spy),
 посмотрите различные варианты структуризации тестов: [Arrange Act Assert](https://blog.ncrunch.net/post/arrange-act-assert-aaa-testing.aspx), [GivenWhenThen](https://martinfowler.com/bliki/GivenWhenThen.html) и другие
