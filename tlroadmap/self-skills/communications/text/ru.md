@@ -58,6 +58,7 @@
 ### Теория
 #### Статьи
 - [Набор статей от glvrd.ru](https://soviet.glvrd.ru/)
+- [Мини-курс «Пишите живее»](https://www.timuroki.ink/thewritingdead)
 
 #### Книги
 - [«Пиши, сокращай», Максим Ильяхов](https://book.glvrd.ru/)
