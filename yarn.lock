@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@b0g3r/vuepress-plugin-generate-tree@^0.2.6":
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/@b0g3r/vuepress-plugin-generate-tree/-/vuepress-plugin-generate-tree-0.2.6.tgz#4540b39722096427e4080db8d7f61695aaa7cdee"
-  integrity sha512-nG4hgHaXKYuKAY2bLgps212iLUpwJwbmGT6BWwrsrIoUku1EL11Vi5kBXwPgCz15ZQopqdHMzh2pvrtidWymoQ==
+"@b0g3r/vuepress-plugin-generate-tree@^0.2.7":
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@b0g3r/vuepress-plugin-generate-tree/-/vuepress-plugin-generate-tree-0.2.7.tgz#41d398ada508d5cbf44ab07f4b18e0786ee37c0c"
+  integrity sha512-lQ7VfbitkZBH4A+0sHDRJ11WqhXpjg8tF9TRWb+P0kgHvplVp+aSRqjpz3U8DpCV/GBVTNmgXyQ4I8kKjZvXSw==
 
 "@b0g3r/vuepress-plugin-locale-prefix@^0.1.1":
   version "0.1.2"
