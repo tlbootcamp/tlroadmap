@@ -53,3 +53,4 @@
 ### Видео
 
 ### Книги
+- Managing Software Requirements - https://www.amazon.com/Managing-Software-Requirements-Addison-Wesley-Technology/dp/0201615932
