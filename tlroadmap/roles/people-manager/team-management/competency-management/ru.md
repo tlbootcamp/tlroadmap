@@ -34,4 +34,4 @@
 ### Теория
 #### Статьи
 - [Матрица компетенций как инструмент тимлида](https://habr.com/ru/company/oleg-bunin/blog/437772/)
-- [Cветлана Новикова. ​​Как считать/выявлять bus factor на проекте](https://link.medium.com/UL1e5GOdj7 )
+- [Светлана Новикова. ​​Как считать/выявлять bus factor на проекте](https://link.medium.com/UL1e5GOdj7 )
