@@ -33,7 +33,7 @@
 ## Теория
 ### Статьи
 **Раскрывают тему:**
-- Про плюсы команды, представленной отличающимися людьми https://hbr.org/2016/11/why-diverse-teams-are-smarter
-- Разнообразие команды увеличивает производительность: https://www2.deloitte.com/content/dam/Deloitte/au/Documents/human-capital/deloitte-au-hc-diversity-inclusion-soup-0513.pdf
-- Правила diversity на конференциях Ontico: https://www.facebook.com/photo.php?fbid=3098165436891793&set=a.170919312949768&type=3
-- Андрей Бреслав — Это выгодно: почему нам нужно больше женщин-программисток: https://youtu.be/iYVVx5ZRm-0?t=26679
+- [Про плюсы команды, представленной отличающимися людьми](https://hbr.org/2016/11/why-diverse-teams-are-smarter)
+- [Разнообразие команды увеличивает производительность](https://www2.deloitte.com/content/dam/Deloitte/au/Documents/human-capital/deloitte-au-hc-diversity-inclusion-soup-0513.pdf)
+- [Правила diversity на конференциях Ontico](https://www.facebook.com/photo.php?fbid=3098165436891793&set=a.170919312949768&type=3)
+- [Андрей Бреслав — Это выгодно: почему нам нужно больше женщин-программисток](https://youtu.be/iYVVx5ZRm-0?t=26679)
