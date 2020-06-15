@@ -1,6 +1,6 @@
 # Сбор технических требований
 ## Описание
-Сбор технических требований - это типичный этап разработки ПО, во время которого необходимо собрать данные про продукт, систематизировать и документировать их.
+Сбор технических требований - это типичный этап разработки ПО, во время которого необходимо собрать данные про продукт, систематизировать и документировать их. Является частью сбора требований в целом, без которой не имеет смысла. Это как дать 2 разработчикам писать front- и back- ends и при этом запретить согласовывать API.
 Цели при этом преследуются следующие:
 - установить общее и единое видение конечного результата у команды и стейкхолдеров
 - дать возможность сделать оценку времени и ресурсов, которые должны будут быть затрачены на разработку
@@ -51,6 +51,8 @@
 - Так же коротко и сжато на тему сбора именно технических требований - https://www.smartsheet.com/wise-words-about-writing-technical-requirements-documents
 
 ### Видео
+- О факторах успешного сбора требований - https://www.modernanalyst.com/Webinars/tabid/207/ID/3181/Software-Requirements-7-Critical-Success-Factors.aspx
+- О проблемах, которые могут возникнуть со сбором требований - https://www.modernanalyst.com/Webinars/tabid/207/ID/3624/Software-Requirements-10-Traps-to-Avoid.aspx
 
 ### Книги
-- Managing Software Requirements - https://www.amazon.com/Managing-Software-Requirements-Addison-Wesley-Technology/dp/0201615932
+- Можно сказать классика направления, особенно важны главы 1-8, остальное по желанию - Managing Software Requirements - https://www.amazon.com/Managing-Software-Requirements-Addison-Wesley-Technology/dp/0201615932
