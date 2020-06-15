@@ -46,7 +46,6 @@
 
 ## Теория
 ### Статьи
-**Раскрывают тему:**
 - Коротко на тему сбора требований в общем - https://www.inflectra.com/ideas/topic/requirements-gathering.aspx
 - Так же коротко и сжато на тему сбора именно технических требований - https://www.smartsheet.com/wise-words-about-writing-technical-requirements-documents
 
