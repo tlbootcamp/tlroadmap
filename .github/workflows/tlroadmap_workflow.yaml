@@ -33,7 +33,7 @@ jobs:
           set -o pipefail; npx eclint check "**/*.md" 2>&1 >/dev/null | grep -v "EditorConfig"
           echo "::remove-matcher owner=editor-config::"
 
-  direcyory-tree:
+  directory-tree:
     name: Directory tree check
     runs-on: ubuntu-latest
     steps:
