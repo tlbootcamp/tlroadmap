@@ -1,0 +1,30 @@
+name: Check broken links
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  schedule:
+    - cron:  '12 15 * * 6'
+jobs:
+  check-links:
+    name: Check broken links
+    runs-on: ubuntu-latest
+    needs:
+      - combine-site
+    steps:
+      - uses: actions/download-artifact@v1
+        with:
+          name: vuepress-site
+
+      - name: Check links
+        uses: chabad360/htmlproofer@master
+        with:
+          directory: vuepress-site
+          arguments: >-
+            --assume-extension
+            --typhoeus-config '{"timeout": 60}'
+            --url-ignore "/www\.consultant\.ru/.*/,/github.com\/.*\/edit\/.*/"
