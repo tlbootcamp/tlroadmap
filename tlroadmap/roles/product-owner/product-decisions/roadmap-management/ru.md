@@ -44,7 +44,7 @@
 
 ### Теория
 #### Статьи
-- [Product Roadmap: Nine Strategies for Creating One](https://www.thisisproductmanagement.com/blog/product-roadmap/)
+- [Product Development Roadmap – Your Guide Through the Product Strategy](https://railsware.com/blog/product-roadmap/)
 - [Как составлять роадмап продукта](https://medium.com/no-flame-no-game/%D0%BA%D0%B0%D0%BA-%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D1%82%D1%8C-%D1%80%D0%BE%D0%B0%D0%B4%D0%BC%D0%B0%D0%BF-%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B0-3b51fd4a5fe8)
 
 #### Видео

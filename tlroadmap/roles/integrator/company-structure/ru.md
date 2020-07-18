@@ -62,7 +62,6 @@
 ### Статьи
 - [Введение в холакратию](https://www.holacracy.org/what-is-holacracy)
 - [Эволюция организационной структуры Badoo](https://habr.com/ru/company/badoo/blog/358582/)
-- [Ещё один подход к типологии организационных структур](https://medium.com/the-ready/a-beginner-s-guide-to-org-design-982af0dd7f61)
 - [Недостатки матричной структуры](https://medium.com/@lgoncalves1979/why-a-matrix-organisational-structure-will-destroy-your-company-84d934eadcc8)
 - [Как создавать кроссфункциональные команды](https://medium.com/the-ready/a-practical-guide-to-cross-functional-work-e94f7f51d41a)
 - [4 Tips to Help You Lead Matrix Teams Successfully](https://www.matrixmanagementinstitute.com/blog/4-tips-help-lead-matrix-teams-successfully/)
