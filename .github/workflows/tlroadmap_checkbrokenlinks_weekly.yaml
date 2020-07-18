@@ -2,7 +2,7 @@ name: Check broken links
 
 on:
   schedule:
-    - cron:  '40 12 * * SAT'
+    - cron:  '*/5 * * * SAT'
 jobs:
   check-links:
     name: Check broken links
