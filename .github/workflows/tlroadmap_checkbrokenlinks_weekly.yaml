@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@v1
         with:
-          name: vuepress-pre-site
+          name: vuepress-site
 
       - name: Check links
         uses: chabad360/htmlproofer@master
@@ -51,10 +51,10 @@ jobs:
       - name: Build vuepress site
         run: yarn run site:build
 
-      - name: Upload pre-site to artifact
+      - name: Upload site to artifact
         uses: actions/upload-artifact@v1
         with:
-          name: vuepress-pre-site
+          name: vuepress-site
           path: tlroadmap/.vuepress/dist
 
       # - name: Upload trees
