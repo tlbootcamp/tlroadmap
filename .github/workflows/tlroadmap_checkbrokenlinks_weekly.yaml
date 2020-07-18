@@ -1,20 +1,12 @@
 name: Check broken links
 
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
   schedule:
-    - cron:  '12 15 * * 6'
+    - cron:  '31 15 * * 6'
 jobs:
   check-links:
     name: Check broken links
     runs-on: ubuntu-latest
-    needs:
-      - combine-site
     steps:
       - uses: actions/download-artifact@v1
         with:
