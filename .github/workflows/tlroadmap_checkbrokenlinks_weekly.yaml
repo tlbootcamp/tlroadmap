@@ -1,11 +1,8 @@
 name: Check broken links on Saturday
 
 on:
-  pull_request:
-    branches:
-      - master
-  # schedule:
-  #   - cron:  '*/5 * * * SAT'
+  schedule:
+    - cron:  '10 16 * * SAT'
 jobs:
   check-links:
     name: Check broken links
