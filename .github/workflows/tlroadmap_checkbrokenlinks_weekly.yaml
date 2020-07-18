@@ -1,14 +1,68 @@
-name: Publish site
+name: Check broken links on Saturday
 
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
-
+  schedule:
+    - cron:  '00 11 * * SUN'
 jobs:
+  check-links:
+    name: Check broken links
+    runs-on: ubuntu-latest
+    needs:
+      - combine-site
+    steps:
+      - uses: actions/download-artifact@v1
+        with:
+          name: vuepress-site
+
+      - name: Check links
+        uses: chabad360/htmlproofer@master
+        with:
+          directory: vuepress-site
+          arguments: >-
+            --assume-extension
+            --typhoeus-config '{"timeout": 60}'
+            --url-ignore "/www\.consultant\.ru/.*/,/github.com\/.*\/edit\/.*/"
+
+  combine-site:
+    name: Combine artifacts and site
+    runs-on: ubuntu-latest
+    needs:
+      - generate-roadmap-freemind-plantuml
+      - generate-roadmap-image
+      - build-vuepress
+    steps:
+      - uses: actions/download-artifact@v1
+        with:
+          name: vuepress-pre-site
+
+      - uses: actions/download-artifact@v1
+        with:
+          name: trees
+
+      - uses: actions/download-artifact@v1
+        with:
+          name: plantuml
+
+      - uses: actions/download-artifact@v1
+        with:
+          name: freemind
+
+      - uses: actions/download-artifact@v1
+        with:
+          name: images
+
+      - run: |
+          mv -v plantuml/* vuepress-pre-site
+          mv -v freemind/* vuepress-pre-site
+          mv -v images/* vuepress-pre-site
+          mv -v trees/* vuepress-pre-site
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: vuepress-site
+          path: vuepress-pre-site
+
   build-vuepress:
     name: Build VuePress site and generate roadmap tree
     runs-on: ubuntu-latest
@@ -123,95 +177,3 @@ jobs:
         with:
           name: images
           path: images
-
-  combine-site:
-    name: Combine artifacts and site
-    runs-on: ubuntu-latest
-    needs:
-      - generate-roadmap-freemind-plantuml
-      - generate-roadmap-image
-      - build-vuepress
-    steps:
-      - uses: actions/download-artifact@v1
-        with:
-          name: vuepress-pre-site
-
-      - uses: actions/download-artifact@v1
-        with:
-          name: trees
-
-      - uses: actions/download-artifact@v1
-        with:
-          name: plantuml
-
-      - uses: actions/download-artifact@v1
-        with:
-          name: freemind
-
-      - uses: actions/download-artifact@v1
-        with:
-          name: images
-
-      - run: |
-          mv -v plantuml/* vuepress-pre-site
-          mv -v freemind/* vuepress-pre-site
-          mv -v images/* vuepress-pre-site
-          mv -v trees/* vuepress-pre-site
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v1
-        with:
-          name: vuepress-site
-          path: vuepress-pre-site
-
-  publish-vuepress:
-    name: Publish VuePress site
-    runs-on: ubuntu-latest
-    needs:
-      - combine-site
-    steps:
-      - uses: actions/download-artifact@v1
-        with:
-          name: vuepress-site
-
-      - name: Setup Node
-        uses: actions/setup-node@v1
-        with:
-          node-version: '13.x'
-
-      - name: Publish to netlify [prod]
-        id: publish-prod
-        if: github.ref == 'refs/heads/master'
-        env:
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        # If auto-publishing is on then right after deploying site address
-        # will be changed to main address:
-        # preview-abcde--subdomain.example.com -> subdomain.example.com
-        # Unfortunately, netlify-cms returns draft address :(
-        run: |
-          draft_url=$(npx netlify-cli deploy --json --dir=vuepress-site --prod | jq -r .deploy_url)
-          deploy_host=$(echo $draft_url | awk -F'--' '{print $NF}')
-          echo "::set-output name=deploy-url::https://$deploy_host"
-
-      - name: Publish to surge [preview]
-        id: publish-preview
-        if: github.event_name == 'pull_request'
-        env:
-          SURGE_LOGIN: tlroadmap@tlroadmap.dev
-          SURGE_TOKEN: 61f3e26c04ef5bf004895830445a5308
-        run: |
-          pr_number=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
-          deploy_host="${pr_number}-tlroadmap-review.surge.sh"
-          npx surge vuepress-site $deploy_host
-          echo "::set-output name=deploy-url::https://$deploy_host"
-
-      - name: Create GitHub deployment
-        uses: chrnorm/deployment-action@v1.2.0
-        if: github.ref == 'refs/heads/master'
-        with:
-          token: "${{ github.token }}"
-          environment: "${{ (github.event_name == 'pull_request' && 'review') || 'prod' }}"
-          ref: "${{ github.head_ref || 'master' }}"
-          target_url: "${{ steps.publish-preview.outputs.deploy-url || steps.publish-prod.outputs.deploy-url }}"
-          initial_status: success

@@ -45,7 +45,7 @@
 Подпишись на профильные медиа, связанные с твоим рынком и индустрией – Telegram-каналы, блоги, журналы. Бывает, что такие издания не находятся в открытом доступе. В таком случае стоит спросить совета коллег, работающих у конкурентов, либо у подходящего консалтингового агентства.
 
 #### Тренды
-Подпишись на ["Стартап дня"](https://startupoftheday.ru/) и [vc.ru](http://vc.ru). Смотри видео с конференций [WebSummit](https://websummit.com), [MWC](https://www.mwcbarcelona.com/), [WWDC](https://developer.apple.com/wwdc19/), [Google I/O](https://events.google.com/io/).
+Подпишись на ["Стартап дня"](https://startupoftheday.ru/) и [vc.ru](http://vc.ru). Смотри видео с конференций [WebSummit](https://websummit.com), [MWC](https://www.mwcbarcelona.com/), [Apple videos](https://developer.apple.com/videos/), [Google I/O](https://events.google.com/io/).
 
 ## Консультации
 - [Telegram-чат TL Bootcamp](https://tlinks.run/tlbootcamp)
