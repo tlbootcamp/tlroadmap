@@ -55,5 +55,5 @@ Scrum не является «самым правильным» фреймвор
 - [Podlodka #46 – Scrum-мастерство](https://soundcloud.com/podlodka/podlodka-46-scrum-masterstvo)
 
 ### Книги
-- [Джефф Сазерленд «SCRUM. Революционный метод управления проектами»](https://www.litres.ru/dzheff-sazerlend/scrum-revolucionnyy-metod-upravleniya-proektami/)
+- [Джефф Сазерленд «SCRUM. Революционный метод управления проектами»](https://www.litres.ru/dzheff-sazerlend/scrum/)
 - Неплохая книга с примерами: [The Scrum Handbook](https://www.goodreads.com/book/show/41441311-scrum-handbook)
