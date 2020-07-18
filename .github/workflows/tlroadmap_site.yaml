@@ -164,25 +164,6 @@ jobs:
           name: vuepress-site
           path: vuepress-pre-site
 
-  check-links:
-    name: Check broken links
-    runs-on: ubuntu-latest
-    needs:
-      - combine-site
-    steps:
-      - uses: actions/download-artifact@v1
-        with:
-          name: vuepress-site
-
-      - name: Check links
-        uses: chabad360/htmlproofer@master
-        with:
-          directory: vuepress-site
-          arguments: >-
-            --assume-extension
-            --typhoeus-config '{"timeout": 60}'
-            --url-ignore "/www\.consultant\.ru/.*/,/github.com\/.*\/edit\/.*/"
-
   publish-vuepress:
     name: Publish VuePress site
     runs-on: ubuntu-latest

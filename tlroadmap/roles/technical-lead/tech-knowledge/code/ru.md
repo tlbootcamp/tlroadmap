@@ -56,5 +56,3 @@
 - [Telegram-чат TL Bootcamp](https://tlinks.run/tlbootcamp)
 
 ## Теория
-### Статьи
-- [Должен ли тимлид писать код?](https://antgubarev.com/2019/06/should-teamlead-write-code/)
