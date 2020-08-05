@@ -57,4 +57,4 @@
 - [О проблемах, которые могут возникнуть со сбором требований](https://www.modernanalyst.com/Webinars/tabid/207/ID/3624/Software-Requirements-10-Traps-to-Avoid.aspx)
 
 ### Книги
-- [Можно сказать классика направления, особенно важны главы 1-8, остальное по желанию - Managing Software Requirements](https://www.amazon.com/Managing-Software-Requirements-Addison-Wesley-Technology/dp/0201615932)
+- Можно сказать классика направления, особенно важны главы 1-8, остальное по желанию - [Managing Software Requirements](https://www.amazon.com/Managing-Software-Requirements-Addison-Wesley-Technology/dp/0201615932)
