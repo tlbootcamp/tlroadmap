@@ -77,7 +77,7 @@
 - [Business Model Generation – Alexander Osterwalder, Yves Pigneur](https://www.goodreads.com/book/show/7723797-business-model-generation)
 
 ### Видео
-- [Краткое и простое введение в теорию бизнес-моделей и инструменты для выявления потребностей пользователя (модули 2,3)](https://www.business-class.pro/module/2)
+- [Краткое и простое введение в теорию бизнес-моделей и инструменты для выявления потребностей пользователя (модули 2,3)](https://www.business-class.pro)
 - [От хорошего к великому. Почему одни компании совершают прорыв, а другие нет..., Джим Коллинз](https://www.livelib.ru/book/1001498901-ot-horoshego-k-velikomu-pochemu-odni-kompanii-sovershayut-proryv-a-drugie-net-dzhim-kollinz)
 - [Созидательное разрушение. Почему компании, "построенные навечно", показывают не лучшие результаты и что надо сделать, чтобы поднять их эффективность, Ричард Фостер, Сара Каплан](https://www.livelib.ru/book/1000343672-sozidatelnoe-razrushenie-pochemu-kompanii-postroennye-navechno-pokazyvayut-ne-luchshie-rezultaty-i-chto-nado-sdelat-chtoby-podnyat-ih-effektivnost-kaplan-s)
 - [И ботаники делают бизнес, Максим Котин](https://www.livelib.ru/book/1000689407-i-botaniki-delayut-biznes-maksim-kotin)
