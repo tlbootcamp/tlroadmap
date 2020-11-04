@@ -74,3 +74,4 @@
 - [Багодельня: BUgHunting. Как найти 200 багов за день](https://habr.com/ru/company/avito/blog/453000/)
 - [Zero Bug Policy. Нет багов — нет проблем?](https://habr.com/ru/company/avito/blog/455068/)
 - [Best engineering practices: how to fix a bug?](https://sobolevn.me/2019/01/how-to-fix-a-bug)
+- [#zerobugpolicy или как мы баги чиним](https://www.facebook.com/notes/dodo-pizza-engineering/zerobugpolicy-или-как-мы-баги-чиним/1446732912129727/)
