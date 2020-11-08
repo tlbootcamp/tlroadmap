@@ -71,6 +71,9 @@
 - [Интуиция и факторы для принятия правильного решения](https://youtu.be/yNx5PuXofz4)
 - [Виды решений](https://youtu.be/3K7dLuXqMng)
 
+### Курсы
+- [Introduction to Logic and Critical Thinking Specialization](https://ru.coursera.org/specializations/logic-critical-thinking-duke)
+
 ### Книги
 - [Принципы, Рэй Далио](https://www.amazon.com/dp/B07H4N4S5F/ref=cm_sw_em_r_mt_dp_U_waVOEb7FQ1RS3)
 - [Thinking, Fast and Slow, Daniel Kahneman](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555/ref=sr_1_1?ie=UTF8&qid=1471970781&sr=8-1&keywords=kahneman)
