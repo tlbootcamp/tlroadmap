@@ -61,7 +61,7 @@
 
 ## Теория
 ### Подкасты
-- [SE Radio - Agile Documentation](https://podbay.fm/podcast/120906714/e/1159882035)
+- [SE Radio - Agile Documentation](https://www.se-radio.net/2006/10/episode-31-agile-documentation/)
 ### Статьи
 - [Technical Documentation in Software Development](https://www.altexsoft.com/blog/business/technical-documentation-in-software-development-types-best-practices-and-tools/)
 - [A Roadmap to Agile Documentation](https://www.infoq.com/articles/roadmap-agile-documentation/)
