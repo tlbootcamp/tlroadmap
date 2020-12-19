@@ -37,3 +37,6 @@
 - [Разнообразие команды увеличивает производительность](https://www2.deloitte.com/content/dam/Deloitte/au/Documents/human-capital/deloitte-au-hc-diversity-inclusion-soup-0513.pdf)
 - [Правила diversity на конференциях Ontico](https://www.facebook.com/photo.php?fbid=3098165436891793&set=a.170919312949768&type=3)
 - [Андрей Бреслав — Это выгодно: почему нам нужно больше женщин-программисток](https://youtu.be/iYVVx5ZRm-0?t=26679)
+
+### Книги
+- [The Culture Map: Breaking Through the Invisible Boundaries of Global Business](https://www.goodreads.com/book/show/22085568-the-culture-map)
