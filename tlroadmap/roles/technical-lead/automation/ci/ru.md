@@ -62,6 +62,8 @@ CI (Continuous Integration или Непрерывная интеграция) �
 - [Илья Климов — Ламповый CI/CD. Как и с чего начать](https://www.youtube.com/watch?v=CwU-OiS_PEQ)
 - [Лучшие практики CI/CD с Kubernetes и GitLab (Дмитрий Столяров, Флант, HighLoad++ 2017)](https://www.youtube.com/watch?v=U7Zo_e28aQA)
 - [DevOps-Projects](https://www.youtube.com/watch?v=8D46Pgbz0gg&list=PLxzKY3wu0_FJdJd3IKdiM4Om1hGo2Hsdt)
+- [Инфраструктура для мобильной разработки](https://www.youtube.com/watch?v=RIEoH6yZtak)
+- [Прагматичный CI/CD / Дмитрий Воронин](https://www.youtube.com/watch?v=k-PJugS-Ng8)
 
 
 ### Статьи
