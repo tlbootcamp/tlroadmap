@@ -92,6 +92,9 @@
 <!-- yaspeller ignore:start -->
 - [Виктория Соковикова. Можно ли протестировать техническое задание за полчаса](https://software-testing.ru/library/around-testing/requirements/3356-requirements)
 - [Серия записей в блоге про тестирование требований](http://qcthoughtsaloud.blogspot.com/search/label/%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)
+- [Вера Данилова. Стратегия тестирования краткосрочного проекта](https://habr.com/ru/company/arcadia/blog/542974/)
+- [Анастасия Асеева-Нгуен. 3 Амиго — способ коммуникации для создания качественного продукта](https://habr.com/ru/company/tinkoff/blog/449424/)
+- [Анастасия Асеева-Нгуена. Введение в Example Mapping](https://habr.com/ru/company/oleg-bunin/blog/450844/)
 <!-- yaspeller ignore:end -->
 #### Видео
 <!-- yaspeller ignore:start -->
