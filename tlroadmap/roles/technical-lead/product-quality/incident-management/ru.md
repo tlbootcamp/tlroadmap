@@ -55,4 +55,5 @@
 - [Digital Swarming “The Next Model for Distributed Collaboration and Decision Making”, Cisco Internet Business Solutions Group (IBSG), 2008](https://s3.amazonaws.com/connected_republic/attachments/4/Digital_Swarming_EB_0812c_FINAL.pdf)
 - [Intelligent Swarming: A Framework for Collaboration, 2019](https://library.serviceinnovation.org/Intelligent_Swarming/Intelligent_Swarming%3A_A_Framework_for_Collaboration)
 - [Site Reliability Engineering: How Google Runs Production Systems (главы 14 и 15)](https://landing.google.com/sre/sre-book/toc/index.html)
+- John Allspaw. Blameless PostMortems and a Just Culture - [оригинал](https://codeascraft.com/2012/05/22/blameless-postmortems/),[перевод](http://goblingame.blogspot.com/2012/07/blog-post_13.html)
 

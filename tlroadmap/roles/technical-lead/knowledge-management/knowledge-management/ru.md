@@ -72,6 +72,10 @@
 ### Статьи
 - [Без управления знаниями больно](https://habr.com/ru/company/oleg-bunin/blog/492478/)
 - [Управление знаниями через модели компетенций](https://habr.com/ru/company/oleg-bunin/blog/447298/)
+- [Прагматичный гайд по управлению знаниями](https://pragmatic-km.guide/)
+
+### Телеграм-каналы
+- [The Know All - Управление знаниями в IT](https://t.me/the_know_all)
 
 ### Подкасты
 - [Podlodka #103 – Управление знаниями](http://podlodka.io/103)
