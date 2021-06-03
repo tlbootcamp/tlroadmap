@@ -40,6 +40,10 @@ module.exports = (ctx) => ({
     repo: 'tlbootcamp/tlroadmap',
     docsDir: 'tlroadmap',
     editLinks: true,
+    banner: {
+      text: 'Дайте проходку Диме, а то в следующий раз он не поможет 💸',
+      link: 'https://www.notion.so/bogers/Dima-Boger-Python-Team-Leader-ac2893048e944dcb90a337fb664d964e',
+    },
     locales: {
       '/': {
         selectText: 'Русский',
