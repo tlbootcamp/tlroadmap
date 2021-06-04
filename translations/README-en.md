@@ -83,7 +83,7 @@ If you don't agree with any of the existing descriptions or think you can improv
         - [Assessments](../tlroadmap/old/resource-manager/assessment.md)
         - [Career path](../tlroadmap/old/resource-manager/career.md)
     - [Feedback](../tlroadmap/old/resource-manager/feedback.md)
-    - [One-to-one](../tlroadmap/old/resource-manager/one-to-one.md)
+    - [One-on-one](../tlroadmap/old/resource-manager/one-on-one.md)
     - [Administrative tasks](../tlroadmap/old/resource-manager/admin.md)
 - Team management
     - [Creating a team](../tlroadmap/old/resource-manager/team-launch.md)
