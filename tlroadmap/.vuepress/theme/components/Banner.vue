@@ -38,6 +38,12 @@ export default {
   position relative
   text-align center
   background-color #7F52FF
+.home
+  #optimize-banner
+    margin-top 0
+    width 100vw
+    position:relative
+    left calc(-50vw + 50%)
 
 .optimize-banner__inner
   display inline-block
