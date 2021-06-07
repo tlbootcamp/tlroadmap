@@ -41,8 +41,8 @@ module.exports = (ctx) => ({
     docsDir: 'tlroadmap',
     editLinks: true,
     banner: {
-      text: 'Кефирные грибки старались целые сутки чтобы получился новый сезон Teamlead Crew. Кликай, чтобы урвать билет по скидке',
-      link: '',
+      text: 'С 14 по 27 июня пройдет онлайн-конференция для тимлидов Podlodka Teamlead Crew!',
+      link: 'https://podlodka.io/tlcrew?utm_campaign=TL-6-All&utm_medium=social&utm_source=web&utm_content=TL-6-All_tlbootcamp',
     },
     locales: {
       '/': {
