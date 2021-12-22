@@ -177,7 +177,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: '13.x'
+          node-version: '14.15.0'
 
       - name: Publish to netlify [prod]
         id: publish-prod
