@@ -54,4 +54,4 @@ title: Тест-дизайн
 
 #### Книги
 - Lee Copeland. A Practitioner's Guide to Software Test Design
-- [Rikard Edgren. The Little Black Book on Test Design](https://www.thetesteye.com/papers/TheLittleBlackBookOnTestDesign.pdf), [Перевод на русский Ольги Алифановой]{https://software-testing.ru/images//stories/library/littleblackbookontestdesign.pdf)
+- [Rikard Edgren. The Little Black Book on Test Design](https://www.thetesteye.com/papers/TheLittleBlackBookOnTestDesign.pdf), [Перевод на русский Ольги Алифановой](https://software-testing.ru/images//stories/library/littleblackbookontestdesign.pdf)
