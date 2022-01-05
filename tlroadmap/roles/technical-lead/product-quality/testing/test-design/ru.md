@@ -18,11 +18,11 @@ title: Тест-дизайн
 
 ## Что будет, если её не делать?
 - Тестировщик будет тратить много лишних сил и времени на проверку приложения
-- Тестировщику будет сложнее найти серьезные баги
+- Тестировщику будет сложнее найти серьёзные баги
 
 
 ## На кого может быть делегирована?
-Тест-дизайн — часть непосредственной работы тестировщиков. В крупных компаниях может быть делигирована тест-аналитику.
+Тест-дизайн — часть непосредственной работы тестировщиков. В крупных компаниях может быть делегирована тест-аналитику.
 
 ## Примеры поведения
 ### Примеры плохого поведения
@@ -53,5 +53,7 @@ title: Тест-дизайн
 - [Курс по тестированию от СКБ Контур](https://ulearn.me/course/testing/dd4f8ab2-1271-48ed-854d-7a3b2873e7a7)
 
 #### Книги
+<!-- yaspeller ignore:start -->
 - Lee Copeland. A Practitioner's Guide to Software Test Design
 - [Rikard Edgren. The Little Black Book on Test Design](https://www.thetesteye.com/papers/TheLittleBlackBookOnTestDesign.pdf), [Перевод на русский Ольги Алифановой](https://software-testing.ru/images//stories/library/littleblackbookontestdesign.pdf)
+<!-- yaspeller ignore:end -->
