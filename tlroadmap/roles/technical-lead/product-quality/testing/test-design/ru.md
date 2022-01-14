@@ -9,17 +9,16 @@ title: Тест-дизайн
 ## Почему ветка важна?
 Для тестировщика:
 - тест-дизайн помогает эффективнее тестировать, а не действовать наугад
-- с помощью тест-дизайн проще покрыть основные риски
+- с помощью тест-дизайна проще покрыть основные риски
 - использование тест-дизайна сокращает время, необходимое на тестирование
 
-Для разработчика
+Для разработчика:
 - тест-дизайн помогает писать тесты, которые действительно проверяют то, что нужно
 - разработчику проще проверить свой собственный код
 
 ## Что будет, если её не делать?
 - Тестировщик будет тратить много лишних сил и времени на проверку приложения
 - Тестировщику будет сложнее найти серьёзные баги
-
 
 ## На кого может быть делегирована?
 Тест-дизайн — часть непосредственной работы тестировщиков. В крупных компаниях может быть делегирована тест-аналитику.
@@ -34,26 +33,25 @@ title: Тест-дизайн
 - Для разных задач тестировщики выбирают подходящие методы тест-дизайна
 - Тест-дизайн строится на анализе рисков
 
-
 ## Способы прокачки
-
 
 ### Консультации
 - [Telegram-чат TL Bootcamp](https://tlinks.run/tlbootcamp)
-- Чат, сообщество, люди, к которым можно обратиться.
+- [Telegram-чат QA — русскоговорящее сообщество](https://t.me/qa_ru)
 
 ### Теория
 #### Статьи
-
+<!-- yaspeller ignore:start -->
 - [Обзор основных видов тест-дизайна](https://sysgears.com/articles/test-design-techniques-overview)
 - [Анна Абрамова. Use Cases и зачем они нужны](https://systems.education/use-case)
-
+- [Dan Ashby. Risk Based Testing. Part Two. Uncovering risks](https://danashby.co.uk/2019/05/02/risk-based-testing-part-two-uncovering-risks)
+<!-- yaspeller ignore:start -->
 
 #### Видео
 - [Курс по тестированию от СКБ Контур](https://ulearn.me/course/testing/dd4f8ab2-1271-48ed-854d-7a3b2873e7a7)
 
 #### Книги
 <!-- yaspeller ignore:start -->
-- Lee Copeland. A Practitioner's Guide to Software Test Design
+- [Lee Copeland. A Practitioner's Guide to Software Test Design](https://www.amazon.com/Practitioners-Guide-Software-Test-Design/dp/158053791X)
 - [Rikard Edgren. The Little Black Book on Test Design](https://www.thetesteye.com/papers/TheLittleBlackBookOnTestDesign.pdf), [Перевод на русский Ольги Алифановой](https://software-testing.ru/images//stories/library/littleblackbookontestdesign.pdf)
 <!-- yaspeller ignore:end -->
