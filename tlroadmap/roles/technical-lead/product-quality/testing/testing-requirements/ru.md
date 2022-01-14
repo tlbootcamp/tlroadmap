@@ -95,6 +95,7 @@
 - [Вера Данилова. Стратегия тестирования краткосрочного проекта](https://habr.com/ru/company/arcadia/blog/542974/)
 - [Анастасия Асеева-Нгуен. 3 Амиго — способ коммуникации для создания качественного продукта](https://habr.com/ru/company/tinkoff/blog/449424/)
 - [Анастасия Асеева-Нгуена. Введение в Example Mapping](https://habr.com/ru/company/oleg-bunin/blog/450844/)
+- [Darren McMillan. “Wiki” (WWWWWH/KE) requirements testing mnemonic](http://www.bettertesting.co.uk/content/?p=857)
 <!-- yaspeller ignore:end -->
 #### Видео
 <!-- yaspeller ignore:start -->
