@@ -34,7 +34,6 @@ title: Тест-дизайн
 - Тест-дизайн строится на анализе рисков
 
 ## Способы прокачки
-
 ### Консультации
 - [Telegram-чат TL Bootcamp](https://tlinks.run/tlbootcamp)
 - [Telegram-чат QA — русскоговорящее сообщество](https://t.me/qa_ru)
@@ -45,6 +44,7 @@ title: Тест-дизайн
 - [Обзор основных видов тест-дизайна](https://sysgears.com/articles/test-design-techniques-overview)
 - [Анна Абрамова. Use Cases и зачем они нужны](https://systems.education/use-case)
 - [Dan Ashby. Risk Based Testing. Part Two. Uncovering risks](https://danashby.co.uk/2019/05/02/risk-based-testing-part-two-uncovering-risks)
+- [Katrina Clokie. Heuristics and Oracles](http://katrinatester.blogspot.com/2014/09/heuristics-and-oracles.html), [перевод на русский Ольги Алифановой](https://software-testing.ru/library/testing/general-testing/2364-heuristics-and-oracles)
 <!-- yaspeller ignore:start -->
 
 #### Видео
