@@ -24,7 +24,7 @@
 ### Бэклог
 [Бэклог](/roles/product-owner/product-decisions/product-backlog-management/backlog-generation.html) – это упорядоченный список задач, которые поступают на вход команде разработки. Это главный интерфейс взаимодействия между всеми стратегиями, целями и роадмапами, и конкретными инженерами, которые в итоге создают продукт. От роадмапа его отличает гораздо больший уровень декомпозиции и описание в терминах, удобных для использования в команде. Бэклог включает в себя не только задачи, которые помогают добиться ключевых целей, но и задачи на поддержку или решение технического долга.
 
-При работе с бэклогом продакт-менеджер отвечает за [наполнение его ценными задачами](/roles/product-owner/product-decisions/product-backlog-management/backlog-generation.html), реализующими цели или роадмап, и за [приоритизацию](/roles/product-owner/product-decisions/product-backlog-management/backlog-prioritization.html) их друг относительно друга.
+При работе с бэклогом продакт-менеджер отвечает за [наполнение его ценными задачами](/roles/product-owner/product-decisions/product-backlog-management/backlog-generation.html), реализующими цели или роадмап, и за [приоритезацию](/roles/product-owner/product-decisions/product-backlog-management/backlog-prioritization.html) их друг относительно друга.
 
 ## Как работать с веткой
 В идеальном мире алгоритм должен выглядеть вот так:
