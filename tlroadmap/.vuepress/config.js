@@ -41,7 +41,7 @@ module.exports = (ctx) => ({
     docsDir: 'tlroadmap',
     editLinks: true,
     banner: {
-      text: 'Хочешь катить релизы часто, быстро и с минимальными рисками? Приходи на новый сезон Techlead Crew: Continuos Delivery!',
+      text: 'Хочешь катить релизы часто, быстро и с минимальными рисками? Приходи на новый сезон Techlead Crew: Continuous Delivery!',
       link: 'https://podlodka.io/techcrew?utm_campaign=early_bird_techlead_crew_3&utm_source=сайт&utm_medium=social&utm_content=tlroadmap',
     },
     locales: {
