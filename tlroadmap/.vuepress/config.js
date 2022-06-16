@@ -41,7 +41,7 @@ module.exports = (ctx) => ({
     docsDir: 'tlroadmap',
     editLinks: true,
     banner: {
-      text: 'С 27 по 1 июля пройдет онлайн-конференция для тимлидов Podlodka Teamlead Crew!',
+      text: 'С 27 июня по 1 июля пройдет онлайн-конференция для тимлидов Podlodka Teamlead Crew!',
       link: 'https://podlodka.io/tlcrew?utm_campaign=early_bird_tl_crew_8&utm_source=сайт&utm_medium=social&utm_content=tlroadmap',
     },
     locales: {
