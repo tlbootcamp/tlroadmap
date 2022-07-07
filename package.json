@@ -10,7 +10,7 @@
     "@b0g3r/vuepress-plugin-generate-tree": "^0.2.7",
     "@b0g3r/vuepress-plugin-locale-prefix": "^0.1.1",
     "@vuepress/core": "*",
-    "moment": "^2.25.3",
+    "moment": "^2.29.4",
     "uslug": "^1.0.4",
     "vuepress": "^1.4.1",
     "vuepress-plugin-git-log": "^1.0.1",
