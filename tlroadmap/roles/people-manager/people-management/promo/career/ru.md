@@ -32,3 +32,26 @@
 
 ### Полезные статьи
 [Как оценивать работу программистов: примеры системы грейдов в компаниях](https://vc.ru/dev/76538-kak-ocenivat-rabotu-programmistov-primery-sistemy-greydov-v-kompaniyah)
+
+### Примеры грейдов(career ladders) и ожиданий по компетенциям
+
+От компаний
+
+- [Gitlab](https://about.gitlab.com/handbook/engineering/career-development/matrix/engineering/development/)
+- [Dropbox](https://dropbox.github.io/dbx-career-framework/overview.html)
+- [CircleCI](https://docs.google.com/spreadsheets/d/131XZCEb8LoXqy79WWrhCX4sBnGhCM1nAIz4feFZJsEo/edit#gid=0)
+- [Envoy](https://github.com/envoy/Engineering/blob/master/engineering_bands.md)
+- [Etsy](https://etsy.github.io/Etsy-Engineering-Career-Ladder/)
+- [Kickstarter](https://gist.github.com/jamtur01/aef437a79fee5a9cefdc)
+- [Patreon](https://levels.patreon.com/)
+- [Spotify](https://engineering.atspotify.com/2016/02/spotify-technology-career-steps/)
+- [Soundcloud](https://developers.soundcloud.com/blog/engineering-levels)
+- [SongKick](https://www.songkick.com/downloads/growth-framework/sk-growth-framework.pdf)
+- [Square](https://assets.ctfassets.net/1wryd5vd9xez/6bDnTwb4H7bfiFvg55ldRR/b1cb8514f0afd0a4050991d35ccbac03/Square_Software_Engineering_Career_Ladder.pdf)
+
+Community проекты
+
+- [Матрица компетенций программиста](https://sijinjoseph.com/programmer-competency-matrix/)
+- [career-ladders.dev](https://career-ladders.dev/)([Github](https://github.com/sdras/career-ladders))
+- [engineeringladders.com](http://www.engineeringladders.com/)([Github](https://github.com/jorgef/engineeringladders))
+
