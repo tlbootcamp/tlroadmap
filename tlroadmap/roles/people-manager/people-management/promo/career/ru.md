@@ -48,6 +48,8 @@
 - [Soundcloud](https://developers.soundcloud.com/blog/engineering-levels)
 - [SongKick](https://www.songkick.com/downloads/growth-framework/sk-growth-framework.pdf)
 - [Square](https://assets.ctfassets.net/1wryd5vd9xez/6bDnTwb4H7bfiFvg55ldRR/b1cb8514f0afd0a4050991d35ccbac03/Square_Software_Engineering_Career_Ladder.pdf)
+- [Basecamp](https://github.com/basecamp/handbook/blob/master/titles-for-programmers.md)
+- [Buffer](https://buffer.com/resources/engineering-career-framework/)
 
 Community проекты
 
