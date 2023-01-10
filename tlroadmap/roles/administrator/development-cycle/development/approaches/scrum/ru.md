@@ -53,6 +53,8 @@ Scrum не является «самым правильным» фреймвор
 
 **Дополнительные материалы:**
 - [Podlodka #46 – Scrum-мастерство](https://soundcloud.com/podlodka/podlodka-46-scrum-masterstvo)
+- [The Unoficial Scrum Checklist](https://www.crisp.se/wp-content/uploads/2012/05/Scrum-checklist.pdf)
+- [Пример чек-листа для Скрам-мастеров](https://scrummasterchecklist.org/pdf/ScrumMaster_Checklist_ru_2017.pdf)
 
 ### Книги
 - [Джефф Сазерленд «SCRUM. Революционный метод управления проектами»](https://www.litres.ru/dzheff-sazerlend/scrum/)
