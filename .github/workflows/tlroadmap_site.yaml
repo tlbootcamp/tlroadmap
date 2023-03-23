@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: '14.15.0'
+          node-version: '16'
 
       - name: Cache dependencies
         uses: actions/cache@v1
@@ -177,7 +177,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: '14.15.0'
+          node-version: '16'
 
       - name: Publish to netlify [prod]
         id: publish-prod
@@ -190,7 +190,7 @@ jobs:
         # preview-abcde--subdomain.example.com -> subdomain.example.com
         # Unfortunately, netlify-cms returns draft address :(
         run: |
-          draft_url=$(npx netlify-cli deploy --json --dir=vuepress-site --prod | jq -r .deploy_url)
+          draft_url=$(npx -q netlify-cli deploy --json --dir=vuepress-site --prod | jq -r .deploy_url)
           deploy_host=$(echo $draft_url | awk -F'--' '{print $NF}')
           echo "::set-output name=deploy-url::https://$deploy_host"
 
