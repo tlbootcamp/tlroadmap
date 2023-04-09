@@ -21,7 +21,7 @@ jobs:
           arguments: >-
             --assume-extension
             --typhoeus-config '{"timeout": 60}'
-            --url-ignore "/www\.consultant\.ru/.*/,/github.com\/.*\/edit\/.*/"
+            --ignore-urls "/www\.consultant\.ru/.*/,/github.com\/.*\/edit\/.*/"
 
   combine-site:
     name: Combine artifacts and site
