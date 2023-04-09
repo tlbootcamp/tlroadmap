@@ -3,6 +3,7 @@ name: Check broken links on Saturday
 on:
   schedule:
     - cron:  '00 5 * * SAT'
+  workflow_dispatch:
 jobs:
   check-links:
     name: Check broken links
