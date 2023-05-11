@@ -55,12 +55,12 @@ export default {
   },
   methods: {
     toggleMode() {
-      const body = document.body;
-      body.classList.toggle(modeName);
-      if (body.classList.contains(modeName)) {
+      const html = document.documentElement;
+      html.classList.toggle(modeName);
+      if (html.classList.contains(modeName)) {
         localStorage.setItem(modeName, "true");
       } else {
-        body.classList.remove(modeName);
+        html.classList.remove(modeName);
         setTimeout(function() {
           localStorage.removeItem(modeName);
         }, 100);
@@ -68,7 +68,7 @@ export default {
     },
     checkUserPreference() {
       if (localStorage.getItem(modeName)) {
-        document.body.classList.add(modeName);
+        document.documentElement.classList.add(modeName);
       }
     }
   }
@@ -93,83 +93,93 @@ export default {
   width: 32px;
 }
 
-body.dark-mode .mode-toggler-btn-icon.day,
-:not(body.dark-mode) .mode-toggler-btn-icon.night {
+html.dark-mode .mode-toggler-btn-icon.day,
+:not(html.dark-mode) .mode-toggler-btn-icon.night {
   display: none;
 }
 
 .mode-toggler-btn-icon.day,
-body.dark-mode .mode-toggler-btn-icon.night {
+html.dark-mode .mode-toggler-btn-icon.night {
   color: #2c3e50;
   display: block;
 }
 
 /* Цвет фона поля ввода */
-body.dark-mode .search-box input {
+html.dark-mode .search-box input {
   background-color: #262c34;
 }
 
 /* Цвет фона выпадающего списка */
-body.dark-mode .suggestions,
-body.dark-mode .custom-block.tip {
+html.dark-mode .suggestions,
+html.dark-mode .custom-block.tip {
   background-color: #2b313a;
 }
 
 /* Цвет фона всех темных секций */
-body.dark-mode,
-body.dark-mode .sidebar,
-body.dark-mode .navbar,
-body.dark-mode .navbar .links,
-body.dark-mode .search-box .suggestion.focused {
+html.dark-mode,
+html.dark-mode body,
+html.dark-mode .sidebar,
+html.dark-mode .navbar,
+html.dark-mode .navbar .links,
+html.dark-mode .search-box .suggestion.focused {
   background-color: #22272e;
 }
 
 /* Цвет бордюра выпадающего списка */
-body.dark-mode .search-box .suggestions {
+html.dark-mode .search-box .suggestions {
   border-color: transparent;
 }
 
 /* Цвет разделительных линий */
-body.dark-mode h1,
-body.dark-mode h2,
-body.dark-mode h3,
-body.dark-mode h4,
-body.dark-mode .navbar,
-body.dark-mode .home .footer,
-body.dark-mode .home .features,
-body.dark-mode .page-nav .inner,
-body.dark-mode .search-box input {
+html.dark-mode h1,
+html.dark-mode h2,
+html.dark-mode h3,
+html.dark-mode h4,
+html.dark-mode .navbar,
+html.dark-mode .home .footer,
+html.dark-mode .home .features,
+html.dark-mode .page-nav .inner,
+html.dark-mode .search-box input {
   border-color: #3e4c5a;
 }
 
 /* Цвет параграфов, заголовков, ссылок без наведения */
-body.dark-mode,
-body.dark-mode h1,
-body.dark-mode h2,
-body.dark-mode h3,
-body.dark-mode h4,
-body.dark-mode p,
-body.dark-mode a.sidebar-link,
-body.dark-mode .home .feature h1,
-body.dark-mode .home .feature h2,
-body.dark-mode .home .feature h3,
-body.dark-mode .home .feature h4,
-body.dark-mode .home .feature p,
-body.dark-mode .home .footer,
-body.dark-mode .navbar,
-body.dark-mode .navbar .site-name,
-body.dark-mode .navbar .links,
-body.dark-mode .search-box input,
-body.dark-mode .home .hero .description,
-body.dark-mode .mode-toggler-btn-icon.night {
+html.dark-mode,
+html.dark-mode body,
+html.dark-mode h1,
+html.dark-mode h2,
+html.dark-mode h3,
+html.dark-mode h4,
+html.dark-mode p,
+html.dark-mode a.sidebar-link,
+html.dark-mode .home .feature h1,
+html.dark-mode .home .feature h2,
+html.dark-mode .home .feature h3,
+html.dark-mode .home .feature h4,
+html.dark-mode .home .feature p,
+html.dark-mode .home .footer,
+html.dark-mode .navbar,
+html.dark-mode .navbar .site-name,
+html.dark-mode .navbar .links,
+html.dark-mode .search-box input,
+html.dark-mode .home .hero .description,
+html.dark-mode .mode-toggler-btn-icon.night {
   color: #adbac7;
 }
 
+/* Темизация вставок с кодом */
+html.dark-mode code {
+  background-color: #2b313a;
+  border-radius: 3px;
+  color: #8b9eb0;
+  overflow-wrap: break-word;
+}
+
 /* Цвет ссылок при наведении */
-body.dark-mode a.sidebar-link:hover,
-body.dark-mode .nav-links a:hover,
-body.dark-mode .nav-item > a:hover,
-body.dark-mode .nav-item > a.router-link-active {
+html.dark-mode a.sidebar-link:hover,
+html.dark-mode .nav-links a:hover,
+html.dark-mode .nav-item > a:hover,
+html.dark-mode .nav-item > a.router-link-active {
   color: #00c2d2;
 }
 
@@ -177,7 +187,7 @@ body.dark-mode .nav-item > a.router-link-active {
  * TODO: Удалить background после миграции на новую версию VuePress tlroadmap/.vuepress/theme/components/ModeToggler.vue
  * Белый цвет фона для svg, ибо майндмап вставляется как object
  */
-body.dark-mode .svg-roadmap {
+html.dark-mode .svg-roadmap {
   background: #fff;
 }
 </style>
