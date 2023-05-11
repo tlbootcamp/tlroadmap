@@ -199,7 +199,7 @@ jobs:
         if: github.event_name == 'pull_request'
         env:
           SURGE_LOGIN: tlroadmap@tlroadmap.dev
-          SURGE_TOKEN: 61f3e26c04ef5bf004895830445a5308
+          SURGE_TOKEN: 843842568300f2462f3889cdc4692e8d
         run: |
           pr_number=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
           deploy_host="${pr_number}-tlroadmap-review.surge.sh"
