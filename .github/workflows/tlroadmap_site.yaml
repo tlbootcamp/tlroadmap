@@ -84,6 +84,7 @@ jobs:
           plantuml2freemind convert trees/tree-ru.json plantuml/roadmap-ru.puml --no-interaction
           cp plantuml/roadmap-ru.puml plantuml/roadmap-ru-dark-theme.puml
           sed -i '2 i skinparam monochrome reverse' plantuml/roadmap-ru-dark-theme.puml
+          sed -i '3 i skinparam backgroundColor transparent' plantuml/roadmap-ru-dark-theme.puml
 
       - name: Upload artifact
         uses: actions/upload-artifact@v1

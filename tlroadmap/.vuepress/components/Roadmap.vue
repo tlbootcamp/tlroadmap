@@ -1,10 +1,13 @@
 <template>
-  <object @load="reformatLinks" class="svg-roadmap" data="/roadmap-ru.svg" type="image/svg+xml">
+  <object @load="reformatLinks" class="svg-roadmap" :data="img" type="image/svg+xml">
     <img alt="Roadmap file" src="/roadmap-ru.png" />
   </object>
 </template>
 
+<!-- TODO: Удалить логику с ModeToggler после миграции на новую версию VuePress https://v2.vuepress.vuejs.org/reference/default-theme/config.html#colormode -->
 <script>
+  import { MODE_NAME } from '../theme/components/ModeToggler';
+
   export default {
     methods: {
       reformatLinks(event) {
@@ -17,6 +20,15 @@
     computed: {
       roadmap() {
         return this.$roadmap
+      },
+      img() {
+        let isDarkMode = false;
+
+        if (typeof window !== 'undefined') {
+          isDarkMode = localStorage.getItem(MODE_NAME);
+        }
+
+        return isDarkMode ? '/roadmap-ru-dark-theme.svg' : '/roadmap-ru.svg';
       }
     }
   }

@@ -47,28 +47,30 @@
 </template>
 
 <script>
-const modeName = "dark-mode";
+export const MODE_NAME = "dark-mode";
 
 export default {
   mounted() {
-    this.checkUserPreference();
+    this.checkMode();
   },
   methods: {
     toggleMode() {
       const html = document.documentElement;
-      html.classList.toggle(modeName);
-      if (html.classList.contains(modeName)) {
-        localStorage.setItem(modeName, "true");
+      const classList = html.classList;
+      classList.toggle(MODE_NAME);
+
+      if (classList.contains(MODE_NAME)) {
+        localStorage.setItem(MODE_NAME, "true");
       } else {
-        html.classList.remove(modeName);
-        setTimeout(function() {
-          localStorage.removeItem(modeName);
-        }, 100);
+        classList.remove(MODE_NAME);
+        localStorage.removeItem(MODE_NAME);
       }
+
+      location.reload();
     },
-    checkUserPreference() {
-      if (localStorage.getItem(modeName)) {
-        document.documentElement.classList.add(modeName);
+    checkMode() {
+      if (localStorage.getItem(MODE_NAME)) {
+        document.documentElement.classList.add(MODE_NAME);
       }
     }
   }
@@ -181,13 +183,5 @@ html.dark-mode .nav-links a:hover,
 html.dark-mode .nav-item > a:hover,
 html.dark-mode .nav-item > a.router-link-active {
   color: #00c2d2;
-}
-
-/**
- * TODO: Удалить background после миграции на новую версию VuePress tlroadmap/.vuepress/theme/components/ModeToggler.vue
- * Белый цвет фона для svg, ибо майндмап вставляется как object
- */
-html.dark-mode .svg-roadmap {
-  background: #fff;
 }
 </style>
