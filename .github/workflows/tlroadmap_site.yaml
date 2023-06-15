@@ -82,6 +82,8 @@ jobs:
           mkdir plantuml
           plantuml2freemind convert trees/tree-ru.json freemind/roadmap-ru.mm --no-interaction
           plantuml2freemind convert trees/tree-ru.json plantuml/roadmap-ru.puml --no-interaction
+          cp plantuml/roadmap-ru.puml plantuml/roadmap-ru-dark-theme.puml
+          sed -i '2 i skinparam monochrome reverse' plantuml/roadmap-ru-dark-theme.puml
 
       - name: Upload artifact
         uses: actions/upload-artifact@v1
@@ -117,6 +119,7 @@ jobs:
           mkdir images
           cat plantuml/roadmap-ru.puml | java -jar tools/plantuml.jar -charset UTF-8 -pipe > images/roadmap-ru.png
           cat plantuml/roadmap-ru.puml | java -jar tools/plantuml.jar -charset UTF-8 -tsvg -pipe > images/roadmap-ru.svg
+          cat plantuml/roadmap-ru-dark-theme.puml | java -jar tools/plantuml.jar -charset UTF-8 -tsvg -pipe > images/roadmap-ru-dark-theme.svg
 
       - name: Upload artifact
         uses: actions/upload-artifact@v1
