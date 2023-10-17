@@ -41,8 +41,8 @@ module.exports = (ctx) => ({
     docsDir: 'tlroadmap',
     editLinks: true,
     banner: {
-      text: 'Telegram-канал Teamlead Good Reads: топовые материалы для тимлидов и тех, кто хочет ими стать!',
-      link: 'https://t.me/leadgr',
+      text: '30 октября начинается новый сезон онлайн-конференции для тимлидов Podlodka Teamlead Crew! Тема – стратегическое планирование♟️',
+      link: 'https://podlodka.io/tlcrew?utm_campaign=early_bird_tl_crew_11&utm_source=сайт&utm_medium=social&utm_content=tlroadmap',
     },
     locales: {
       '/': {
