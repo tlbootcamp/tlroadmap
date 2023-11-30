@@ -41,8 +41,8 @@ module.exports = (ctx) => ({
     docsDir: 'tlroadmap',
     editLinks: true,
     banner: {
-      text: '13 ноября стартует онлайн-конференция для техлидов и архитекторов Podlodka Techlead Crew! Тема – Масштабирование архитектуры🏭',
-      link: 'https://podlodka.io/techcrew?utm_campaign=early_bird_techlead_crew_5&utm_source=сайт&utm_medium=social&utm_content=tlroadmap',
+      text: 'Пользовались Роадмапом? Пройдите наш опрос, поделитесь фидбэком, и помогите его улучшить!',
+      link: 'https://forms.gle/xq2p3iBk8tcrDnua6',
     },
     locales: {
       '/': {
