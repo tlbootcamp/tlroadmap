@@ -41,8 +41,8 @@ module.exports = (ctx) => ({
     docsDir: 'tlroadmap',
     editLinks: true,
     banner: {
-      text: 'Пользовались Роадмапом? Пройдите наш опрос, поделитесь фидбэком, и помогите его улучшить!',
-      link: 'https://forms.gle/xq2p3iBk8tcrDnua6',
+      text: 'Подписывайтесь на Telegram-канал Teamlead Good Reads: ежедневные статьи про управление людьми, командами и процессами!',
+      link: 'https://t.me/leadgr',
     },
     locales: {
       '/': {
