@@ -7,7 +7,6 @@
     ".git",
     "node_modules"
   ],
-  "ignoreUppercase": true,
   "ignoreUrls": true,
   "ignoreCapitalization": true,
   "checkYo": true,
