@@ -7,6 +7,7 @@ on:
   pull_request:
     branches:
       - master
+  workflow_dispatch:
 
 jobs:
   yaspeller:
@@ -18,7 +19,7 @@ jobs:
         # problem matching breaks loop when it finds unrelated data, so we use reverse grep to clear output
         run: |
           echo "::add-matcher::.github/problem-matchers/yaspeller.json"
-          set -o pipefail; npx yaspeller -c .yaspellerrc.json . 2>&1 >/dev/null | grep -v "\-\-\-\-\-" | grep -v "Typos"
+          set -o pipefail; npx yaspeller@9 -c .yaspellerrc.json . 2>&1 >/dev/null | grep -v "\-\-\-\-\-" | grep -v "Typos"
           echo "::remove-matcher owner=yaspeller::"
 
   editor-config:
