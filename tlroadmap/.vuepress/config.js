@@ -81,6 +81,21 @@ module.exports = (ctx) => ({
   },
   plugins: [
     [
+      '@vuepress/blog',
+      {
+        directories: [
+          {
+            id: 'article',
+            dirname: '_articles',
+            itemPermalink: '/articles/:slug',
+            pagination: {
+                lengthPerPage: 2,
+            },
+          }
+        ],
+      },
+    ],
+    [
       '@vuepress/last-updated',
       {
         transformer: (timestamp, lang) => {
