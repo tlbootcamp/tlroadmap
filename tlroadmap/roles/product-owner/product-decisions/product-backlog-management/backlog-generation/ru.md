@@ -62,11 +62,14 @@
 - [Продуктовый Telegram-чат No Flame no Game](https://t.me/joinchat/BrfI2UHjvA2HbQNSW4Irog)
 
 ## Теория
+
 ### Статьи
-- [What is the Product Backlog in Product Management and How to Maintain It](https://hygger.io/blog/what-is-the-product-backlog-in-product-management/)
-- [How to Fill Up Your Product Backlog](https://hygger.io/blog/how-to-fill-product-backlog/)
-- [Как формировать бэклог и приоритезировать его](https://medium.com/how-i-met-your-product/%D0%BA%D0%B0%D0%BA-%D1%84%D0%BE%D1%80%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D0%B1%D1%8D%D0%BA%D0%BB%D0%BE%D0%B3-%D0%B8-%D0%BF%D1%80%D0%B8%D0%BE%D1%80%D0%B8%D1%82%D0%B5%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D0%B5%D0%B3%D0%BE-8f96d6e420d0)
+
+- [Что такое бэклог продукта и как им управлять?](https://habr.com/ru/companies/hygger/articles/354168/)
+- [11 советов по оптимизации бэклога](https://habr.com/ru/companies/hygger/articles/358080/)
+- [Что такое бэклог продукта и как он должен выглядеть](https://blog.skillfactory.ru/glossary/beklog/)
 
 ### Книги
+
 - [Intercom on Product Management](https://www.intercom.com/books/product-management)
 - [Inspired: How to Create Products Customers Love, Marty Cagan](https://www.amazon.co.uk/Inspired-Create-Products-Customers-Love/dp/0981690408)

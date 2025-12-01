@@ -42,4 +42,7 @@
 
 ## Теория
 ### Видео
-- [Конструктивная конфронтация: как решать конфликты по схемам](https://vimeo.com/113491321)
+- [Конструктивная конфронтация: как решать конфликты по схемам](https://it-events.com/ru/events/1074/materials/639)
+
+### Книги
+- [Джедайские техники конструктивного общения, Орлов Александр](https://www.livelib.ru/book/1003982374-dzhedajskie-tehniki-konstruktivnogo-obscheniya-aleksandr-orlov)

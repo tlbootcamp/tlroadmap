@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: '14.15.0'
+          node-version: '16'
 
       - name: Cache dependencies
         uses: actions/cache@v1
@@ -82,6 +82,9 @@ jobs:
           mkdir plantuml
           plantuml2freemind convert trees/tree-ru.json freemind/roadmap-ru.mm --no-interaction
           plantuml2freemind convert trees/tree-ru.json plantuml/roadmap-ru.puml --no-interaction
+          cp plantuml/roadmap-ru.puml plantuml/roadmap-ru-dark-theme.puml
+          sed -i '2 i skinparam monochrome reverse' plantuml/roadmap-ru-dark-theme.puml
+          sed -i '3 i skinparam backgroundColor transparent' plantuml/roadmap-ru-dark-theme.puml
 
       - name: Upload artifact
         uses: actions/upload-artifact@v1
@@ -117,6 +120,7 @@ jobs:
           mkdir images
           cat plantuml/roadmap-ru.puml | java -jar tools/plantuml.jar -charset UTF-8 -pipe > images/roadmap-ru.png
           cat plantuml/roadmap-ru.puml | java -jar tools/plantuml.jar -charset UTF-8 -tsvg -pipe > images/roadmap-ru.svg
+          cat plantuml/roadmap-ru-dark-theme.puml | java -jar tools/plantuml.jar -charset UTF-8 -tsvg -pipe > images/roadmap-ru-dark-theme.svg
 
       - name: Upload artifact
         uses: actions/upload-artifact@v1
@@ -177,7 +181,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: '14.15.0'
+          node-version: '16'
 
       - name: Publish to netlify [prod]
         id: publish-prod
@@ -190,7 +194,7 @@ jobs:
         # preview-abcde--subdomain.example.com -> subdomain.example.com
         # Unfortunately, netlify-cms returns draft address :(
         run: |
-          draft_url=$(npx netlify-cli deploy --json --dir=vuepress-site --prod | jq -r .deploy_url)
+          draft_url=$(npx -q netlify-cli deploy --json --dir=vuepress-site --prod | jq -r .deploy_url)
           deploy_host=$(echo $draft_url | awk -F'--' '{print $NF}')
           echo "::set-output name=deploy-url::https://$deploy_host"
 
@@ -199,7 +203,7 @@ jobs:
         if: github.event_name == 'pull_request'
         env:
           SURGE_LOGIN: tlroadmap@tlroadmap.dev
-          SURGE_TOKEN: 61f3e26c04ef5bf004895830445a5308
+          SURGE_TOKEN: 843842568300f2462f3889cdc4692e8d
         run: |
           pr_number=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
           deploy_host="${pr_number}-tlroadmap-review.surge.sh"

@@ -3,6 +3,7 @@ name: Check broken links on Saturday
 on:
   schedule:
     - cron:  '00 5 * * SAT'
+  workflow_dispatch:
 jobs:
   check-links:
     name: Check broken links
@@ -21,7 +22,7 @@ jobs:
           arguments: >-
             --assume-extension
             --typhoeus-config '{"timeout": 60}'
-            --url-ignore "/www\.consultant\.ru/.*/,/github.com\/.*\/edit\/.*/"
+            --ignore-urls "/www\.consultant\.ru/.*/,/github.com\/.*\/edit\/.*/"
 
   combine-site:
     name: Combine artifacts and site
@@ -72,7 +73,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: '13.x'
+          node-version: '16'
 
       - name: Cache dependencies
         uses: actions/cache@v1

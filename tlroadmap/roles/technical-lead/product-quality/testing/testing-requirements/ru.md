@@ -96,9 +96,11 @@
 - [Анастасия Асеева-Нгуен. 3 Амиго — способ коммуникации для создания качественного продукта](https://habr.com/ru/company/tinkoff/blog/449424/)
 - [Анастасия Асеева-Нгуена. Введение в Example Mapping](https://habr.com/ru/company/oleg-bunin/blog/450844/)
 - [Darren McMillan. “Wiki” (WWWWWH/KE) requirements testing mnemonic](http://www.bettertesting.co.uk/content/?p=857)
+- [Ольга Назина. Чек-лист тестирования требований](https://habr.com/ru/articles/543340/)
 <!-- yaspeller ignore:end -->
 #### Видео
 <!-- yaspeller ignore:start -->
+- [Дарья Теплова. Тестирование требований, когда требований нет](https://www.youtube.com/watch?v=d380GC7VQJY&t=1866s)
 - [Сергей Мартыненко. Написание тестов как вид тестирования требований](https://vimeo.com/13803733)
 - [Юлия Нечаева. Как тестировать требования](https://vimeo.com/13804386)
 - [Анастасия Асеева-Нгуен. Тестовое покрытие по Бейзеру](https://www.youtube.com/watch?v=jqjJ256CZhk)
